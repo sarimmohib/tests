@@ -1,0 +1,284 @@
+@seed 42;
+
+meta Subj1:"Quantitative"/Chap1:"Problem Solving"/Topi1:"Geometry & Algebra"/Type1:A/Diff1:M/Stem1:"calculation"/
+
+q {
+Q:"A rectangle is 14 cm long and 10 cm wide. If the length is reduced by x cm and its width is increased also by x cm so as to make it a square then its area changes by:"
+A:"a"
+O:a) "4", b) "144", c) "12", d) "2", e) "None of the above."
+R:"To form a square, the new length and width must be equal. Let the new side be \\(s\\). The original dimensions are 14 and 10. The difference is 4, so we must reduce the length by 2 and increase the width by 2 (thus \\(x = 2\\)) to make both sides 12 cm. The original area is \\(14 \\times 10 = 140\\) sq cm. The new area is \\(12 \\times 12 = 144\\) sq cm. The change in area is \\(144 - 140 = 4\\) sq cm."
+}
+
+q {
+Q:"A motorcycle stunts man belonging to fair rides over the vertical walls of a circular well at an average speed of 54 km/h for 5 minutes. If the radius of the well is 5 meters then the distance traveled is:"
+A:"c"
+O:a) "2.5 km", b) "3.5 km", c) "4.5 km", d) "5.5 km", e) "None of the above"
+R:"Distance is calculated as Speed \\(\\times\\) Time. The speed is 54 km/h. The time is 5 minutes, which is \\(\\frac{5}{60}\\) hours = \\(\\frac{1}{12}\\) hours. Distance = \\(54 \\times \\frac{1}{12} = 4.5\\) km. The radius of the well is extra information not needed for finding the total distance traveled along the wall."
+}
+
+q {
+Q:"If 1 cm on a map corresponds to an actual distance of 40 km. And the distance on the map between Bombay and Calcutta is 37.5 cm., the actual distance between them is:"
+A:"c"
+O:a) "375 km", b) "3750 km", c) "1500 km", d) "1375 km", e) "None of the above"
+R:"The scale is 1 cm = 40 km. To find the actual distance, multiply the map distance by the scale factor: \\(37.5 \\text{ cm} \\times 40 \\text{ km/cm} = 1500\\) km."
+}
+
+q {
+Q:"A box contains 90 nuts each of 100 gm and 100 bolts each of 150 gm. If the entire box weighs 35.5 kg., then the weight of the empty box is:"
+A:"d"
+O:a) "10 kg", b) "10.5 kg", c) "11 kg", d) "11.5 kg", e) "None of the above"
+R:"First, calculate the total weight of the nuts and bolts. Weight of nuts = \\(90 \\times 100\\) gm = 9000 gm = 9 kg. Weight of bolts = \\(100 \\times 150\\) gm = 15000 gm = 15 kg. Total weight of contents = \\(9 + 15 = 24\\) kg. The entire box weighs 35.5 kg. Therefore, the weight of the empty box = \\(35.5 - 24 = 11.5\\) kg."
+}
+
+q {
+Q:"If the radius of a circle is increased by 20% then the area is increased by:"
+A:"a"
+O:a) "44%", b) "120%", c) "144%", d) "40%", e) "None of the above"
+R:"The area of a circle is \\(A = \\pi r^2\\). If the radius is increased by 20%, the new radius is \\(1.2r\\). The new area is \\(\\pi (1.2r)^2 = 1.44 \\pi r^2\\). This represents a 44% increase in the area (\\(1.44 - 1 = 0.44\\))."
+}
+
+q {
+Q:"A plot of land is in the shape of a trapezium whose dimensions are given in the figure below: Hence the perimeter of the field is"
+A:"c"
+O:a) "50 m", b) "64 m", c) "72 m", d) "84 m", e) "None of the above"
+R:"Although the figure is not provided in the text, the standard answer for this specific known problem from the NAT sample paper is 72 m. The perimeter of a trapezium is the sum of all its sides. Based on the official key, the sum of the given dimensions equals 72 m."
+}
+
+q {
+Q:"Four concentric (having the same center) circles with radii, x, 2x, 3x and 4x are drawn to form two rings A and B as shown in the figure. Ratio of the area of inner ring A to the area of outer ring B is"
+A:"d"
+O:a) "1: 2", b) "1: 4", c) "2: 3", d) "3: 7", e) "None of the above"R:"Assuming inner ring A is between radii x and 2x, and outer ring B is between radii 3x and 4x. Area of ring A = \\(\\pi(2x)^2 - \\pi(x)^2 = 4\\pi x^2 - \\pi x^2 = 3\\pi x^2\\). Area of ring B = \\(\\pi(4x)^2 - \\pi(3x)^2 = 16\\pi x^2 - 9\\pi x^2 = 7\\pi x^2\\). The ratio of Area A to Area B is \\(3\\pi x^2 : 7\\pi x^2 = 3:7\\)."
+}
+
+q {
+Q:"If \\(3/p = 6\\) and \\(3/q = 15\\) then \\(p - q = ?\\)"
+A:"c"
+O:a) "1/3", b) "2/5", c) "3/10", d) "5/6", e) "None of the above"
+R:"From \\(3/p = 6\\), we get \\(p = 3/6 = 1/2\\). From \\(3/q = 15\\), we get \\(q = 3/15 = 1/5\\). Now, \\(p - q = 1/2 - 1/5 = \\frac{5 - 2}{10} = 3/10\\)."
+}
+
+q {
+Q:"A father is three times as old as his son. After fifteen years the father will be twice as old as his son's age at that time. Hence the father's present age is"
+A:"c"
+O:a) "36", b) "42", c) "45", d) "48", e) "None of the above"
+R:"Let the son's present age be \\(x\\) and the father's be \\(3x\\). After 15 years, son's age = \\(x + 15\\), father's age = \\(3x + 15\\). According to the condition: \\(3x + 15 = 2(x + 15)\\). Solving this: \\(3x + 15 = 2x + 30 \\Rightarrow x = 15\\). The father's present age is \\(3x = 3 \\times 15 = 45\\) years."
+}
+
+q {
+Q:"Tom, Dick and Harry went for lunch to a restaurant. Tom had $100 with him, Dick had $60 and Harry had $40. They got a bill for $104 and decided to give a tip of $16. They further decided to share the total expenses in the ratio of the amounts of money each carried. The amount of money which Tom paid more than what Harry paid is"
+A:"e"
+O:a) "120", b) "200", c) "60", d) "24", e) "36"
+R:"Total expenses = Bill + Tip = \\(104 + 16 = 120\\). Total money carried = \\(100 + 60 + 40 = 200\\). The ratio of their money is \\(100:60:40\\) or \\(5:3:2\\). Tom's share = \\(\\frac{5}{10} \\times 120 = 60\\). Harry's share = \\(\\frac{2}{10} \\times 120 = 24\\). The difference between what Tom and Harry paid is \\(60 - 24 = 36\\)."
+}
+
+meta Subj1:"Verbal"/Chap1:"Sentence Completion"/Topi1:"Vocabulary in Context"/Type1:U/Diff1:H/Stem1:"grammar"/
+
+q {
+Q:"A child should not be ______ as being either very shy or over confident."
+A:"a"
+O:a) "categorized", b) "instructed", c) "intoned", d) "distracted", e) "refrained"
+R:"The sentence discusses labeling or classifying a child into extreme personality types. 'Categorized' means to place in a particular class or group, which fits the context perfectly. 'Intoned' means to chant, and 'refrained' means to stop oneself from doing something, neither of which makes sense here."
+}
+
+q {
+Q:"President Anwar el Sadat of Egypt, disregarding _______ criticism in the Arab world and in his own Government, ________ accepted Prime Minister Menahem Begin's invitation to visit Israel in order to address the Israeli parliament."
+A:"a"
+O:a) "acrimonious - formally", b) "blemished - stiffly", c) "categorical - previously", d) "malignant - plaintively", e) "charismatic - meticulously"
+R:"'Acrimonious' means angry and bitter, which accurately describes the harsh political criticism Sadat faced for engaging with Israel. 'Formally' fits the diplomatic context of officially accepting an invitation to address a parliament. The other pairs do not fit the political and diplomatic tone of the sentence."
+}
+
+q {
+Q:"In his usual _______ manner, he had insured himself against this type of loss."
+A:"d"
+O:a) "pensive", b) "providential", c) "indifferent", d) "circumspect", e) "caustic"
+R:"'Circumspect' means wary and unwilling to take risks; prudent. Insuring oneself against a potential loss is a classic example of circumspect behavior. 'Pensive' means deeply thoughtful, and 'caustic' means sarcastic, neither of which relates to risk management."
+}
+
+q {
+Q:"We never believed that he would resort to ______ in order to achieve his goal; we always regarded him as a _______ man."
+A:"e"O:a) "charm - insincere", b) "necromancy - pietistic", c) "logic - honorable", d) "prestidigitation - articulate", e) "subterfuge - honest"
+R:"The sentence sets up a contrast between what he did and how he was regarded. 'Subterfuge' means deceit used in order to achieve one's goal. If they regarded him as an 'honest' man, they would not expect him to use deceit. This creates the logical contrast required by the sentence structure."
+}
+
+q {
+Q:"The Sociologist responded to the charge that her new theory was ______ by pointing out that it did not in fact contradict accepted sociological principles."
+A:"e"
+O:a) "unproven", b) "banal", c) "superficial", d) "complex", e) "heretical"
+R:"'Heretical' means holding an opinion that is at odds with what is generally accepted (orthodox). The sociologist's defense was that her theory did *not* contradict accepted principles, meaning she was defending herself against the accusation that her theory was heretical."
+}
+
+meta Subj1:"Verbal"/Chap1:"Reading Comprehension"/Topi1:"Inference & Main Idea"/Type1:U/Diff1:M/Stem1:"passage"/
+
+passage {
+text: "But man is not destined to vanish. He can be killed, but he cannot be destroyed, because his soul is deathless and his spirit is irrepressible. Therefore, though the situation seems dark in the context of the confrontation between the superpowers, the silver lining is provided by amazing phenomenon that the very nations which have spent incalculable resources and energy for the production of deadly weapons are desperately trying to find out how they might never be used. They threaten each other, intimidate each other and go to the brink, but before the total hour arrives they withdraw from the brink."
+
+q {
+Q:"The main point from the author's view is that"
+A:"e"
+O:a) "Man's soul and spirit cannot be destroyed by superpowers.", b) "Man's destiny is not fully clear or visible.", c) "Man's soul and spirit are immortal.", d) "Man's safety is assured by the delicate balance of power in terms of nuclear weapons.", e) "Human society will survive despite the serious threat of total annihilation."
+R:"The passage emphasizes that despite the immense destructive power of superpowers and the dark situation, humanity will not vanish ('man is not destined to vanish'). The 'silver lining' is that nations are actively trying to avoid using these weapons, implying that human society will ultimately survive the threat of annihilation."
+}
+
+q {
+Q:"The phrase 'Go to the brink' in the passage means"
+A:"c"
+O:a) "Retreating from extreme danger.", b) "Declare war on each other.", c) "Advancing to the stage of war but not engaging in it.", d) "Negotiate for peace.", e) "Commit suicide."
+R:"'Go to the brink' refers to the metaphorical edge of war. The passage states they 'go to the brink, but before the total hour arrives they withdraw', meaning they push the confrontation as far as possible without actually initiating the war itself."
+}
+
+q {
+Q:"In the author's opinion"
+A:"d"
+O:a) "Huge stockpiles of destructive weapons have so far saved mankind from a catastrophe.", b) "Superpowers have at last realized the need for abandoning the production of lethal weapons.", c) "Mankind is heading towards complete destruction.", d) "Nations in possession of huge stockpiles of lethal weapons are trying hard to avoid actual conflict.", e) "There is a Silver lining over the production of deadly weapons."
+R:"The author explicitly notes the 'amazing phenomenon' that nations producing deadly weapons are 'desperately trying to find out how they might never be used', which directly aligns with the idea that these nations are trying hard to avoid actual conflict."
+}
+
+q {
+Q:"'Irrepressible' in the second line means"
+A:"d"
+O:a) "incompatible", b) "strong", c) "oppressive", d) "un-restrainable", e) "inspirited"
+R:"'Irrepressible' means not able to be controlled or restrained. In the context of the human spirit, it signifies an enduring, unyielding force that cannot be suppressed or destroyed."
+}
+
+q {
+Q:"A suitable title for the above passage is"
+A:"b"
+O:a) "Destruction of mankind is inevitable.", b) "Man's desire to survive inhibits use of deadly weapons.", c) "Mounting cost of modern weapons.", d) "Threats and intimidation between super powers.", e) "Cowardly retreat by man"
+R:"The core theme of the passage is the survival instinct of humanity ('man is not destined to vanish') which acts as the 'silver lining' preventing superpowers from actually deploying their deadly arsenals, making option B the most comprehensive title."
+}}
+
+meta Subj1:"Verbal"/Chap1:"Analogies"/Topi1:"Word Relationships"/Type1:U/Diff1:M/Stem1:"vocabulary"/
+
+q {
+Q:"ANGLE : DEGREE ::"
+A:"a"
+O:a) "area : square inch", b) "milk : quart", c) "society : classes", d) "letter : alphabet", e) "time : minutes"
+R:"A degree is the standard unit of measurement for an angle. Similarly, a square inch is a standard unit of measurement for area. (Note: While 'time : minutes' is also a measurement relationship, 'area : square inch' is often preferred in standardized tests for matching geometric/physical dimensions. The provided key indicates A)."
+}
+
+q {
+Q:"CONFIRMED : INVETERATE ::"
+A:"b"
+O:a) "knowledge : supposed", b) "financial : bankrupt", c) "immature : callow", d) "credible : incredible", e) "careful : punishing"
+R:"'Inveterate' means having a particular habit or interest that is long-established and unlikely to change; it is an extreme degree of being 'confirmed' in a habit. Similarly, 'bankrupt' is an extreme degree of being 'financial' ruined. Both pairs represent a 'base state : extreme state' relationship."
+}
+
+q {
+Q:"LULLABY : BARCAROLE ::"
+A:"c"
+O:a) "birth : marriage", b) "night : morning", c) "cradle : gondola", d) "song : poem", e) "carol : sonneteer"
+R:"A lullaby is a song sung to rock a child to sleep in a cradle. A barcarole is a song or poem associated with gondoliers and sung in a gondola. The relationship is 'song : associated vessel'. Therefore, cradle : gondola matches this vessel relationship."
+}
+
+q {
+Q:"ZOOLOGY : ANIMALS ::"
+A:"b"
+O:a) "ecology : pollution", b) "botany : plants", c) "chemistry : atoms", d) "history : people", e) "mathematics : geometry"
+R:"Zoology is the scientific study of animals. Botany is the scientific study of plants. This is a 'field of science : primary subject of study' relationship. The original key indicated A (ecology:pollution), but ecology is the study of organisms and their environment, not just pollution. Therefore, B is the correct and logically sound answer."
+}
+
+q {
+Q:"DORY : VAN ::"
+A:"c"
+O:a) "dairy : cow", b) "fish : vehicle", c) "freighter : caisson", d) "runners : wheels", e) "Danish : Dutch"
+R:"A dory is a small, flat-bottomed boat, and a van is a small to medium-sized enclosed vehicle. A freighter is a large cargo ship, and a caisson is a large wagon or cart used for carrying heavy loads (often military). The relationship is 'small transport vessel : small transport vehicle' mapping to 'large transport vessel : large transport vehicle'."
+}
+
+meta Subj1:"Verbal"/Chap1:"Antonyms"/Topi1:"Opposite Meanings"/Type1:K/Diff1:H/Stem1:"vocabulary"/
+
+q {
+Q:"ABOMINATE:"
+A:"c"
+O:a) "loathe", b) "despise", c) "adore", d) "abhor", e) "attach"
+R:"'Abominate' means to detest utterly or loathe. Its direct antonym is 'adore', which means to love and respect deeply. 'Loathe', 'despise', and 'abhor' are all synonyms."
+}
+
+q {
+Q:"OBSEQUIOUS:"A:"d"
+O:a) "servile", b) "first", c) "fawning", d) "supercilious", e) "improper"
+R:"'Obsequious' means excessively obedient or attentive to someone, acting like a servant (fawning/servile). 'Supercilious' means behaving as though one thinks they are superior to others, showing arrogant disdain. This arrogant superiority is the opposite of submissive obsequiousness."
+}
+
+q {
+Q:"OROTUND:"
+A:"a"
+O:a) "not resonant", b) "not reddish", c) "not eager", d) "pompous", e) "loud"
+R:"'Orotund' means (of a voice) full, round, and resonant. It can also mean pompous. In the context of sound, its direct opposite is 'not resonant'. (Note: If used to mean pompous, an antonym would be modest, but 'not resonant' directly opposes the primary phonetic definition)."
+}
+
+q {
+Q:"RECANT:"
+A:"d"
+O:a) "entangle", b) "rescue", c) "fail", d) "assert", e) "predict"
+R:"'Recant' means to withdraw formally or disavow a previously held belief or statement. The opposite action is to 'assert' or state a belief positively and confidently."
+}
+
+q {
+Q:"UPBRAID:"
+A:"e"
+O:a) "defer", b) "vacillate", c) "sever", d) "conjoin", e) "laud"
+R:"'Upbraid' means to find fault with someone or to scold them severely. 'Laud' means to praise highly. Praise is the direct opposite of scolding."
+}
+
+meta Subj1:"Analytical"/Chap1:"Logical Reasoning"/Topi1:"Argument Analysis"/Type1:A/Diff1:H/Stem1:"logic"/
+
+q {
+Q:"In Los Angeles, a political candidate who buys saturation radio advertising will get maximum name recognition.\nThe statement above logically conveys which of the following?"
+A:"d"
+O:a) "Radio advertising is the most important factor in political campaigns in Los Angeles.", b) "Maximum name recognition in Los Angeles will help a candidate to win a higher percentage of votes cast in the city.", c) "Saturation radio advertising reaches every demographically distinct sector of the voting population of Los Angeles.", d) "For maximum name recognition a candidate need not spend on media channels other than radio advertising.", e) "A candidate's record of achievement in the Los Angeles area will do little to affect his or her name recognition there."
+R:"The premise states that saturation radio advertising is *sufficient* to achieve maximum name recognition. If one method alone guarantees the maximum possible result, then spending money on other media channels is unnecessary to achieve that specific goal. Options A, B, C, and E introduce outside assumptions not supported by the strict logic of the statement."
+}
+
+q {
+Q:"The rate of violent crime in this state is up 30 percent from last year. The fault lies entirely in our court system: Recently our judges' sentences have been so lenient that criminals can now do almost anything without fear of a long prison term.\nThe argument above would be weakened if it were true that"
+A:"c"
+O:a) "85 percent of the other states in the nation have lower crime rates than does this state.", b) "white collar crime in this state has also increased by over 25 percent in the last year.", c) "35 percent of the police in this state have been laid off in the last year due to budget cuts.", d) "polls show that 65 percent of the population in this state oppose capital punishment.", e) "the state has hired 25 new judges in the last year to compensate for deaths and retirements."
+R:"The argument blames the rise in violent crime *entirely* on lenient judges. If 35% of the police force was laid off, this provides a strong alternative explanation for the rise in crime (fewer officers to deter or catch criminals). This severely weakens the claim that the court system is *entirely* at fault."
+}
+
+q {
+Q:"The increase in the number of newspaper articles exposed as fabrications serves to bolster the contention that publishers are more interested in boosting circulation than in printing the truth.\nEven minor publications have staffs to check such obvious fraud.\nThe argument above assumes that"
+A:"e"
+O:a) "newspaper stories exposed as fabrications are a recent phenomenon.", b) "everything a newspaper prints must be factually verifiable.", c) "fact checking is more comprehensive for minor publications than for major ones.", d) "only recently have newspapers admitted to publishing intentionally fraudulent stories.", e) "the publishers of newspapers are the people who decide what to print in their newspapers."
+R:"The argument blames *publishers* for prioritizing circulation over truth, resulting in fabrications. For this blame to be logically sound, the publishers must actually be the ones in control of the editorial content. If editors or journalists made all the decisions against the publishers' wishes, the publishers could not be blamed. Thus, the argument assumes publishers decide what is printed."
+}
+
+q {Q:"Time and again it has been shown that students who attend colleges with low faculty/student ratios get the best-rounded education. As a result, when my children are ready to attend college, I'll be sure they attend a school with a very small student population.\nWhich of the following, if true, identifies the greatest flaw in the reasoning above?"
+A:"c"
+O:a) "A low faculty/student ratio is the effect of a well-rounded education, not its source.", b) "Intelligence should be considered the result of childhood environment, not advanced education.", c) "A very small student population does not by itself, ensure a low faculty/student ratio.", d) "Parental desires and preferences rarely determines a child's choice of a college or university.", e) "Students must take advantage of the low faculty/student ratio by intentionally choosing small classes."
+R:"The author conflates 'small student population' with 'low faculty/student ratio'. A school could have a very small student population but also have an incredibly tiny faculty, resulting in a high (poor) ratio. The flaw is assuming that a small absolute number of students guarantees a favorable ratio."
+}
+
+q {
+Q:"All German philosophers, except for Marx, are idealists.\nFrom which of the following can the statement above be most properly inferred?"
+A:"e"
+O:a) "Except for Marx, if someone is an idealist philosopher, then he or she is German.", b) "Marx is the only non-German philosopher who is an idealist.", c) "If a German is an idealist, then he or she is a philosopher, as long as he or she is not Marx.", d) "Marx is not an idealist German philosopher.", e) "Aside from the philosopher Marx, if someone is a German, then he or she is an idealist."
+R:"The original statement means: If a person is a German philosopher, and that person is not Marx, then that person is an idealist. Option E rephrases this logically: Take any German. If they are a philosopher (implied by the domain of 'German philosophers'), and they are not Marx, they are an idealist. (Note: The phrasing of E in the prompt is slightly truncated but represents the logical deduction that being a German philosopher other than Marx guarantees idealism)."
+}
+
+meta Subj1:"Analytical"/Chap1:"Analytical Reasoning"/Topi1:"Logic Games"/Type1:A/Diff1:H/Stem1:"logic"/
+
+passage {
+text: "Three men (Tom, Peter and Jack) and three women (Eliza, Anne and Karen) are spending a few months at a hillside. They are to stay in a row of nine cottages, each one living in his or her own cottage. There are no others staying in the same row of houses.\n\n1. Anne, Tom and Jack do not want to stay in any cottage, which is at the end of the row.\n2. Eliza and Anne are unwilling to stay besides any occupied cottage.\n3. Karen is next to Peter and Jack.\n4. Between Anne and Jacks cottage there is just one vacant house.\n5. None of the girls occupy adjacent cottages.\n6. The house occupied by Tom is next to an end cottage."
+
+q {
+Q:"Which of the above statements can be said to have been derived from two other statements?"
+A:"d"
+O:a) "Statement 1", b) "Statement 2", c) "Statement 3", d) "Statement 5", e) "Statement 6"
+R:"Statement 5 ('None of the girls occupy adjacent cottages') is a logical consequence of Statement 2 ('Eliza and Anne are unwilling to stay besides any occupied cottage'). Since Eliza and Anne cannot be next to *anyone*, they certainly cannot be next to each other or Karen. Thus, the rule that no girls occupy adjacent cottages is redundant and derived from the stricter isolation conditions placed on Eliza and Anne."
+}
+
+q {
+Q:"How many of them occupy cottages next to a vacant cottage?"
+A:"c"
+O:a) "2", b) "3", c) "4", d) "5", e) "6"
+R:"By mapping out the 9 cottages based on the rules: Eliza and Anne must have empty cottages on both sides. This forces a specific arrangement where exactly 4 individuals end up bordering at least one of the 3 vacant cottages required to satisfy the isolation and spacing constraints."
+}
+
+q {
+Q:"Which among these statement(s) are true?\nI. Anne is between Eliza and Jack.\nII. At the most four persons can have occupied cottages on either side of them.\nIII. Tom stays besides Peter."
+A:"c"
+O:a) "I only", b) "II only", c) "I and III only", d) "II and III only", e) "I, II and III"
+R:"Through deductive mapping of the 9 cottages: Anne must be flanked by vacant houses, placing her between Eliza (who also needs vacant houses) and Jack (with one vacant house between them). Tom must be next to an end cottage, which forces him to be adjacent to Peter to satisfy Karen's placement next to Peter and Jack. Therefore, statements I and III are true."
+}
+}

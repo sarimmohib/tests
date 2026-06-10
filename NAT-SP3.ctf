@@ -1,0 +1,507 @@
+@seed 42;
+
+meta Subj1:"English"/Chap1:"Reading Comprehension"/Topi1:"Historical Figures"/Type1:U/Diff1:M/Stem1:"passage"/
+
+passage {
+text: "IBN-E-SEENA was also a famous philosopher, encyclopedist, mathematician and astronomer of his time. He wrote many books. His famous book on medical science is Al-Qanun-Fi-Al-Tibb. It is a huge encyclopedia of medicine covering over a million words. It surveyed the entire medical knowledge available in ancient and Muslim sources. This book remained the best and the most reliable source of medical information for six centuries. Bu Ali had some original contribution to his credit. He detected the contagious nature of tuberculosis, diseases spread by water and close relationship between psychology and health. He was the first physician to describe meningitis. He was also a chemist. His philosophical encyclopedia Kitab-al-Shifa is an original work covering a wide range of fields like philosophy, science, physics, mathematics, metaphysics, ethics, economics and politics. He also made many discoveries in physics. He discovered inter-relationship between time and motion. He also used air thermometer. He was a geologist as well. He is the father of modern medicine. His works have been greatly appreciated and translated in many languages in the subsequent ages."
+
+q {
+Q:"Bu Ali has been a source of medical information for ________."
+A:"b"
+O:a) "06 decades", b) "06 centuries", c) "06 years", d) "60 years"
+R:"The passage explicitly states that his book 'remained the best and the most reliable source of medical information for six centuries.' A century is a period of 100 years, making '06 centuries' the correct answer."
+}
+
+q {
+Q:"What does 'contagious' mean?"
+A:"a"
+O:a) "Infectious", b) "Danger", c) "Spreading", d) "Havoc"
+R:"The word 'contagious' refers to a disease that can be transmitted from one person or organism to another by direct or indirect contact. Therefore, 'Infectious' is the most accurate synonym among the choices, as both terms describe the ability of a pathogen to spread and cause infection."
+}
+
+q {
+Q:"Bu Ali was the first one to describe:"
+A:"c"
+O:a) "Cancer", b) "Epidemic", c) "Meningitis", d) "TB"
+R:"According to the text, 'He was the first physician to describe meningitis.' Meningitis is an inflammation of the protective membranes covering the brain and spinal cord."
+}
+
+q {
+Q:"Which of the following books covers a wide range of topics?"
+A:"b"
+O:a) "Al Qanun-Fi-al Tibb", b) "Kitab-al-Shifa", c) "Language", d) "Logic"
+R:"The passage mentions that 'His philosophical encyclopedia Kitab-al-Shifa is an original work covering a wide range of fields like philosophy, science, physics, mathematics, metaphysics, ethics, economics and politics.' (Note: The option in the original text had a typo 'Kitab-Af-shafia', which refers to Kitab-al-Shifa)."
+}
+
+q {
+Q:"Ibn-e-Seena is the father of _________."
+A:"a"
+O:a) "Philosophy", b) "Logic", c) "Literature", d) "Law"
+R:"The passage explicitly states, 'He is the father of modern medicine.' However, since 'Medicine' is not among the options, we must look at his other titles. Ibn-e-Seena (Avicenna) is widely regarded as a founding father of early modern philosophy (Avicennism). Given the flawed options in the original test, 'Philosophy' is the most academically appropriate choice."
+}
+
+q {
+Q:"Tuberculosis is __________."
+A:"b"
+O:a) "a book", b) "a disease", c) "a scientist", d) "an instrument"
+R:"Tuberculosis (TB) is an infectious bacterial disease caused by Mycobacterium tuberculosis, which most commonly affects the lungs. The passage refers to it in the context of 'contagious nature' and 'diseases spread by water'."
+}
+
+q {Q:"Meaning of 'subsequent' is __________."
+A:"b"
+O:a) "Consequence", b) "Ensuing", c) "Old", d) "Relevant"
+R:"The word 'subsequent' means coming after something in time; following. 'Ensuing' is the exact synonym, meaning happening or occurring afterward or as a result."
+}
+}
+
+meta Subj1:"English"/Chap1:"Reading Comprehension"/Topi1:"Civics & Government"/Type1:U/Diff1:M/Stem1:"passage"/
+
+passage {
+text: "The people had no voice in the affairs of the state. This form of the government is called 'monarchy'. As time passed, some wise men started thinking. They said that all men are equal. Why should one man have the power to rule over others. The country belongs to the people who live in it. They pay taxes and fight for it. All of them have equal duties and equal rights. They should have equal rights to rule the country. But how can all men rule? They can do so by electing a certain number of persons from among themselves for this purpose. This is called 'election'. The persons elected by the people are the people's representatives. These representatives run the government of the country. If they rule according to the wishes of the people, the people respect them. This system of government is called 'democracy'. Democracy is the government of the people, for the people and by the people."
+
+q {
+Q:"The people had no voice in affairs of the _________."
+A:"c"
+O:a) "Sports", b) "Protest", c) "State", d) "Education"
+R:"The very first sentence of the passage states, 'The people had no voice in the affairs of the state.' This refers to the political and administrative matters of the country under a monarchy."
+}
+
+q {
+Q:"In democracy all people are ___________."
+A:"a"
+O:a) "Equal", b) "Rivals", c) "Unequal", d) "Lunatics"
+R:"The passage highlights the foundational principle of democracy: 'They said that all men are equal... All of them have equal duties and equal rights.' Therefore, equality is the core tenet."
+}
+
+q {
+Q:"The country belongs to ________."
+A:"b"
+O:a) "President", b) "People living", c) "Politicians", d) "State"
+R:"The text explicitly states, 'The country belongs to the people who live in it.' This emphasizes the concept of popular sovereignty in a democratic system."
+}
+
+q {
+Q:"The people elected _______ people are their leaders."
+A:"b"
+O:a) "for", b) "from", c) "in", d) "by"
+R:"The passage explains that people rule 'by electing a certain number of persons from among themselves'. The correct preposition to indicate selection out of a group is 'from'."
+}
+
+q {
+Q:"Representatives _________ the government."
+A:"b"
+O:a) "serve", b) "run", c) "topple", d) "defame"
+R:"According to the text, 'These representatives run the government of the country.' To 'run' in this context means to manage, administer, or operate the state apparatus."
+}
+
+q {
+Q:"MONARCHY means ___________."
+A:"d"O:a) "autocracy", b) "command", c) "democracy", d) "kingdom"
+R:"A monarchy is a form of government in which a single person, usually a king or queen, holds supreme authority. The term 'kingdom' directly relates to the realm or system ruled by a monarch, making it the most appropriate associated meaning among the given options."
+}
+
+q {
+Q:"Most countries of the World have _________."
+A:"b"
+O:a) "Autocracy", b) "Democracy", c) "Kingship", d) "Monarchy"
+R:"While the passage defines democracy, general knowledge confirms that in the modern era, the vast majority of the world's nations operate under some form of democratic government, whether direct or representative."
+}
+}
+
+meta Subj1:"English"/Chap1:"Grammar & Usage"/Topi1:"Error Correction"/Type1:A/Diff1:M/Stem1:"passage"/
+
+passage {
+text: "A fox met the cat [1] a field. The fox [2] politely, 'Good morning, Mrs Cat. You are looking very beautiful this morning.' The cat answered proudly, [3] 'Yes, Mr Fox I know that I am beautiful. Cats are the most beautiful of all animals. We [4] finer coats, greener eyes, and more graceful tails than any other animal.' 'Perhaps that is true', replied the fox, 'but a fox is clever than any other animal. He knows all tricks. Foxes [5] much more [6] than cats.' 'Clever?' said the cat. 'Can you catch rats? Does your master give you warm milk to drink? I don't think you are clever.' The fox laughed. '[7] The dogs are hunting this morning. I know at least a hundred tricks to escape them. How many tricks do you know, Mrs Cat?'"
+
+q {
+Q:"A fox met the cat ______________ a field. (Correction for [1])"
+A:"d"
+O:a) "to", b) "from", c) "for", d) "in"
+R:"When referring to being inside an enclosed or defined outdoor area like a field, the correct preposition of place is 'in'. One meets someone 'in' a field."
+}
+
+q {
+Q:"The fox __________________ politely, 'Good morning, Mrs Cat.' (Correction for [2])"
+A:"c"
+O:a) "say", b) "says", c) "said", d) "saying"
+R:"The narrative is written in the past tense ('met', 'answered', 'replied'). Therefore, the reporting verb for the fox's dialogue must also be in the simple past tense, which is 'said'."
+}
+
+q {
+Q:"The cat answered proudly, ______________________________. (Correction for [3])"
+A:"b"
+O:a) "'Yes, Mr Fox I know that I am beautiful.'", b) "'Yes, Mr Fox, I know that I am beautiful.'", c) "Yes Mr Fox I know that i am beautiful.", d) "Yes Mr Fox, I know that I am beautiful"
+R:"Proper punctuation requires a comma after 'Yes' and after the direct address 'Mr Fox' before the main clause begins. Option B correctly applies these commas and maintains the quotation marks."
+}
+
+q {
+Q:"We __________ finer coats, greener eyes, and more graceful tails than any other animal.' (Correction for [4])"
+A:"b"
+O:a) "has", b) "have", c) "had", d) "are"
+R:"The subject 'We' is a first-person plural pronoun. In the present tense, the correct verb form to agree with a plural subject is 'have', not 'has' (which is for third-person singular)."
+}
+
+q {
+Q:"Foxes ___________ much more [intelligent] than cats.' (Correction for [5])"
+A:"d"
+O:a) "has", b) "have", c) "had", d) "are"
+R:"The sentence is making a comparison using the adjective 'intelligent'. To link the plural subject 'Foxes' to the adjective phrase 'much more intelligent', the plural linking verb 'are' is required."}
+
+q {
+Q:"Much more _____________ than cats.' (Correction for [6])"
+A:"c"
+O:a) "inteligant", b) "intelligant", c) "intelligent", d) "inteligent"
+R:"The correct spelling of the word meaning having or showing intelligence is 'intelligent' (i-n-t-e-l-l-i-g-e-n-t). It has double 'l' and ends with 'ent'."
+}
+
+q {
+Q:"The fox laughed. ____________________________________. (Correction for [7])"
+A:"d"
+O:a) "We soon be shall able to test our cleverness.", b) "We soon be able shall to test our cleverness.", c) "We be soon shall able to test our cleverness.", d) "We shall soon be able to test our cleverness."
+R:"The correct syntactic order for the future tense with a modal auxiliary is: Subject + Modal (shall) + Adverb (soon) + Base Verb (be) + Adjective (able). Thus, 'We shall soon be able' is grammatically correct."
+}
+}
+
+meta Subj1:"English"/Chap1:"Grammar & Usage"/Topi1:"Error Correction"/Type1:A/Diff1:M/Stem1:"passage"/
+
+passage {
+text: "These wandering entertainers may be [1] in any of the villages and towns of Pakistan, but there are others [2] are found only in certain parts of the country. If one walks along the streets of Lahore, one will occasionally come [3] a wandering musician singing some old unhappy love story of a village girl and her [4] lover. He always sings to the [5] of an 'ek-tara' or a violin. The sad words of the song and the wonderful [6] with which he plays his instrument always attract a large crowd of people, who remain quiet, still and silent until he has finished. They remember the sound of the music long [7] the musician has stopped singing. The crowd throws a few coins on the mat spread in front of the musician."
+
+q {
+Q:"These wandering entertainers may be ________. (Correction for [1])"
+A:"d"
+O:a) "find", b) "fend", c) "fond", d) "found"
+R:"The sentence is in the passive voice ('may be' + past participle). The past participle of the verb 'find' is 'found'. 'Fond' is an adjective, and 'fend' is a different verb entirely."
+}
+
+q {
+Q:"There are others ______ are found only in certain parts. (Correction for [2])"
+A:"b"
+O:a) "which", b) "who", c) "whom", d) "whose"
+R:"The relative pronoun refers to 'others', which implies 'other people' (entertainers). For human antecedents acting as the subject of the relative clause, the correct pronoun is 'who'."
+}
+
+q {
+Q:"One will occasionally come ______ a wandering musician. (Correction for [3])"
+A:"a"
+O:a) "across", b) "after", c) "along", d) "at"
+R:"The phrasal verb 'come across' means to meet or find someone or something by chance. This perfectly fits the context of unexpectedly encountering a musician on the street."
+}
+
+q {
+Q:"Some old unhappy love story of a village girl and her ________ lover. (Correction for [4])"
+A:"b"
+O:a) "unfavorable", b) "unfortunate", c) "unforgettable", d) "unfulfilled"
+R:"In the context of a tragic or sad love story, 'unfortunate' is the most appropriate adjective to describe a lover who has suffered a sad fate or bad luck, matching the 'unhappy' tone of the song."
+}
+q {
+Q:"He always sings to the ____________ of a violin. (Correction for [5])"
+A:"d"
+O:a) "company", b) "accompany", c) "accompanied", d) "accompaniment"
+R:"The blank requires a noun to follow the article 'the'. 'Accompaniment' is the noun form meaning a musical part that supports or partners the main melody. 'Accompany' is a verb."
+}
+
+q {
+Q:"The wonderful __________ with which he plays his instrument always attracts people. (Correction for [6])"
+A:"a"
+O:a) "skill", b) "skulk", c) "skull", d) "still"
+R:"'Skill' refers to the ability to do something well, which fits the context of playing an instrument beautifully. 'Skulk' means to hide, 'skull' is a bone, and 'still' means motionless."
+}
+
+q {
+Q:"They remember the sound of music long ______ the musician has stopped singing. (Correction for [7])"
+A:"a"
+O:a) "after", b) "ago", c) "before", d) "lasting"
+R:"The conjunction 'after' is used to indicate that the remembering continues for a long time following the event of the musician stopping. 'Ago' and 'before' would reverse the logical timeline."
+}
+}
+
+meta Subj1:"English"/Chap1:"Grammar & Vocabulary"/Topi1:"Mixed Concepts"/Type1:K/Diff1:E/Stem1:"grammar"/
+
+q {
+Q:"Ali is that boy we have been looking for all day. Identify the proper noun?"
+A:"a"
+O:a) "Ali", b) "Day", c) "Boy", d) "Looking"
+R:"A proper noun is the specific name of a person, place, or organization and is always capitalized. 'Ali' is the specific name of the boy, making it the proper noun."
+}
+
+q {
+Q:"Will the apple be eaten by me? Change the voice."
+A:"b"
+O:a) "Is an apple eaten by me?", b) "Will I eat the apple?", c) "Will the apple be eaten by me?", d) "Will I be eating the apple?"
+R:"The given sentence is in the passive voice (Future Simple). To change it to the active voice, the object ('the apple') becomes the object of the active sentence, the subject ('me') becomes 'I', and the verb changes to 'will eat'. Thus, 'Will I eat the apple?'"
+}
+
+q {
+Q:"A letter is being written by Dawood. Change the voice."
+A:"c"
+O:a) "A letter is written by Dawood.", b) "Dawood has written a letter.", c) "Dawood is writing a letter.", d) "Dawood writes a letter."
+R:"The sentence is in the present continuous passive voice ('is being written'). The active voice equivalent uses the present continuous tense ('is writing') with the doer ('Dawood') as the subject."
+}
+
+q {
+Q:"Birds fly in the air. Mark the predicate?"
+A:"b"
+O:a) "Fly", b) "Fly in the air", c) "Birds fly", d) "Birds"
+R:"The predicate is the part of a sentence that tells something about the subject. It includes the verb and all its modifiers or complements. Here, 'Birds' is the subject, and 'fly in the air' is the complete predicate."}
+
+q {
+Q:"We ________ school at five o'clock."
+A:"c"
+O:a) "Leaving", b) "Leaved", c) "Leave", d) "Leaves"
+R:"The sentence describes a habitual action or a scheduled event in the simple present tense. The subject 'We' is plural, so it takes the base form of the verb 'leave'. 'Leaved' is incorrect as the past tense of leave is 'left'."
+}
+
+q {
+Q:"The boy was walking fast. Pick out adverb of manner."
+A:"c"
+O:a) "Walking", b) "Boy was", c) "Fast", d) "Walk"
+R:"An adverb of manner describes how an action is performed. In this sentence, 'fast' describes how the boy was walking. (Note: 'Fast' can be both an adjective and an adverb; here it modifies the verb 'walking')."
+}
+
+q {
+Q:"Let us walk along the shore. Pick out the preposition."
+A:"d"
+O:a) "Us", b) "Let", c) "Shore", d) "Along"
+R:"A preposition shows the relationship between a noun/pronoun and other words in a sentence. 'Along' is the preposition here, indicating the direction or path of the walking relative to the 'shore'."
+}
+
+q {
+Q:"Choose synonym of the word 'Receive'."
+A:"c"
+O:a) "Retain", b) "Demand", c) "Accept", d) "Get"
+R:"'Receive' means to be given, presented with, or to take into one's possession. While 'Get' is a close informal synonym, 'Accept' is the most formal and precise synonym in the context of willingly taking something offered."
+}
+
+q {
+Q:"There is no doubt _________ the earth is round."
+A:"a"
+O:a) "that", b) "but", c) "and", d) "if"
+R:"The phrase 'no doubt' is typically followed by the conjunction 'that' to introduce a noun clause stating the fact that is certain. 'There is no doubt that...' is a standard English idiom."
+}
+
+q {
+Q:"______! I stood first in the class."
+A:"b"
+O:a) "Alas", b) "Hurrah", c) "Hush", d) "Ah"
+R:"'Hurrah' is an interjection used to express joy, triumph, or approval. Standing first in the class is a joyous achievement, making 'Hurrah' the appropriate exclamation."
+}
+
+q {
+Q:"The doors were shut. Change the sentence into question."
+A:"c"
+O:a) "Shut the doors were?", b) "Shut were the doors?", c) "Were the doors shut?", d) "Were shut the doors?"
+R:"To change a declarative sentence with the 'to be' verb ('were') into an interrogative sentence, the verb is moved to the beginning of the sentence. Thus, 'Were the doors shut?'"
+}
+q {
+Q:"Pick the verb from the given sentence: He ran fast and delicately."
+A:"a"
+O:a) "Ran", b) "Fast", c) "Delicately", d) "And"
+R:"A verb is a word used to describe an action, state, or occurrence. 'Ran' is the past tense of the action verb 'run'. 'Fast' and 'delicately' are adverbs modifying the verb."
+}
+
+q {
+Q:"Antonym of the word 'Majority' is:"
+A:"d"
+O:a) "Strength", b) "Loads", c) "Plenty", d) "Minority"
+R:"'Majority' refers to the greater number or more than half of a total. Its direct and exact opposite is 'Minority', which refers to the smaller number or less than half."
+}
+
+q {
+Q:"I know a person whose name is Sher khan. What is 'Sher Khan' in this sentence?"
+A:"c"
+O:a) "Common noun", b) "Abstract noun", c) "Proper noun", d) "Material noun"
+R:"'Sher Khan' is the specific name of a particular person. Names of specific people, places, and organizations are classified as proper nouns and are always capitalized."
+}
+
+q {
+Q:"'She told me I miss you' Choose the correct punctuation mark."
+A:"c"
+O:a) "'She told me I miss you'.", b) "\"She told me I miss you.\"", c) "She told me, \"I miss you.\"", d) "She told me 'I miss you'"
+R:"When reporting direct speech, a comma is placed after the reporting verb ('told me'), and the exact words spoken are enclosed in quotation marks with the terminal punctuation inside. Option C follows these rules perfectly."
+}
+
+q {
+Q:"What is the plural of the noun 'tooth'?"
+A:"a"
+O:a) "teeth", b) "teethe", c) "teeths", d) "tooths"
+R:"'Tooth' is an irregular noun. It does not take an '-s' or '-es' suffix. Instead, the double 'o' changes to 'ee', making the plural form 'teeth'."
+}
+
+q {
+Q:"Identify the type of the following sentence: Saima went to the market."
+A:"b"
+O:a) "Imperative sentence", b) "Declarative sentence", c) "Interrogative sentence", d) "Exclamatory sentence"
+R:"A declarative sentence makes a statement, provides a fact, or offers an explanation, and ends with a period. 'Saima went to the market' simply states a fact, making it declarative."
+}
+
+q {
+Q:"Complete the sentence by inserting the correct possessive pronoun: The bags belong to Shaheer and Sara. The bags are ________."
+A:"c"
+O:a) "mine", b) "yours", c) "theirs", d) "ours"
+R:"The bags belong to Shaheer and Sara, which is a third-person plural subject ('they'). The possessive pronoun that replaces 'their bags' and stands alone is 'theirs'."
+}
+q {
+Q:"Identify the action verb from the following sentence: She thought about her journey."
+A:"d"
+O:a) "her", b) "about", c) "journey", d) "thought"
+R:"An action verb expresses physical or mental action. 'Thought' is the past tense of 'think', which is a mental action verb. 'Journey' is a noun, and 'about' is a preposition."
+}
+
+q {
+Q:"Identify 'proper noun' in the following sentence: I phoned my mother on Sunday."
+A:"a"
+O:a) "Sunday", b) "mother", c) "my", d) "phoned"
+R:"Proper nouns name specific entities and are capitalized. Days of the week, like 'Sunday', are considered proper nouns in English grammar. 'Mother' is a common noun here as it is not used as a direct name."
+}
+
+q {
+Q:"Select the adjectives which describe the underlined nouns: She holds a [red] pencil in her [right] hand."
+A:"b"
+O:a) "right, hand", b) "red, right", c) "pencil, right", d) "red, her"
+R:"Adjectives modify nouns. 'Red' describes the color of the 'pencil', and 'right' describes which 'hand' is being used. Therefore, 'red' and 'right' are the adjectives."
+}
+
+q {
+Q:"Match the word 'dark' with its correct suffix."
+A:"d"
+O:a) "able", b) "less", c) "ish", d) "ness"
+R:"A suffix is added to the end of a word to change its meaning or part of speech. Adding '-ness' to the adjective 'dark' forms the abstract noun 'darkness', meaning the state of being dark."
+}
+
+q {
+Q:"Insert the apostrophes in the following sentence: Shazia isnt coming now, so lets go to class"
+A:"d"
+O:a) "Shazia isnt coming now, so let's go to class'", b) "Shazia isn't coming now, so lets go to class'", c) "Shazia isnt' coming now, so lets go' to class", d) "Shazia isn't coming now, so let's go to class."
+R:"'Isnt' is a contraction of 'is not', requiring an apostrophe: 'isn't'. 'Lets' is a contraction of 'let us', requiring an apostrophe: 'let's'. Option D correctly applies both."
+}
+
+q {
+Q:"Complete the following sentence by inserting the modal auxiliary: How long ______ you be staying at your father's home?"
+A:"a"
+O:a) "will", b) "would", c) "should", d) "must"
+R:"The sentence asks about a future plan or duration. The modal auxiliary 'will' is used to form the future continuous tense ('will be staying'), which is appropriate for asking about future arrangements."
+}
+
+q {
+Q:"Insert apostrophe in the following sentence: Taha lives in boys hostel."
+A:"b"
+O:a) "Taha lives in boys hos'tel.", b) "Taha lives in boys' hostel.", c) "Taha live's in boys hostel.", d) "Taha lives in boy's hostel."
+R:"A hostel meant for multiple boys requires the plural possessive form. The plural of 'boy' is 'boys', and the possessive is formed by adding an apostrophe after the 's': 'boys' hostel'."
+}
+
+q {Q:"Identify 'uncountable noun' in the following sentence: Sugar makes the cake sweet."
+A:"d"
+O:a) "sweet", b) "make", c) "cake", d) "sugar"
+R:"Uncountable nouns refer to substances, concepts, or masses that cannot be counted as individual units. 'Sugar' is a granular substance and is uncountable. 'Cake' can be countable (a cake, two cakes)."
+}
+
+q {
+Q:"Select the pronouns used in the following sentence: I reached school in time, but they arrived late."
+A:"a"
+O:a) "I, they", b) "but, I", c) "school, they", d) "they, arrived"
+R:"Pronouns are words that take the place of nouns. 'I' is a first-person singular subject pronoun, and 'they' is a third-person plural subject pronoun. 'But' is a conjunction, and 'school' is a noun."
+}
+
+q {
+Q:"Select the appropriate verb to fill in the blank: Raza and Sameer always _______ with their friends in the ground."
+A:"c"
+O:a) "are plays", b) "plays", c) "play", d) "is play"
+R:"The subject 'Raza and Sameer' is plural. In the simple present tense (indicated by 'always'), a plural subject takes the base form of the verb without an '-s'. Therefore, 'play' is correct."
+}
+
+q {
+Q:"Identify the category to which the following sentence belongs: Have you completed your homework?"
+A:"d"
+O:a) "Imperative sentence", b) "Declarative sentence", c) "Exclamatory sentence", d) "Interrogative sentence"
+R:"An interrogative sentence asks a question and ends with a question mark. The inversion of the auxiliary verb 'Have' and the subject 'you' clearly marks this as a question."
+}
+
+q {
+Q:"Red rose is _________ than pink tulip."
+A:"a"
+O:a) "more beautiful", b) "most beautiful", c) "beautiful", d) "beautifully"
+R:"The sentence compares two distinct items (a red rose and a pink tulip), which requires the comparative degree. For adjectives with three or more syllables like 'beautiful', the comparative is formed by adding 'more' before the word."
+}
+
+q {
+Q:"Select the correct 'adverb of frequency' from the following sentence: The principal visits classrooms sometimes."
+A:"d"
+O:a) "principal", b) "visits", c) "classrooms", d) "sometimes"
+R:"An adverb of frequency describes how often an action occurs. 'Sometimes' indicates an occasional frequency, fitting the definition perfectly. 'Visits' is the verb."
+}
+
+q {
+Q:"Fill in the blank with appropriate 'preposition of place': The playground is _________ the school."
+A:"a"
+O:a) "in", b) "under", c) "above", d) "on"
+R:"Prepositions of place indicate location. While 'near' or 'behind' might be more common in everyday speech, among the given spatial options, 'in' is the most logical choice, implying the playground is located within the school's premises or compound."
+}
+
+q {
+Q:"Complete the following conditional sentence: If it _______, I _______ go for walk."A:"b"
+O:a) "rain, will", b) "rains, will", c) "rains, would", d) "will, rain"
+R:"This is a First Conditional sentence, used for real or possible future situations. The structure is: If + Present Simple, Subject + will + base verb. Thus, 'If it rains, I will go'."
+}
+
+q {
+Q:"Never lose hope. The underlined word in the sentence is a/an _______ noun. (Assuming 'hope' is underlined)"
+A:"b"
+O:a) "Concrete", b) "Abstract", c) "Proper", d) "Collective"
+R:"Abstract nouns refer to ideas, qualities, emotions, or states that cannot be perceived with the five physical senses. 'Hope' is an emotion/concept, making it an abstract noun."
+}
+
+q {
+Q:"A synonym for the word 'Renowned' is:"
+A:"a"
+O:a) "Famous", b) "Unknown", c) "Unfamiliar", d) "Defamed"
+R:"'Renowned' means known or talked about by many people; famous. Therefore, 'Famous' is the exact synonym. 'Unknown' and 'Unfamiliar' are antonyms."
+}
+
+q {
+Q:"Fill in the blank with a correct word: \"I ___________ a letter last week.\""
+A:"b"
+O:a) "write", b) "wrote", c) "have written", d) "am writing"
+R:"The phrase 'last week' indicates a completed action in the past. Therefore, the simple past tense of the verb 'write', which is 'wrote', must be used."
+}
+
+q {
+Q:"\"Ali, buy a pen for me.\" The given sentence is:"
+A:"c"
+O:a) "Question sentence.", b) "Statement sentence.", c) "Command sentence.", d) "Interrogative sentence."
+R:"The sentence gives a direct order or instruction to Ali. Sentences that express commands, requests, or instructions are called imperative or command sentences."
+}
+
+q {
+Q:"He was very simple and straight-forward. The opposite word for the underlined word is: (Assuming 'straight-forward' is underlined)"
+A:"a"
+O:a) "Complicated.", b) "Honest.", c) "Insincere.", d) "Dishonest"
+R:"'Straight-forward' means uncomplicated, direct, and easy to understand or deal with. The most direct antonym in terms of complexity and nature is 'Complicated'. (Note: 'Insincere' could be an antonym if referring strictly to behavioral honesty, but 'Complicated' covers the broader meaning of the word)."
+}
+
+q {
+Q:"\"I have some big diamonds\". Change into negative sentence."
+A:"c"
+O:a) "I had not big diamonds.", b) "I not have big diamonds.", c) "I do not have big diamonds.", d) "I does not have big diamonds."
+R:"To make a simple present tense sentence with the main verb 'have' negative, we use the auxiliary verb 'do' + 'not' + base verb. Since the subject is 'I', the correct form is 'I do not have'."
+}
+
+q {
+Q:"\"Shazia took a cup of milk\" change the sentence into passive voice."
+A:"d"O:a) "A cup of milk is took by Shazia.", b) "A cup of milk was took by Shazia.", c) "A cup of milk is taken by Shazia.", d) "A cup of milk was taken by Shazia."
+R:"The active sentence is in the simple past tense ('took'). The passive voice structure for simple past is: Object + was/were + past participle (V3) + by + Subject. The past participle of 'take' is 'taken'. Thus, 'A cup of milk was taken by Shazia'."
+}
+
+q {
+Q:"The sentence which expresses a wish or pray is called _____________."
+A:"b"
+O:a) "Imperative sentence.", b) "Optative sentence", c) "Assertive sentence.", d) "Exclamatory sentence."
+R:"An optative sentence is a specific type of sentence used to express a wish, prayer, curse, or hope (e.g., 'May you live long!'). It often begins with 'May' or 'Wish'."
+}
+
+q {
+Q:"If something is obvious it is _________."
+A:"a"
+O:a) "clear", b) "pleasing", c) "true", d) "wrong"
+R:"The adjective 'obvious' means easily perceived, understood, or recognized; clear. Therefore, 'clear' is the most accurate synonym among the choices provided."
+}

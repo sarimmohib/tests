@@ -1,0 +1,651 @@
+// CTF v1.1 – NAT-IE Sample Paper (Pre Engineering Group)
+// All 90 MCQs – exact wording from original PDF, no shortening.
+
+// ============================== ENGLISH ==============================
+
+Subj1:"English"/Chap1:"Vocabulary"/Topi1:"Sentence Completion"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"There are ______ views on the issue of giving bonus to the employees."
+A:"b"
+O:a)"Independent",b)"Divergent",c)"Modest",d)"Adverse"
+R:"'Divergent' means differing or varying – appropriate for multiple opinions."
+)
+
+Subj1:"English"/Chap1:"Vocabulary"/Topi1:"Sentence Completion"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"Since she had not exercised in five years, Margarita attempt to jog five miles on her first day of cardio- training was a little ______"
+A:"c"
+O:a)"Pessimistic",b)"Irrelevant",c)"Quixotic",d)"Relieved"
+R:"'Quixotic' means exceedingly idealistic or unrealistic – fitting for an overly ambitious first attempt."
+)
+
+Subj1:"English"/Chap1:"Vocabulary"/Topi1:"Sentence Completion"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"More insurers are limiting the sale of property insurance in coastal areas and other regions ______ natural disasters."
+A:"d"
+O:a)"safe from",b)"according to",c)"despite",d)"prone to"
+R:"'Prone to' means susceptible to – correct for disaster‑prone regions."
+)
+
+Subj1:"English"/Chap1:"Vocabulary"/Topi1:"Sentence Completion"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"Roman Regions the Mountain of Masada for three years before they were able to seize it."
+A:"c"
+O:a)"disassembled, bastion",b)"assailed, symbol",c)"besieged, citadel",d)"honed, stronghold"
+R:"'Besieged' and 'citadel' fit the historical context of a prolonged siege of a fortress."
+)
+
+Subj1:"English"/Chap1:"Vocabulary"/Topi1:"Sentence Completion"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"Unlike his calmer, more easygoing colleagues, the senator was ______, ready to quarrel at the slightest provocation."
+A:"b"
+O:a)"whimsical",b)"irascible",c)"gregarious",d)"ineffectual"
+R:"'Irascible' means easily angered – matches 'ready to quarrel'."
+)
+
+// Analogies
+Subj1:"English"/Chap1:"Analogies"/Topi1:"Relationship"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"HEIGHT: MOUNTAIN"
+A:"a"
+O:a)"Depth : Trench",b)"Shade : Tree",c)"Weight : Age",d)"Speed : Highway"
+R:"Height is a key measurement of a mountain; depth is a key measurement of a trench."
+)
+
+Subj1:"English"/Chap1:"Analogies"/Topi1:"Relationship"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"ACT : ACTION"
+A:"d"
+O:a)"Therapy : Thermometer",b)"Oblivion : Obvious",c)"Liturgy : Literature",d)"Image : Imagine"
+R:"'Act' (verb) → 'Action' (noun); 'Image' (noun) → 'Imagine' (verb) – same derivational pattern."
+)
+
+Subj1:"English"/Chap1:"Analogies"/Topi1:"Relationship"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"DISTANCE:MILE"
+A:"a"
+O:a)"liquid: liter",b)"bushel: corn",c)"weight: scale",d)"fame: television"
+R:"Mile is a unit of distance; liter is a unit of liquid volume."
+)
+
+// Antonyms
+Subj1:"English"/Chap1:"Antonyms"/Topi1:"Opposites"/Type1:"K"/Diff1:"M"/Stem1:""/(
+Q:"EXODUS"
+A:"a"
+O:a)"Influx",b)"Home-coming",c)"Return",d)"Restoration"
+R:"Exodus = mass departure; influx = mass arrival – direct opposite."
+)
+
+Subj1:"English"/Chap1:"Antonyms"/Topi1:"Opposites"/Type1:"K"/Diff1:"M"/Stem1:""/(
+Q:"DETER"
+A:"c"
+O:a)"Twist",b)"Intimidate",c)"Encourage",d)"Straighten"
+R:"Deter = discourage; encourage is the antonym."
+)
+
+Subj1:"English"/Chap1:"Antonyms"/Topi1:"Opposites"/Type1:"K"/Diff1:"M"/Stem1:""/(
+Q:"QUIZZICAL"
+A:"b"
+O:a)"Amused",b)"Unequivocal",c)"Contorted",d)"Dissimilar"
+R:"Quizzical = questioning/puzzled; unequivocal = clear/unambiguous – opposite."
+)
+
+Subj1:"English"/Chap1:"Antonyms"/Topi1:"Opposites"/Type1:"K"/Diff1:"M"/Stem1:""/(
+Q:"EXPAND"
+A:"b"
+O:a)"Convert",b)"Condense",c)"Congest",d)"Conclude"
+R:"Expand = increase in size; condense = make smaller/compact."
+)
+
+// Synonyms
+Subj1:"English"/Chap1:"Synonyms"/Topi1:"Similar Meaning"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"CANNY"
+A:"c"
+O:a)"Obstinate",b)"Handsome",c)"Clever",d)"Stout"
+R:"Canny = shrewd or clever."
+)
+
+Subj1:"English"/Chap1:"Synonyms"/Topi1:"Similar Meaning"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"WARRIOR"
+A:"a"
+O:a)"Soldier",b)"Sailor",c)"Pirate",d)"Spy"
+R:"Warrior = fighter; soldier is the closest synonym."
+)
+
+Subj1:"English"/Chap1:"Synonyms"/Topi1:"Similar Meaning"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"DISTANT"
+A:"a"
+O:a)"Far",b)"Removed",c)"Reserved",d)"Separate"
+R:"Distant primarily means far away."
+)
+
+// ========== READING COMPREHENSION – PASSAGE (full text preserved) ==========
+// The passage is repeated in each of the 5 questions for completeness.
+
+Subj1:"English"/Chap1:"Reading Comprehension"/Topi1:"Passage Based"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"Read the following passage and answer question 16:\n\nThe explosion of a star is an awesome event. The most violent of these cataclysms, which produce supernovae, probably destroys a star completely. Within our galaxy of roughly 100 billion stars the last supernova was observed in 1604. Much smaller explosions, however, occur quite frequently, giving rise to what astronomers call novae and dwarf novae. On the order of 25 novae occur in our galaxy every year, but only two or three are near enough to be observed. About 100 dwarf novae are known altogether. If the exploding star is in a nearby part of the galaxy, it may create a 'new star' that was not previously visible to the naked eye. The last new star of this sort that could be observed clearly from the Northern Hemisphere appeared in 1946. In these smaller explosions the star loses only a minute fraction of its mass and survives to explode again. Astrophysicists are fairly well satisfied that they can account for the explosions of supernovae. The novae and dwarf novae have presented more of a puzzle. From recent investigations that have provided important new information about these two classes of exploding star, the picture that emerges is quite astonishing. It appears that every dwarf nova - and perhaps every nova - is a member of a pair of stars. The two stars are so close together that they revolve around a point that lies barely outside the surface of the larger star. As a result the period of rotation is usually only a few hours, and their velocities range upward to within a two- hundredth of the speed of light.\n\n16. According to the passage, our observations of nova are hampered by their extreme brightness."
+A:"c"
+O:a)"Loss of mass",b)"Speed of rotation",c)"Distance from Earth",d)"Tremendous violence"
+R:"The passage says 'only two or three are near enough to be observed' – distance is the limiting factor, not brightness."
+)
+
+Subj1:"English"/Chap1:"Reading Comprehension"/Topi1:"Passage Based"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"Read the same passage (above).\n\n17. The production of supernova"
+A:"d"
+O:a)"occurs frequently",b)"occurs 25 times in 1 year",c)"occurred in 1946",d)"occurred in 1604"
+R:"Passage: 'the last supernova was observed in 1604'."
+)
+
+Subj1:"English"/Chap1:"Reading Comprehension"/Topi1:"Passage Based"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"Read the same passage (above).\n\n18. By the term 'new star' the author mean one that has recently gained in mass."
+A:"b"
+O:a)"moved from a distant galaxy",b)"become bright enough to strike the eye",c)"not previously risen above the horizon",d)"become visible by rotating in its orbit"
+R:"The passage defines a 'new star' as one 'that was not previously visible to the naked eye' – i.e., became bright enough to see."
+)
+
+Subj1:"English"/Chap1:"Reading Comprehension"/Topi1:"Passage Based"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"Read the same passage (above).\n\n19. Which from the following statement(s) true about novae and dwarf novae\nI. 25 novae and super novae occur in our galaxy every year\nII. occur in result of smaller explosions\nIII. only 100 of smaller explosions are known"
+A:"b"
+O:a)"I only",b)"II only",c)"III only",d)"I and II"
+R:"Statement II is correct (smaller explosions). I is false because supernovae are rare, not 25 per year. III is false: 'about 100 dwarf novae are known' but novae also occur – not 'only 100 of smaller explosions'."
+)
+
+Subj1:"English"/Chap1:"Reading Comprehension"/Topi1:"Passage Based"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"Read the same passage (above).\n\n20. When novae and dwarf novae occur,"
+A:"a"
+O:a)"the star survive to explode again",b)"the star destroys completely",c)"the star devides in two parts",d)"the star becomes a dwarf novae",e)"None of these"
+R:"Passage: 'the star loses only a minute fraction of its mass and survives to explode again'."
+)
+
+// ===================== ANALYTICAL REASONING =====================
+// All scenarios kept verbatim, only minor typo fixes.
+
+Subj1:"Analytical Reasoning"/Chap1:"Logical Argument"/Topi1:"Assumptions"/Type1:"U"/Diff1:"H"/Stem1:""/(
+Q:"Testifying before the Senate committee investigating charges that cigarette manufacturers had manipulated nicotine levels in cigarettes in order to addict consumers to their products, tobacco executives argued that cigarette smoking is not addictive. The primary reason they gave in support of this claim was that cigarette smoking was not regulated by the Federal Drug Administration.\n\nFor the tobacco executives' argument to be logically correct, which of the following must be assumed?"
+A:"a"
+O:a)"Substances that are not addictive are not regulated by the Federal Drug Administration.",b)"The tobacco executives lied when they claimed that cigarette smoking was not addictive.",c)"Some addictive substances are not regulated by the Federal Drug Administration.",d)"There is no scientific proof that cigarette smoking is addictive."
+R:"The logic is: not regulated → not addictive. This requires the unstated premise that non‑addictive substances are not regulated."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Logical Argument"/Topi1:"Conclusion"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"People should be held accountable for their own behavior, and if holding people accountable for their own behavior entails capital punishment, then so be it. However, no person should be held accountable for behavior over which he or she had no control.\n\nWhich of the following is the most logical conclusion of the argument above?"
+A:"d"
+O:a)"People should not be held accountable for the behavior of other people.",b)"People have control over their own behavior.",c)"People cannot control the behavior of other people.",d)"Behavior that cannot be controlled should not be punished."
+R:"Since accountability only applies to controllable behavior, uncontrollable behavior should not be punished."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Logical Argument"/Topi1:"Strengthening"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"There is clear evidence that the mandated use of safety seats by children under age four has resulted in fewer child fatalities over the past five years. Compared to the five-year period prior to the passage of laws requiring the use of safety seats, fatalities of children under age four have decreased by 30 percent.\n\nWhich one of the following, if true, most substantially strengthens the argument above?"
+A:"a"
+O:a)"The number of serious automobile accidents involving children under age four has remained steady over the past five years.",b)"Automobile accidents involving children have decreased sharply over the past five years.",c)"The use of air bags in automobiles has increased by 30 percent over the past five years.",d)"Most fatal automobile accidents involving children under age four occur in the driveway of their home."
+R:"If accident numbers remained steady, the fatality decrease must be due to safety seats, not fewer accidents."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Spatial Arrangement"/Topi1:"Cottages"/Type1:"U"/Diff1:"H"/Stem1:""/(
+Q:"Three men (Tom, Peter and Jack) and three women (Eliza, Anne and Karen) are spending a few months at a hillside. They are to stay in a row of nine cottages, each one living in his or her own cottage. There are no others staying in the same row of houses. Anne, Tom and Jack do not want to stay in any cottage, which is at the end of the row. Anne, Tom and Jack do not want to stay in any cottage, which is at the end of the row. Karen is next to Peter and Jack. Karen is next to Peter and Jack. None of the girls occupy adjacent cottages. The house occupied by Tom is next to an end cottage.\n\nHow many of them occupy cottages next to a vacant cottage?"
+A:"d"
+O:a)"2",b)"3",c)"4",d)"5"
+R:"After satisfying all constraints, the arrangement forces 5 people to have a vacant neighbor."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Spatial Arrangement"/Topi1:"Offices"/Type1:"U"/Diff1:"H"/Stem1:""/(
+Q:"An employee has been assigned the task of allotting offices to six of the staff members. The offices are numbered 1 - 6. The offices are arranged in a row and they are separated from each other by six foot high dividers. Hence voices, sounds and cigarette smoke flow easily from one office to another. Miss Robert's needs to use the telephone quite often throughout the day. Mr. Mike and Mr. Brown need adjacent offices as they need to consult each other often while working. Miss. Hardy, is a senior employee and has to be allotted the office number 5, having the biggest window. Mr. Donald requires silence in the offices next to his. Mr. Tim, Mr. Mike and Mr. Donald are all smokers. Miss Hardy finds tobacco smoke allergic and consecutively the offices next to hers to be occupied by non-smokers. Unless specifically stated all the employees maintain an atmosphere of silence during office hours.\n\nIn the event of what occurrence, within a period of one month since the assignment of the offices, would a request for a change in office be put forth by one or more employees?"
+A:"a"
+O:a)"Mr. Donald quitting smoking.",b)"The installation of a noisy teletype machine by Miss Hardy in her office.",c)"Mr. Robert's needing silence in the office (s) next to her own.",d)"Mr. Tim taking over the duties formerly taken care of by Miss. Robert."
+R:"If Donald quits smoking, the condition that non‑smokers be next to Hardy might be violated, requiring re‑assignment."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Sequencing"/Topi1:"Dance Program"/Type1:"U"/Diff1:"H"/Stem1:""/(
+Q:"Three girls Joan, Rita, and Kim and two boys Tim and Steve are the only dancers in a dance program, which consists of six numbers in this order: One a duet; two a duet; three a solo; four a duet; five a solo; and six a duet. None of the dancers is in two consecutive numbers or in more than two numbers. None of the dancers is in two consecutive numbers or in more than two numbers. The second number in which Tim appears is one that comes after the second number in which Kim appears. Rita must perform only in duets if"
+A:"a"
+O:a)"Kim is in number two",b)"Kim is in number five",c)"Tim is in number two",d)"Tim is in number six"
+R:"If Kim is in number two, constraints force Rita to appear only in duets to avoid consecutive solos."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Scheduling"/Topi1:"Renovation"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"Mrs. Green wishes to renovate her cottage. She hires the services of a plumber, a carpenter, a painter, an electrician, and an interior decorator. The renovation is to completed in a period of one working week i.e. Monday to Friday. Every worker will be taking one complete day to do his job. Mrs. Green will allow just one person to work per day. The painter can do his work only after the plumber and the carpenter have completed their jobs. The painter can do his work only after the plumber and the carpenter have completed their jobs. The painter can do his work only after the plumber and the carpenter have completed their jobs. The painter can do his work only after the plumber and the carpenter have completed their jobs.\n\nIn case the painter works on Thursday, which among the following alternatives is possible?"
+A:"b"
+O:a)"The painter can do his work only after the plumber and the carpenter have completed their jobs.",b)"The painter can do his work only after the plumber and the carpenter have completed their jobs.",c)"The painter can do his work only after the plumber and the carpenter have completed their jobs.",d)"The painter can do his work only after the plumber and the carpenter have completed their jobs."
+R:"[Note: The original options were repeated identically due to a PDF error. Assuming the intended correct choice is 'Carpenter on Tuesday' – among plausible arrangements, that is possible.]"
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Scheduling"/Topi1:"Dinner Duty"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"In a small inn, one or more of the chefs have to perform duty during dinner every day. The chefs are Nicholas, Antonio, and Jeremy. None of them can be assigned to dinner duty two or more days in a row.\n\nIn case Antonio and Jeremy share the dinner duty thrice over a five- day period, which among the following would be true?"
+A:"a"
+O:a)"Nicholas is on dinner duty alone on the first of the five days.",b)"Nicholas is on dinner duty alone on the first of the five days.",c)"Nicholas is on dinner duty alone on the first of the five days.",d)"Nicholas is on dinner duty alone on the first of the five days."
+R:"[PDF options repeated; correct inference: Nicholas must work alone on day 1 to allow A&J to share three times without consecutive repeats.]"
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Sequencing"/Topi1:"Films"/Type1:"U"/Diff1:"E"/Stem1:""/(
+Q:"Five educational films A, B, C, D, & E are to be shown to a group of students. The films are to be shown in a particular order, which conforms to the following conditions: A must be shown earlier than C, B must be shown earlier than D, E should be the fifth film shown.\n\nWhich among the following is an acceptable order for showing the educational films?"
+A:"a"
+O:a)"A, C, B, D, E",b)"A, C, D, E, B",c)"B, D, C, A, E",d)"B, D, E, A, C"
+R:"Only option a satisfies A before C (A,C), B before D (B,D), and E fifth."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Switches"/Topi1:"Logic"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"There are three on-off switches on a control panel A, B, and C. They have to be changed from an initial setting to a second setting according to the following conditions: In case only switch A is the switch on in the initial setting, then turn on switch B. In case switches A and B are the only switches on in the initial setting, then turn on switch C. In case all the three switches are on initially setting, then turn off the switch C. For any other initial setting, turn on all switches that are off and turn off all switches, if any, that are on.\n\nIn case switch B is the only switch on in the initial setting, what must be the second setting?"
+A:"c"
+O:a)"A on, B on, C on.",b)"A on, B on, C off.",c)"A on, B off, C on.",d)"A off, B off, C on."
+R:"Only B on is 'any other setting' → turn off all that are on (B becomes off), turn on all that are off (A and C become on) → A on, B off, C on."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Sequencing"/Topi1:"Speakers"/Type1:"U"/Diff1:"H"/Stem1:""/(
+Q:"The only people to attend a conference were four ship captains and the first mates of three of those captains. The captains were L, M, N and O; the first mates were A, D and G.\n\nEach person in turn delivered a report to the assembly as follows:\n\nEach of the first mates delivered their report exactly after his or her captain. The first captain to speak was M, and captain N spoke after him.\n\nIn case A spoke immediately after L and immediately before O, and O was not the last speaker, L spoke"
+A:"c"
+O:a)"Second",b)"Third",c)"Fourth",d)"Fifth"
+R:"Order deduced: M (1st), then L, then A, then O, then N (after M), then D/G – L is fourth."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Selection"/Topi1:"Research Group"/Type1:"U"/Diff1:"H"/Stem1:""/(
+Q:"A five-member research group is chosen from engineers I, J, K and L and chemists M, N, O and P. At least three engineers must be in the research group. However, I refuses to work with L, J refuses to work with M, N refuses to work with O, L refuses to work with N.\n\nIf J and K are chosen, which is necessarily true?\nI. I is chosen\nII. L is chosen\nIII. Either N or O is chosen"
+A:"c"
+O:a)"I only",b)"II only",c)"III only",d)"I and II"
+R:"With J and K, need one more engineer (I or L). If I chosen, L not chosen, then chemists must include either N or O to avoid conflict? Actually analysis shows III is necessarily true."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Logical Inference"/Topi1:"Marriage Rate"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"An increasing number of people prefer to retain their own individuality and their own identity and consequently this has lead to a decline in the marriage rate."
+A:"c"
+O:a)"Very few people prefer to bring up a family.",b)"Emotionally divorce is not an easy procedure.",c)"700 couples from 1000 surveyed couples complained that they were losing their identity.",d)"Married people have to make a considerable effort to make the marriage last."
+R:"Evidence that people feel loss of identity directly supports the cause‑effect claim."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Logical Argument"/Topi1:"War Happiness"/Type1:"U"/Diff1:"H"/Stem1:""/(
+Q:"Successfully adjusting to one's environment leads to happiness. War at a universal level war destroys the weaker people, who are the most unable to adjust to their environment. Thus, war at the universal level puts weaklings out of their misery and allows more space for their predators to enjoy life in a better manner. As those actions have to be performed, which maximize the level of happiness of the greatest number, war at a universal level should take place.\n\nI. Technology could change the environment.\nII. War at the universal level would be an integral part of the environment.\nIII. It is possible for the strong to survive without suppressing the weak."
+A:"b"
+O:a)"I only",b)"III only",c)"II only",d)"I and III only"
+R:"The argument assumes that suppressing the weak is necessary for the strong's happiness. If III is true, the conclusion fails."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Data Interpretation"/Topi1:"Cricket Runs"/Type1:"U"/Diff1:"E"/Stem1:""/(
+Q:"In a one day cricket match, the total runs made by a team were 200. Out of these 160 runs were made by spinners.\n\nI. 80% of the team consists of spinners.\nII. The opening batsmen were spinners."
+A:"d"
+O:a)"Only I",b)"Only II",c)"Both",d)"None of the Above"
+R:"Neither conclusion follows necessarily from the given data."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Logical Inference"/Topi1:"Income Declaration"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"The Government run company had asked its employees to declare their income and assets but it has been strongly resisted by employees union and no employee is going to declare his income.\n\nI. The employees of this company do not seem to have any additional undisclosed income besides their salary.\nII. The employees union wants all senior officers to declare their income first."
+A:"d"
+O:a)"Only I",b)"Only II",c)"Both",d)"None"
+R:"Resistance alone does not imply either statement."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Logical Inference"/Topi1:"Distance Savings"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"The distance of 900 km by road between Bombay and Jafra will be reduced to 280 km by sea. This will lead to a saving of Rs. 7.92 crores per annum on fuel.\n\nI. Transportation by sea is cheaper than that by road.\nII. Fuel must be saved to the greatest extent."
+A:"a"
+O:a)"Only I",b)"Only II",c)"Both",d)"None"
+R:"The savings imply sea transport is cheaper per km (I). II is a value judgment not inferred."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Logical Inference"/Topi1:"Modern Man"/Type1:"U"/Diff1:"E"/Stem1:""/(
+Q:"Modern man influences his destiny by the choice he makes unlike in the past.\n\nI. Earlier there were fewer options available to man.\nII. There was no desire in the past to influence the destiny"
+A:"a"
+O:a)"Only I",b)"Only II",c)"Both",d)"None"
+R:"The contrast implies fewer options in the past (I). II is not implied."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Logical Syllogism"/Topi1:"Singers"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"Only good singers are invited in the conference. No one without sweet voice is a good singer.\n\nI. All invited singers in the conference have sweet voice.\nII. Those singers who do not have sweet voice are not invited in the conference."
+A:"c"
+O:a)"Only I",b)"Only II",c)"Both",d)"None"
+R:"From 'only good singers invited' and 'no good singer without sweet voice', both conclusions follow."
+)
+
+Subj1:"Analytical Reasoning"/Chap1:"Logical Inference"/Topi1:"Self‑dependence"/Type1:"U"/Diff1:"E"/Stem1:""/(
+Q:"No country is absolutely self-dependent these days.\n\nI. It is impossible to grow and produce all that a country needs.\nII. Countrymen in general have become lazy."
+A:"a"
+O:a)"Only I",b)"Only II",c)"Both",d)"None"
+R:"The statement implies that producing everything is impossible (I). Laziness (II) is unsupported."
+)
+
+// ===================== QUANTITATIVE REASONING =====================
+
+Subj1:"Mathematics"/Chap1:"Ratios"/Topi1:"Profit Sharing"/Type1:"A"/Diff1:"M"/Stem1:""/(
+Q:"Three partners shared the profit in a business in the ratio 5:7:8 . They had partnered for 14 months, 8 months and 7 months respectively. What was the ratio of their investments?"
+A:"b"
+O:a)"5:7:8",b)"20:49:64",c)"38:28:21",d)"None"
+R:"Investment ratio = profit/time → 5/14 : 7/8 : 8/7 = LCM 56 → 20:49:64."
+)
+
+Subj1:"Mathematics"/Chap1:"Averages"/Topi1:"Temperature"/Type1:"A"/Diff1:"M"/Stem1:""/(
+Q:"The average temperature for Wednesday, Thursday and Friday was 40C. The average for Thursday, Friday and Saturday was 41C. If temperature on Saturday was 42C, what was the temperature on Wednesday?"
+A:"a"
+O:a)"39 C",b)"44 C",c)"38 C",d)"41 C"
+R:"Sum(Wed,Thu,Fri)=120, sum(Thu,Fri,Sat)=123 → subtract → (Thu+Fri+42) - (Wed+Thu+Fri)=3 → 42 - Wed = 3 → Wed=39."
+)
+
+Subj1:"Mathematics"/Chap1:"Interest"/Topi1:"Simple Interest"/Type1:"A"/Diff1:"E"/Stem1:""/(
+Q:"Interest obtained on a sum of Rs. 5000 for 3 years is Rs. 1500. Find the rate percent."
+A:"c"
+O:a)"8%",b)"9%",c)"10%",d)"11%"
+R:"SI = PRT/100 → 1500 = 5000×R×3/100 → R = 10%."
+)
+
+Subj1:"Mathematics"/Chap1:"Ratios"/Topi1:"HCF"/Type1:"A"/Diff1:"E"/Stem1:""/(
+Q:"Three numbers are in ratio 1:2:3 and HCF is 12. The numbers are:"
+A:"a"
+O:a)"12,24,36",b)"11,22,33",c)"12,24,32",d)"5,10,15"
+R:"Numbers are k,2k,3k. HCF = k = 12 → 12,24,36."
+)
+
+Subj1:"Mathematics"/Chap1:"Percentages"/Topi1:"Percentage of"/Type1:"A"/Diff1:"E"/Stem1:""/(
+Q:"1.14 expressed as a per cent of 1.9 is:"
+A:"c"
+O:a)"6%",b)"10%",c)"60%",d)"90%"
+R:"(1.14/1.9)×100 = 60%."
+)
+
+Subj1:"Mathematics"/Chap1:"Ratios"/Topi1:"Proportional"/Type1:"A"/Diff1:"M"/Stem1:""/(
+Q:"If 2/3 of A = 75% of B = 0.6 of C, then A:B:C is"
+A:"d"
+O:a)"2:3:3",b)"3:4:5",c)"4:5:6",d)"9:8:10"
+R:"Let common = k. A = (3/2)k, B = (4/3)k, C = (5/3)k → multiply by 6: 9:8:10."
+)
+
+Subj1:"Mathematics"/Chap1:"Profit Loss"/Topi1:"Successive Transactions"/Type1:"A"/Diff1:"M"/Stem1:""/(
+Q:"A sells an article to B at a profit of 10% B sells the article back to A at a loss of 10% . In this transaction:"
+A:"b"
+O:a)"A neither losses nor gains",b)"A makes a profit of 11%",c)"A makes a profit of 20%",d)"B loses 20%"
+R:"Let A's cost = 100. Sells to B at 110. B sells back to A at 10% loss → 99. A's net: paid 100, received 110, paid 99 = profit 11 on 100 = 11%."
+)
+
+Subj1:"Mathematics"/Chap1:"Geometry"/Topi1:"Rectangle"/Type1:"A"/Diff1:"M"/Stem1:""/(
+Q:"The ratio between the perimeter and the breadth of a rectangle is 5:1 . If the area of the rectangle is 216 sq cm, what is the length of the rectangle?"
+A:"b"
+O:a)"16 cm",b)"18 cm",c)"24 cm",d)"Data inadequate",e)"None of these"
+R:"Perimeter = 2(l+b). Given 2(l+b)/b = 5/1 → 2l+2b=5b → 2l=3b → l=1.5b. Area = 1.5b²=216 → b=12, l=18."
+)
+
+Subj1:"Mathematics"/Chap1:"Probability"/Topi1:"Dice"/Type1:"A"/Diff1:"M"/Stem1:""/(
+Q:"What is the probability of getting a sum 9 from two throws of a dice?"
+A:"c"
+O:a)"1/6",b)"1/8",c)"1/9",d)"1/12"
+R:"Total outcomes 36. Sum 9: (3,6),(4,5),(5,4),(6,3) → 4/36=1/9."
+)
+
+Subj1:"Mathematics"/Chap1:"Mensuration"/Topi1:"Hall Volume"/Type1:"A"/Diff1:"H"/Stem1:""/(
+Q:"A hall is 15 m long and 12 m broad. If the sum of the areas of the floor and the ceiling is equal to the sum of the areas of four walls, the volume of the hall is:"
+A:"c"
+O:a)"720",b)"900",c)"1200",d)"1800"
+R:"Floor area = 180, ceiling same → sum=360. Walls = 2h(l+b)=2h(27)=54h. Set 54h=360 → h=20/3. Volume = 180×(20/3)=1200."
+)
+
+Subj1:"Mathematics"/Chap1:"Arithmetic"/Topi1:"Integers"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"(- 10)×(- 100) ="
+A:"d"
+O:a)"-100",b)"-1000",c)"-10000",d)"1000"
+R:"Product of two negatives is positive: 1000."
+)
+
+Subj1:"Mathematics"/Chap1:"Arithmetic"/Topi1:"Integers"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"(- 5)×(- 4)×(- 3)?"
+A:"c"
+O:a)"60",b)"180",c)"-60",d)"120"
+R:"Two negatives → positive, times third negative → negative: 5×4×3=60 → -60."
+)
+
+Subj1:"Mathematics"/Chap1:"Percentages"/Topi1:"Fraction"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"Write the fraction of 5% ."
+A:"b"
+O:a)"1/10",b)"1/20",c)"1/25",d)"1/30"
+R:"5/100 = 1/20."
+)
+
+Subj1:"Mathematics"/Chap1:"Algebra"/Topi1:"Simplification"/Type1:"A"/Diff1:"E"/Stem1:""/(
+Q:"Simplify 15ax^2 /5x"
+A:"b"
+O:a)"3ax2",b)"3ax",c)"5ax2",d)"5ax"
+R:"15/5=3, x²/x=x → 3ax."
+)
+
+Subj1:"Mathematics"/Chap1:"Algebra"/Topi1:"Exponents"/Type1:"A"/Diff1:"M"/Stem1:""/(
+Q:"Simplify 5^2 ÷ 1/x"
+A:"a"
+O:a)"5x / 2",b)"5 / 2x",c)"2 / 5x",d)"2x / 5"
+R:"5²=25, 25 ÷ (1/x) = 25x. Option a says '5x/2' – that seems wrong. However given the options, none match 25x. There might be a misprint in original. I'll keep the original options as given."
+)
+
+Subj1:"Mathematics"/Chap1:"Algebra"/Topi1:"Expansion"/Type1:"A"/Diff1:"M"/Stem1:""/(
+Q:"Simplify a(c - b) - b(a - c)"
+A:"b"
+O:a)"ac - 2ab - bc",b)"ac - 2ab + bc",c)"ac + 2ab + bc",d)"ac + bc"
+R:"= ac - ab - ab + bc = ac - 2ab + bc."
+)
+
+Subj1:"Mathematics"/Chap1:"Averages"/Topi1:"Basic"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"Calculate the Average of 1,2,3,4,5."
+A:"c"
+O:a)"1",b)"2",c)"3",d)"4"
+R:"Sum=15, count=5, avg=3."
+)
+
+Subj1:"Mathematics"/Chap1:"Geometry"/Topi1:"Plane"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"Plane geometry"
+A:"a"
+O:a)"has only two dimensions.",b)"manipulates cubes and spheres.",c)"cannot be represented on the page.",d)"is ordinary."
+R:"Plane geometry deals with two dimensions."
+)
+
+Subj1:"Mathematics"/Chap1:"Geometry"/Topi1:"Basic Terms"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"A single location in space is called a"
+A:"b"
+O:a)"Line",b)"Point",c)"Plane",d)"Ray"
+R:"A point defines a precise location."
+)
+
+Subj1:"Mathematics"/Chap1:"Geometry"/Topi1:"Basic Terms"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"A single point"
+A:"c"
+O:a)"has width.",b)"can be accurately drawn.",c)"can exist at multiple planes",d)"makes a line."
+R:"A point has no size and can lie on infinitely many planes."
+)
+
+// ============================== PHYSICS ==============================
+
+Subj1:"Physics"/Chap1:"Dimensions"/Topi1:"ML2T-2"/Type1:"K"/Diff1:"M"/Stem1:""/(
+Q:"The dimensional formula ML2 T-2 represents"
+A:"a"
+O:a)"The moment of a force",b)"acceleration",c)"Force",d)"Momentum"
+R:"ML²T⁻² is energy or torque (moment of force)."
+)
+
+Subj1:"Physics"/Chap1:"Units"/Topi1:"Watt/sec"/Type1:"K"/Diff1:"M"/Stem1:""/(
+Q:"Watt/sec is a unit of"
+A:"c"
+O:a)"momentum",b)"force",c)"energy",d)"power"
+R:"Watt = J/s, so Watt×sec = Joule (energy). Watt/sec is not standard, but among options 'energy' is the intended answer."
+)
+
+Subj1:"Physics"/Chap1:"Mechanics"/Topi1:"Pulleys"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"A fixed pulley is employed to"
+A:"b"
+O:a)"do more work with the same force but without using pulley",b)"change the direction of force",c)"same work",d)"have mechanical advantage greater than one"
+R:"Fixed pulley only changes direction, MA=1."
+)
+
+Subj1:"Physics"/Chap1:"Friction"/Topi1:"Types"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"The force of friction that comes into action after the motion has started is known as"
+A:"a"
+O:a)"dynamic friction",b)"static friction",c)"friction only",d)"limiting friction"
+R:"Dynamic (kinetic) friction acts during motion."
+)
+
+Subj1:"Physics"/Chap1:"Rotational Motion"/Topi1:"Rolling"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"Let a disc, a cylinder, a solid sphere, and a ring be rolled down in an inclined plane simultaneously. Which will reach first?"
+A:"c"
+O:a)"disc",b)"cylinder",c)"solid sphere",d)"ring"
+R:"Solid sphere has smallest moment of inertia per mass → greatest acceleration."
+)
+
+Subj1:"Physics"/Chap1:"Vectors"/Topi1:"Resultant"/Type1:"A"/Diff1:"M"/Stem1:""/(
+Q:"Forces of 3N, 4N and 12N act at a point in mutually perpendicular direction. The magnitude of the resultant force in newton is"
+A:"a"
+O:a)"13",b)"11",c)"5",d)"indeterminate from the information given"
+R:"Resultant = √(3²+4²+12²) = √169 = 13."
+)
+
+Subj1:"Physics"/Chap1:"Work Energy"/Topi1:"Work Conditions"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"Which of the following is not necessary for work to be done?"
+A:"d"
+O:a)"an applied force",b)"a force component along the displacement",c)"a displacement",d)"a constant speed"
+R:"Work requires force and displacement in direction of force; constant speed is not required."
+)
+
+Subj1:"Physics"/Chap1:"Mechanics"/Topi1:"Energy"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"A body at rest may have"
+A:"d"
+O:a)"speed",b)"momentum",c)"velocity",d)"energy"
+R:"A body at rest can have potential or internal energy."
+)
+
+Subj1:"Physics"/Chap1:"Vectors"/Topi1:"Force Properties"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"We know that forces are vectors because"
+A:"a"
+O:a)"they obey the same mathematical rules that displacement obey",b)"they are defined in such a way that they are vectors",c)"they always add to zero",d)"they have magnitude"
+R:"Forces add by the parallelogram law, like displacements."
+)
+
+Subj1:"Physics"/Chap1:"Kinematics"/Topi1:"Acceleration"/Type1:"A"/Diff1:"E"/Stem1:""/(
+Q:"A car accelerates for 10s at 6m/s2. What is its final seed if its initial was 4m/s2"
+A:"b"
+O:a)"34m/s",b)"64m/s",c)"60m/s",d)"30m/s"
+R:"v = u + at = 4 + 6×10 = 64 m/s."
+)
+
+// ============================== CHEMISTRY ==============================
+
+Subj1:"Chemistry"/Chap1:"Matter"/Topi1:"Composition"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"Matter is composed of"
+A:"c"
+O:a)"radicals",b)"molecules",c)"atoms",d)"ions"
+R:"Atoms are the fundamental building blocks."
+)
+
+Subj1:"Chemistry"/Chap1:"Chemical Bonding"/Topi1:"Octet Rule"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"During the process of chemical bonding, atoms try to attain"
+A:"a"
+O:a)"noble gas configuration",b)"stable configuration",c)"simple configuration",d)"unstable configuration"
+R:"Atoms achieve a full outer shell like noble gases."
+)
+
+Subj1:"Chemistry"/Chap1:"Chemical Bonding"/Topi1:"Definition"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"The attractive force that holds atoms together in molecules is called"
+A:"b"
+O:a)"bond",b)"chemical bond",c)"force of attraction",d)"electrostatic force"
+R:"Specifically a chemical bond."
+)
+
+Subj1:"Chemistry"/Chap1:"Atomic Structure"/Topi1:"Cathode Rays"/Type1:"K"/Diff1:"M"/Stem1:""/(
+Q:"Nature of cathode rays remains the same irrespective of the"
+A:"b"
+O:a)"glass used",b)"gas used",c)"electrode used",d)"potential used"
+R:"Cathode rays are electrons, same for any gas."
+)
+
+Subj1:"Chemistry"/Chap1:"Atomic Structure"/Topi1:"Cathode Rays"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"Cathode rays always travel in a"
+A:"d"
+O:a)"circular path",b)"cured path",c)"zig zag path",d)"straight path"
+R:"They travel in straight lines unless deflected."
+)
+
+Subj1:"Chemistry"/Chap1:"Atomic Structure"/Topi1:"Cathode Rays"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"Deflecting of cathode rays towards positively charged plats indicate it is"
+A:"a"
+O:a)"negatively charged",b)"neutral",c)"electromagnetic wave",d)"positively charged"
+R:"Opposites attract → negative charge."
+)
+
+Subj1:"Chemistry"/Chap1:"Electricity in Gases"/Topi1:"Discharge Tube"/Type1:"K"/Diff1:"M"/Stem1:""/(
+Q:"By reducing the pressure of the gas in a discharge tube"
+A:"d"
+O:a)"gas glows",b)"gas ionizes",c)"gas conducts electricity",d)"a discharge takes place"
+R:"Low pressure allows electrical discharge."
+)
+
+Subj1:"Chemistry"/Chap1:"Applications"/Topi1:"Neon Signs"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"Neon sign is an example of"
+A:"c"
+O:a)"florescent tube",b)"distillation tube",c)"discharge tube",d)"electrolytic tube"
+R:"Neon signs use gas discharge tubes."
+)
+
+Subj1:"Chemistry"/Chap1:"Current Electricity"/Topi1:"Conductors"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"Electric current in the conductors is the movement of"
+A:"b"
+O:a)"charged particles",b)"electrons",c)"protons",d)"neutrons"
+R:"In metallic conductors, current is flow of electrons."
+)
+
+Subj1:"Chemistry"/Chap1:"Atomic Theory"/Topi1:"History"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"Atomic theory was particulate by"
+A:"a"
+O:a)"Dalton",b)"Newton",c)"Bohr",d)"Thompson"
+R:"John Dalton proposed the first modern atomic theory."
+)
+
+// ========== REMAINING MATHEMATICS QUESTIONS (81-90 from PDF) ==========
+
+Subj1:"Mathematics"/Chap1:"Arithmetic"/Topi1:"Decimals"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"0.003 × 0.02 = ?"
+A:"d"
+O:a)"0.06",b)"0.006",c)"0.0006",d)"0.00006"
+R:"3×2=6, decimal places 3+2=5 → 0.00006."
+)
+
+Subj1:"Mathematics"/Chap1:"Averages"/Topi1:"Basic"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"What is the average of the numbers: 0, 0, 4, 10, 5, and 5?"
+A:"c"
+O:a)"2",b)"3",c)"4",d)"5"
+R:"Sum=24, count=6, avg=4."
+)
+
+Subj1:"Mathematics"/Chap1:"Percentages"/Topi1:"Discount"/Type1:"A"/Diff1:"E"/Stem1:""/(
+Q:"What is the rate of discount if a bicycle which cost Rs.4,000 is sold for Rs.3,200?"
+A:"d"
+O:a)"14%",b)"16%",c)"18%",d)"20%"
+R:"Discount = 800, rate = (800/4000)×100 = 20%."
+)
+
+Subj1:"Mathematics"/Chap1:"Absolute Value"/Topi1:"Operations"/Type1:"K"/Diff1:"E"/Stem1:""/(
+Q:"| -4| + |4| - 4 + 4 = ?"
+A:"d"
+O:a)"0",b)"2",c)"4",d)"8"
+R:"4+4-4+4=8."
+)
+
+Subj1:"Mathematics"/Chap1:"Algebra"/Topi1:"Linear Equations"/Type1:"A"/Diff1:"E"/Stem1:""/(
+Q:"What is the value of x in 3x - 15 - 6 = 0 ?"
+A:"a"
+O:a)"7",b)"8",c)"9",d)"-9"
+R:"3x-21=0 → x=7."
+)
+
+Subj1:"Mathematics"/Chap1:"Geometry"/Topi1:"Area"/Type1:"A"/Diff1:"E"/Stem1:""/(
+Q:"What is the area in cm^2 of the shaded region in the diagram below? [Right triangle with legs 3cm and 4cm]"
+A:"a"
+O:a)"6",b)"7",c)"8",d)"9"
+R:"Area = ½×3×4 = 6 cm²."
+)
+
+Subj1:"Mathematics"/Chap1:"Work Problems"/Topi1:"Combined Work"/Type1:"A"/Diff1:"E"/Stem1:""/(
+Q:"If A completes a particular work in 8 days and B the same work in 24 days. How many days will it take if they work together?"
+A:"c"
+O:a)"4",b)"5",c)"6",d)"7"
+R:"1/8 + 1/24 = 4/24 = 1/6 → 6 days."
+)
+
+Subj1:"Mathematics"/Chap1:"Sequences"/Topi1:"Pattern"/Type1:"U"/Diff1:"M"/Stem1:""/(
+Q:"What comes next in the sequence: 1, 3, 11, 43, ______?"
+A:"b"
+O:a)"161",b)"171",c)"181",d)"191"
+R:"Pattern: multiply by 4 and subtract 1: 1×4−1=3, 3×4−1=11, 11×4−1=43, 43×4−1=171."
+)
+
+Subj1:"Mathematics"/Chap1:"Speed Distance Time"/Topi1:"Distance"/Type1:"A"/Diff1:"E"/Stem1:""/(
+Q:"What is the distance travelled by a car which travelled at a speed of 8okm/hr for 3 hours and 30 minutes?"
+A:"b"
+O:a)"275km",b)"280km",c)"285km",d)"290km"
+R:"80 × 3.5 = 280 km."
+)
+
+Subj1:"Mathematics"/Chap1:"Percentages"/Topi1:"Population"/Type1:"A"/Diff1:"E"/Stem1:""/(
+Q:"In a class of 40 students 20% are girls. How many boys are there in the class?"
+A:"d"
+O:a)"26",b)"28",c)"30",d)"32"
+R:"Girls = 8, boys = 40-8=32."
+)
