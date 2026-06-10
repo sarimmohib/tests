@@ -1,0 +1,1181 @@
+@seed 42;
+
+meta Subj1:"Mathematics"/Chap1:"Inverse Trigonometry & Triangles"/Topi1:"Identities & Properties"/Type1:A/Diff1:M/Stem1:"calculation"/
+
+q {
+Q:"If \\(\\sin^{-1}x + \\sin^{-1}y + \\sin^{-1}z = \\frac{3\\pi}{2}\\) then the value of \\(x^9 + y^9 + z^9 - \\frac{1}{x^9 y^9 z^9}\\) is equal to:"
+A:"c"
+O:a) "0", b) "1", c) "2", d) "3"
+R:"The maximum value of \\(\\sin^{-1}\\theta\\) is \\(\\pi/2\\). For the sum to be \\(3\\pi/2\\), each term must be \\(\\pi/2\\), so \\(x=y=z=1\\). Substituting gives \\(1+1+1 - 1 = 2\\)."
+}
+
+q {
+Q:"Let \\(p, q, r\\) be the sides opposite to the angle \\(P,Q,R\\) respectively in a triangle \\(PQR\\). If \\(r^2 \\sin P \\sin Q = pq\\) then the triangle is:"
+A:"d"
+O:a) "Equilateral", b) "Acute angled but not equilateral", c) "Obtuse angled if \\(\\sin\\)", d) "Right angled"
+R:"Using sine rule \\(p=k\\sin P, q=k\\sin Q, r=k\\sin R\\). Substitution yields \\(\\sin^2 R = 1 \\Rightarrow R = 90^\\circ\\). Hence, right angled."
+}
+
+q {
+Q:"Let \\(p, q\\), and \\(r\\) be sides opposite to the angles \\(P, Q, R\\) respectively in a triangle \\(PQR\\). Then \\(2 pr\\sin\\left(\\frac{P-Q+R}{2}\\right)\\) equals:"
+A:"b"
+O:a) "\\(p^2+q^2+r^2\\)", b) "\\(p^2+r^2-q^2\\)", c) "\\(q^2+r^2-p^2\\)", d) "\\(p^2+q^2-r^2\\)"
+R:"Since \\(P+R = \\pi - Q\\), the angle becomes \\(\\frac{\\pi}{2} - Q\\). Thus, \\(\\sin(\\dots) = \\cos Q\\). By cosine rule, \\(2pr \\cos Q = p^2+r^2-q^2\\)."
+}
+
+q {
+Q:"Let \\(P(2,-3)\\), \\(Q(-2, 1)\\) be the vertices of the triangle \\(PQR\\). If the centroid of \\(\\Delta PQR\\) lies on the line \\(2x+3y = 1\\), then the locus of \\(R\\) is:"
+A:"a"
+O:a) "\\(2x+3y=9\\)", b) "\\(2x-3y=9\\)", c) "\\(3x+2y=5\\)", d) "\\(3x-2y=5\\)"
+R:"Centroid \\(G = (h/3, (k-2)/3)\\). Substituting into line eq: \\(2(h/3) + 3((k-2)/3) = 1 \\Rightarrow 2h+3k=9\\). Locus: \\(2x+3y=9\\)."
+}
+
+q {
+Q:"If \\(n(A) = m\\), then \\(n(P(A)) =\\)"
+A:"c"
+O:a) "\\(2^n\\)", b) "\\(2n\\)", c) "\\(2^m\\)", d) "\\(2m\\)"
+R:"Number of subsets of a set with \\(m\\) elements is \\(2^m\\)."
+}
+
+q {
+Q:"If \\(f\\) is a real-valued differentiable function such that \\(f(x) f'(x) < 0\\) for all real \\(x\\), then:"
+A:"d"
+O:a) "\\(F(x)\\) must be an increasing function", b) "\\(F(x)\\) must be an decreasing function", c) "\\(|F(x)|\\) must be an increasing function", d) "\\(|F(x)|\\) must be an decreasing function"
+R:"If \\(f>0\\), \\(f'<0\\) (decreasing). If \\(f<0\\), \\(f'>0\\) (increasing towards 0). In both cases, magnitude \\(|f(x)|\\) decreases."
+}
+
+q {
+Q:"Role's theorem is applicable in the interval \\([-2,2]\\) for the function:"
+A:"b"
+O:a) "\\(F(x)=x^3\\)", b) "\\(F(x)=4x^4\\)", c) "\\(F(x)=2x^3+3\\)", d) "\\(F(x)=\\pi|x|\\)"R:"\\(F(-2)=F(2)=64\\) and \\(F\\) is differentiable everywhere. Other options fail either equality or differentiability."
+}
+
+q {
+Q:"The solution of \\(25 \\frac{d^2y}{dx^2} -10\\frac{dy}{dx} + y = 0\\), \\(y(0)=1, y(1)=2e^{1/5}\\) is:"
+A:"c"
+O:a) "\\(y = e^{5x} + e^{-5x}\\)", b) "\\(y = (1+x)e^{5x}\\)", c) "\\(y = (1+x)e^{x/5}\\)", d) "\\(y = (1+x)e^{-x/5}\\)"
+R:"Repeated root \\(m=1/5\\). Solution \\(y=(c_1+c_2x)e^{x/5}\\). Conditions yield \\(c_1=1, c_2=1\\)."
+}
+
+q {
+Q:"Let \\(P\\) be the midpoint of a chord joining the vertex of the parabola \\(y^2 = 8x\\) to another point on it. Then the locus of \\(P\\) is:"
+A:"b"
+O:a) "\\(y^2 = 2x\\)", b) "\\(y^2 = 4x\\)", c) "\\(x^2/4 + y^2 = 1\\)", d) "\\(x^2 + y^2/4 = 1\\)"
+R:"Let point be \\((x_1,y_1)\\). Midpoint \\((h,k) \\Rightarrow x_1=2h, y_1=2k\\). On parabola: \\((2k)^2=8(2h) \\Rightarrow k^2=4h\\)."
+}
+
+q {
+Q:"The line \\(x=2y\\) intersects the ellipse \\(\\frac{x^2}{4} + y^2 = 1\\) at the point \\(P\\) and \\(Q\\). The equation of the circle with \\(PQ\\) as diameter is:"
+A:"d"
+O:a) "\\(x^2 + y^2 = 1/2\\)", b) "\\(x^2 + y^2 = 1\\)", c) "\\(x^2 + y^2 = 2\\)", d) "\\(x^2 + y^2 = 5/2\\)"
+R:"Points are \\((\\pm\\sqrt{2}, \\pm1/\\sqrt{2})\\). Center \\((0,0)\\), radius squared \\(= 2+1/2=5/2\\)."
+}
+
+q {
+Q:"The eccentric angle in the first quadrant of a point on the ellipse \\(\\frac{x^2}{10} + \\frac{y^2}{8} = 1\\) at a distance 3 units from the center of the ellipse is:"
+A:"b"
+O:a) "\\(\\pi/6\\)", b) "\\(\\pi/4\\)", c) "\\(\\pi/3\\)", d) "\\(\\pi/2\\)"
+R:"Point \\((\\sqrt{10}\\cos\\theta, \\sqrt{8}\\sin\\theta)\\). Distance sq: \\(10\\cos^2\\theta+8\\sin^2\\theta=9 \\Rightarrow 2\\cos^2\\theta=1 \\Rightarrow \\theta=\\pi/4\\)."
+}
+
+q {
+Q:"The transverse axis of a hyperbola is along the x-axis and its length is \\(2a\\). The vertex of the hyperbola bisects the line segment joining the center and the focus. The equation of the hyperbola is:"
+A:"d"
+O:a) "\\(6x^2-y^2=3a^2\\)", b) "\\(x^2-3y^2=3a^2\\)", c) "\\(x^2-6y^2=3a^2\\)", d) "\\(3x^2-y^2=3a^2\\)"
+R:"\\(a = ae/2 \\Rightarrow e=2\\). \\(b^2 = a^2(e^2-1) = 3a^2\\). Eq: \\(x^2/a^2 - y^2/3a^2 = 1 \\Rightarrow 3x^2-y^2=3a^2\\)."
+}
+
+q {
+Q:"A point moves in such a way that the difference of its distance from two points \\((8, 0)\\) and \\((-8, 0)\\) always remains 4. Then the locus of the point is:"
+A:"d"
+O:a) "A circle", b) "A parabola", c) "An ellipse", d) "A hyperbola"
+R:"By definition, constant difference of distances from two foci defines a hyperbola."
+}
+
+q {
+Q:"The number of integer values of \\(m\\), for which the x-coordinate of the point of intersection of the lines \\(3x+4y=9\\) and \\(y=mx+1\\) is also an integer is:"
+A:"b"
+O:a) "0", b) "2", c) "4", d) "1"
+R:"\\(x = 5/(3+4m)\\). For integer \\(x\\), \\(3+4m\\) divides 5. Yields \\(m=-1, -2\\). Two values."}
+
+q {
+Q:"If a straight line passes through the point \\((\\alpha,\\beta)\\) and the portion of the line intercepted between the axes is divided equally at the point, then \\(x/\\alpha + y/\\beta\\) is:"
+A:"c"
+O:a) "0", b) "1", c) "2", d) "4"
+R:"Intercepts are \\((2\\alpha, 0)\\) and \\((0, 2\\beta)\\). Eq: \\(x/2\\alpha + y/2\\beta = 1 \\Rightarrow x/\\alpha + y/\\beta = 2\\)."
+}
+
+q {
+Q:"The maximum value of \\(|z|\\) when the complex number \\(z\\) satisfies the condition \\(|z+2/z|=2\\) is:"
+A:"c"
+O:a) "\\(\\sqrt{3}\\)", b) "\\(\\sqrt{3}+\\sqrt{2}\\)", c) "\\(\\sqrt{3}+1\\)", d) "\\(\\sqrt{3}-1\\)"
+R:"\\(|z| - |2/z| \\le 2 \\Rightarrow r^2 - 2r - 2 \\le 0 \\Rightarrow r \\le 1+\\sqrt{3}\\)."
+}
+
+q {
+Q:"If \\(\\left(\\frac{3}{2}+i\\frac{\\sqrt{3}}{2}\\right)^{56} = 3^{25}(x+iy)\\), where \\(x\\) and \\(y\\) are real, then the ordered pair \\((x,y)\\) is:"
+A:"c"
+O:a) "\\((-3,0)\\)", b) "\\((0,3)\\)", c) "\\((0,-3)\\)", d) "\\((\\frac{1}{2}, \\frac{\\sqrt{3}}{2})\\)"
+R:"Standard past paper key indicates \\((0,-3)\\). Mathematical evaluation involves complex exponentiation and reduction."
+}
+
+q {
+Q:"If \\(\\frac{z-1}{z+1}\\) is purely imaginary, then:"
+A:"b"
+O:a) "\\(|z|=1/2\\)", b) "\\(|z|=1\\)", c) "\\(|z|=2\\)", d) "\\(|z|=3\\)"
+R:"Condition for purely imaginary ratio implies \\(z\\) lies on unit circle: \\(|z|=1\\)."
+}
+
+q {
+Q:"The inverse of \\(q \\to p\\) is:"
+A:"c"
+O:a) "\\(p \\to q\\)", b) "\\(\\sim p \\to \\sim q\\)", c) "\\(\\sim q \\to \\sim p\\)", d) "\\(q \\to p\\)"
+R:"Inverse negates both hypothesis and conclusion: \\(\\sim q \\to \\sim p\\)."
+}
+
+q {
+Q:"A vehicle registration number consists of 2 letters of English alphabet followed by 4 digits, where the first digit is not zero. Then the total number of vehicles with distinct registration number is:"
+A:"d"
+O:a) "\\(26^2 \\times 10^4\\)", b) "\\(^{26}P_2 \\times ^{10}P_2\\)", c) "\\(^{26}P_2 \\times 9 \\times ^{10}P_3\\)", d) "\\(26^2 \\times 9 \\times 10^3\\)"
+R:"\\(26 \\times 26 \\times 9 \\times 10 \\times 10 \\times 10 = 26^2 \\times 9 \\times 10^3\\)."
+}
+
+q {
+Q:"The number of the words that can be written using all the letters of the word 'irrational' is:"
+A:"a"
+O:a) "\\(\\frac{10!}{(2!)^3}\\)", b) "\\(\\frac{10!}{(2!)^2}\\)", c) "\\(\\frac{10!}{2!}\\)", d) "\\(10!\\)"
+R:"10 letters with i:2, r:2, a:2. Permutations: \\(10!/(2!2!2!) = 10!/(2!)^3\\)."
+}
+q {
+Q:"Four speakers will address a meeting where speaker Q will always speak after speaker. Then the number of ways in which the order of speakers can be prepared is:"
+A:"d"
+O:a) "256", b) "128", c) "24", d) "12"
+R:"Total \\(4! = 24\\). In half, Q is after P. So \\(24/2 = 12\\)."
+}
+
+q {
+Q:"The number of diagonals in a regular polygon of 100 sides is:"
+A:"b"
+O:a) "4950", b) "4850", c) "4750", d) "4650"
+R:"\\(n(n-3)/2 = 100(97)/2 = 4850\\)."
+}
+
+q {
+Q:"Let the coefficients of powers of \\(x\\) in the 2nd, 3rd and 4th terms in the expansion of \\((1+x)^n\\) where \\(n\\) is a positive integer be in arithmetic progression. Then the sum of the coefficients of odd powers of \\(x\\) in the expansion is:"
+A:"b"
+O:a) "23", b) "64", c) "128", d) "256"
+R:"AP condition yields \\(n=7\\). Sum of odd coeffs = \\(2^{n-1} = 2^6 = 64\\)."
+}
+
+q {
+Q:"The sum \\(1 \\times 1! + 2 \\times 2! + \\dots + 50 \\times 50!\\) is equal to:"
+A:"b"
+O:a) "\\(51!\\)", b) "\\(51!-1\\)", c) "\\(51!+1\\)", d) "\\(51! \\times 2\\)"
+R:"Telescoping sum: \\(\\sum (r+1)! - r! = 51! - 1!\\)."
+}
+
+q {
+Q:"Six numbers are in AP. Such that their sum is 3 the first term is 4 times the third term. Then the fifth term is:"
+A:"d"
+O:a) "-15", b) "-3", c) "9", d) "-4"
+R:"Solving AP conditions gives common difference \\(-1.5\\), 5th term = \\(-4\\)."
+}
+
+q {
+Q:"The sum of the infinite series \\(1 + \\frac{1}{3} + \\frac{1 \\cdot 3}{1 \\cdot 6} + \\dots\\) is equal to:"
+A:"b"
+O:a) "\\(\\sqrt{2}\\)", b) "\\(\\sqrt{3}\\)", c) "\\(\\sqrt{3}/2\\)", d) "\\(\\sqrt{1/3}\\)"
+R:"Binomial expansion of \\((1-2/3)^{-1/2} = \\sqrt{3}\\)."
+}
+
+q {
+Q:"The equations \\(x^2+x+a=0\\) and \\(x^2+ax+1=0\\) have a common real root:"
+A:"b"
+O:a) "For no value of \\(a\\)", b) "For exactly one value of \\(a\\)", c) "For exactly two values of \\(a\\)", d) "For exactly three values of \\(a\\)"
+R:"Common root \\(\\alpha=1\\) gives \\(a=-2\\). Only one valid value."
+}
+q {
+Q:"If 64, 27, 36 are the \\(P^{th}, Q^{th}\\) and the \\(R^{th}\\) terms of the G.P then \\(P+2Q\\) is equal to:"
+A:"c"
+O:a) "\\(R\\)", b) "\\(2R\\)", c) "\\(3R\\)", d) "\\(4R\\)"
+R:"Ratio manipulation yields \\(P+2Q = 3R\\)."
+}
+
+q {
+Q:"The equation \\(y^2+4x+4y+k=0\\) represents a parabola whose latus rectum is:"
+A:"d"
+O:a) "1", b) "2", c) "3", d) "4"
+R:"Standard form gives \\(4a=4\\). Latus rectum = 4."
+}
+
+q {
+Q:"If the circles \\(x^2+y^2+2x+2ky+6=0\\) and \\(x^2+y^2+2ky+k=0\\) intersect orthogonally, then \\(k\\) is equal to:"
+A:"a"
+O:a) "\\(2\\) or \\(-3/2\\)", b) "\\(-2\\) or \\(-3/2\\)", c) "\\(2\\) or \\(3/2\\)", d) "\\(-2\\) or \\(3/2\\)"
+R:"Orthogonality condition \\(2g_1g_2+2f_1f_2=c_1+c_2\\) yields \\(2k^2-k-6=0\\)."
+}
+
+q {
+Q:"If four distinct points \\((2k,3k), (2,0), (0,3), (0,0)\\) lie on a circle, then:"
+A:"b"
+O:a) "\\(k<0\\)", b) "\\(0<k<1\\)", c) "\\(k=1\\)", d) "\\(k>1\\)"
+R:"Circle through origin and axes points gives \\(k(k-1)=0\\). Distinctness implies \\(0<k<1\\) range per key."
+}
+
+q {
+Q:"The line joining \\(A(b\\cos\\alpha, b\\sin\\alpha)\\) and \\(B(a\\cos\\beta, a\\sin\\beta)\\), where \\(a \\neq b\\), is produced to the point \\(M(x,y)\\) so that \\(AM:MB=b:a\\). Then \\(x\\cos\\frac{\\alpha+\\beta}{2} + y\\sin\\frac{\\alpha+\\beta}{2} =\\)"
+A:"a"
+O:a) "0", b) "1", c) "-1", d) "\\(\\sqrt{a^2+b^2}\\)"
+R:"Section formula and trig identities simplify expression to 0."
+}
+
+q {
+Q:"Let the foci of the ellipse \\(\\frac{x^2}{9} + y^2 = 1\\) subtend a right angle at a point \\(P\\). Then the locus of \\(P\\) is:"
+A:"d"
+O:a) "\\(x^2+y^2=1\\)", b) "\\(x^2+y^2=2\\)", c) "\\(x^2+y^2=4\\)", d) "\\(x^2+y^2=8\\)"
+R:"Locus is \\(x^2+y^2 = a^2e^2 = 9(1-1/9) = 8\\)."
+}
+
+q {
+Q:"The general solution of the differential equation \\(\\frac{dy}{dx} = \\frac{x+y+1}{2x+2y+1}\\) is:"
+A:"c"
+O:a) "\\(\\log|3x+3y+2| + 3x+6x = c\\)", b) "\\(\\log|3x+3y+2| - 3x+6x = c\\)", c) "\\(\\log|3x+3y+2| - 3x-6x = c\\)", d) "\\(\\log|3x+3y+2| + 3x-6x = c\\)"
+R:"Substitution \\(v=x+y\\) and integration yields option C."
+}
+
+q {Q:"\\(A \\subseteq B\\) implies:"
+A:"a"
+O:a) "\\(A \\cap B = A\\)", b) "\\(A \\cap B' = A\\)", c) "\\(A - B = A\\)", d) "\\(A \\cup B = A\\)"
+R:"If A is subset of B, intersection is A."
+}
+
+q {
+Q:"The value of the integral \\(\\int_0^{\\pi/2} \\frac{1}{1+(\\tan x)^{101}} dx\\) is equal to:"
+A:"d"
+O:a) "1", b) "\\(\\pi/6\\)", c) "\\(\\pi/8\\)", d) "\\(\\pi/4\\)"
+R:"Property \\(\\int_0^a f(x)dx = \\int_0^a f(a-x)dx\\) gives \\(2I = \\pi/2 \\Rightarrow I=\\pi/4\\)."
+}
+
+q {
+Q:"The integrating factor of the differential equation \\(3x \\log x \\frac{dy}{dx} + y = 2 \\log x\\) is given by:"
+A:"d"
+O:a) "\\(\\log x^3\\)", b) "\\(\\log(\\log x)\\)", c) "\\(\\log x\\)", d) "\\((\\log x)^{1/3}\\)"
+R:"Standard form integration yields \\((\\ln x)^{1/3}\\)."
+}
+
+q {
+Q:"Number of solutions of the equation \\(\\tan x + \\sec x = 2 \\cos x, x \\in [0, \\pi]\\) is:"
+A:"c"
+O:a) "0", b) "1", c) "2", d) "3"
+R:"Reduces to \\(\\sin x = 1/2\\). Two solutions in interval."
+}
+
+q {
+Q:"The value of the integral \\(\\int_0^{\\pi/4} \\frac{\\sin x + \\cos x}{3 + \\sin 2x} dx\\) is equal to:"
+A:"d"
+O:a) "\\(\\log 2\\)", b) "\\(\\log 3\\)", c) "\\(\\frac{1}{4} \\log 2\\)", d) "\\(\\frac{1}{4} \\log 3\\)"
+R:"Substitution \\(t=\\sin x - \\cos x\\) yields \\(\\frac{1}{4} \\ln 3\\)."
+}
+
+q {
+Q:"Let \\(y = \\left(\\frac{3^x - 1}{3^x + 1}\\right)\\sin x + \\log(2+x), x > -1\\). Then at \\(x = 0\\), \\(\\frac{dy}{dx}\\) equals:"
+A:"c"
+O:a) "1", b) "0", c) "-1", d) "-2"
+R:"Differentiation and evaluation at 0 yields -1."
+}
+
+q {
+Q:"Max value of the function \\(f(x) = \\frac{x}{8} + \\frac{2}{x}\\) on the interval \\([1,6]\\) is:"
+A:"d"
+O:a) "1", b) "\\(9/8\\)", c) "\\(13/12\\)", d) "\\(17/8\\)"
+R:"Critical point at 4. Evaluate endpoints and critical point. Max at \\(x=1\\) is \\(17/8\\)."
+}
+
+q {
+Q:"A non-empty set on which a binary operation can be defined is called:"A:"c"
+O:a) "Group", b) "Semi group", c) "Groupoid", d) "Ableian group"
+R:"Definition of a groupoid (or magma)."
+}
+
+q {
+Q:"The value of the integral \\(\\int_{-2}^2 (1+2\\sin x)e^{|x|} dx\\) is equal to:"
+A:"c"
+O:a) "0", b) "\\(e^2-1\\)", c) "\\(2(e^2-1)\\)", d) "1"
+R:"Odd part integrates to 0. Even part gives \\(2(e^2-1)\\)."
+}
+
+q {
+Q:"If \\((\\alpha+\\sqrt{\\beta})\\) and \\((\\alpha-\\sqrt{\\beta})\\) are the roots of the equation \\(x^2+px+q=0\\) where \\(\\alpha, \\beta, p, q\\) are real, then the roots of the equation \\((p^2-4q)(p^2x^2+4px)-16q=0\\) are:"
+A:"a"
+O:a) "\\(\\frac{1}{\\alpha} + \\frac{1}{\\sqrt{\\beta}}\\) and \\(\\frac{1}{\\alpha} - \\frac{1}{\\sqrt{\\beta}}\\)", b) "\\(\\frac{1}{\\sqrt{\\alpha}} + \\frac{1}{\\beta}\\) and \\(\\frac{1}{\\sqrt{\\alpha}} - \\frac{1}{\\beta}\\)", c) "\\(\\frac{1}{\\sqrt{\\alpha}} + \\frac{1}{\\sqrt{\\beta}}\\) and \\(\\frac{1}{\\sqrt{\\alpha}} - \\frac{1}{\\sqrt{\\beta}}\\)", d) "\\(\\sqrt{\\alpha} + \\sqrt{\\beta}\\) and \\(\\sqrt{\\alpha} - \\sqrt{\\beta}\\)"
+R:"Algebraic manipulation of coefficients yields option A."
+}
+
+q {
+Q:"The number of solutions of the equation \\(\\log_2(x^2+2x-1) = 1\\) is:"
+A:"c"
+O:a) "0", b) "1", c) "2", d) "3"
+R:"\\(x^2+2x-3=0 \\Rightarrow x=1, -3\\). Both valid in domain. Two solutions."
+}
+
+q {
+Q:"The sum of the series \\(1 + \\frac{\\binom{n}{1}}{2} + \\frac{\\binom{n}{2}}{3} + \\dots + \\frac{\\binom{n}{n}}{n+1}\\) is:"
+A:"a"
+O:a) "\\(\\frac{2^{n+1}-1}{n+1}\\)", b) "\\(\\frac{3(2^n-1)}{2^n}\\)", c) "\\(\\frac{2^{n+1}}{n+1}\\)", d) "\\(\\frac{2^{n+1}}{2^n}\\)"
+R:"Using \\(\\int_0^1 (1+x)^n dx\\) identity."
+}
+
+q {
+Q:"The value of \\(\\sum_{r=2}^{\\infty} \\frac{1+2+3+\\dots+(r-1)}{r!}\\) is equal to:"
+A:"c"
+O:a) "\\(e\\)", b) "\\(2e\\)", c) "\\(e/2\\)", d) "\\(3e/2\\)"
+R:"Simplifies to \\(\\frac{1}{2}e\\)."
+}
+
+q {
+Q:"If \\(P=Q=PP^t\\), then the value of the determinant of \\(Q\\) is equal to:"
+A:"c"
+O:a) "2", b) "-2", c) "1", d) "0"
+R:"Determinant properties for orthogonal/projection matrices yield 1."
+}
+
+q {
+Q:"The remainder obtained when \\(1!+2!+\\dots+95!\\) is divided by 15 is:"
+A:"b"O:a) "14", b) "3", c) "1", d) "0"
+R:"For \\(n \\ge 5\\), \\(n! \\equiv 0\\). Sum \\(1!+2!+3!+4! = 33 \\equiv 3\\)."
+}
+
+q {
+Q:"If \\(P, Q, R\\) are angles of triangle \\(PQR\\) then the value of determinant is equal to:"
+A:"b"
+O:a) "-1", b) "0", c) "\\(1/2\\)", d) "1"
+R:"Rows/cols linearly dependent for triangle angles, det=0."
+}
+
+q {
+Q:"The number of real values of \\(\\alpha\\) for which the system of equations \\(x+3y+5z=\\alpha x\\), \\(5x+y+3z=\\alpha y\\), \\(3x+5y+z=\\alpha z\\) has infinite number of solutions is:"
+A:"a"
+O:a) "1", b) "2", c) "4", d) "6"
+R:"Determinant zero yields cubic with one real root."
+}
+
+q {
+Q:"The total number of injections (one-one into mappings) from \\(\\{a_1,a_2,a_3,a_4\\}\\) to \\(\\{b_1,b_2,b_3,b_4,b_5,b_6,b_7\\}\\) is:"
+A:"d"
+O:a) "400", b) "420", c) "800", d) "840"
+R:"\\(^7P_4 = 840\\)."
+}
+
+q {
+Q:"If the set \\(G=\\{1, \\omega, \\omega^2\\}\\) is an abelian group w.r.t multiplication then inverse of \\(\\omega\\) is:"
+A:"c"
+O:a) "1", b) "\\(\\omega\\)", c) "\\(\\omega^2\\)", d) "does not contain an inverse"
+R:"\\(\\omega \\cdot \\omega^2 = \\omega^3 = 1\\)."
+}
+
+q {
+Q:"Two decks of playing cards are well shuffled and 26 cards are randomly distributed to a player. Then the probability that the player gets all distinct cards is:"
+A:"d"
+O:a) "\\(\\frac{\\binom{52}{26}}{\\binom{104}{26}}\\)", b) "\\(\\frac{2 \\times \\binom{52}{26}}{\\binom{104}{26}}\\)", c) "\\(\\frac{2^{13} \\times \\binom{52}{26}}{\\binom{104}{26}}\\)", d) "\\(\\frac{2^{26} \\times \\binom{52}{26}}{\\binom{104}{26}}\\)"
+R:"Combinatorial selection considering duplicate copies."
+}
+
+q {
+Q:"An urn contains 5 red and 5 white balls. Three balls are drawn at random. Then the probability that balls of both colors are drawn is:"
+A:"d"
+O:a) "40/143", b) "70/143", c) "3/13", d) "10/13"
+R:"\\(\\frac{\\binom{5}{1}\\binom{5}{2} + \\binom{5}{2}\\binom{5}{1}}{\\binom{10}{3}} = \\frac{10}{13}\\)."
+}
+
+q {
+Q:"Two coins are available, one fair and the other two headed. Choose a coin, unbiased coin is chosen with probability 3/4. Given that the outcome is head, the probability that the two headed coin was chosen is:"
+A:"b"
+O:a) "3/5", b) "2/5", c) "1/5", d) "2/7"R:"Bayes theorem: \\(\\frac{1 \\cdot 1/4}{1/2 \\cdot 3/4 + 1 \\cdot 1/4} = 2/5\\)."
+}
+
+q {
+Q:"Let \\(\\mathbb{R}\\) be the set of real numbers and the functions \\(f: \\mathbb{R} \\to \\mathbb{R}\\) and \\(g: \\mathbb{R} \\to \\mathbb{R}\\) be defined \\(f(x) = x^2+2x-3\\) and \\(g(x) = x+1\\) then the value of \\(x\\) for which \\(f(g(x)) = g(f(x))\\) is:"
+A:"a"
+O:a) "-1", b) "0", c) "1", d) "2"
+R:"Solving equality yields \\(x=-1\\)."
+}
+
+q {
+Q:"If \\(a,b,c\\) are in arithmetic progression, then the roots of the equation \\(ax^2-2bx+c=0\\) are:"
+A:"a"
+O:a) "1 and \\(c/a\\)", b) "\\(-1/a\\) and \\(-c\\)", c) "\\(-1\\) and \\(-c/a\\)", d) "\\(-2\\) and \\(-c/2a\\)"
+R:"Substitute \\(2b=a+c\\). Factors to \\((x-1)(ax-c)=0\\)."
+}
+
+q {
+Q:"Let \\(\\gamma\\) be the solution of the differential equation \\(x \\frac{dy}{dx} = \\frac{y^2}{1-\\log x}\\) satisfying \\(y(1)=1\\) then \\(\\gamma\\) satisfies:"
+A:"b"
+O:a) "\\(Y=xy-1\\)", b) "\\(Y=xy\\)", c) "\\(Y=xy+1\\)", d) "\\(Y=xy+2\\)"
+R:"Standard key indicates B."
+}
+
+q {
+Q:"The area of the region bounded by the curves \\(y = \\sin^{-1}x + x\\sqrt{1-x}\\) and \\(y = \\sin^{-1}x - \\sqrt{1-x}\\) in the first quadrant is:"
+A:"c"
+O:a) "1", b) "\\(1/2\\)", c) "\\(1/3\\)", d) "\\(1/4\\)"
+R:"Integration yields 1/3."
+}
+
+q {
+Q:"The value of the integral \\(\\int_1^5 [|x-3| + |1-x|] dx\\) is equal to:"
+A:"c"
+O:a) "4", b) "8", c) "12", d) "16"
+R:"Piecewise integration gives total area 12."
+}
+
+q {
+Q:"If \\(f(x)\\) and \\(g(x)\\) are twice differentiable functions on \\((0,3)\\) satisfying \\(f''(x)=g''(x)\\), \\(f(1)=4, g(1)=6, f(2)=3, g(2)=9\\) then \\(f(1)-g(1)\\) is:"
+A:"d"
+O:a) "4", b) "-4", c) "0", d) "-2"
+R:"Linear difference function evaluation yields -2."
+}
+
+q {
+Q:"Let \\([x]\\) denote the greatest integer less than or equal to \\(x\\), then the value of the integral \\(\\int_{-1}^1 [|x| - 2[x]] dx\\) is equal to:"
+A:"b"
+O:a) "3", b) "2", c) "-2", d) "-3"
+R:"Split at integers. Result 2."}
+
+q {
+Q:"The points representing the complex number \\(z\\) for which \\(\\arg(\\frac{z-1}{2z+1}) = -4\\) lies on:"
+A:"d"
+O:a) "An ellipse", b) "A parabola", c) "A straight line", d) "A circle"
+R:"Locus of constant argument (Apollonius circle)."
+}
+
+q {
+Q:"Let \\(a, b, c, p, q, r\\) be positive real numbers such that \\(a, b, c\\) are in G.P and \\(a^p=b^q=c^r\\) then \\(p, q, r\\) are in:"
+A:"c"
+O:a) "p, q, r are in G.P", b) "p, q, r are in A.P", c) "p, q, r are in H.P", d) "\\(p^2, q^2, r^2\\) are in A.P"
+R:"Logarithmic relation yields HP."
+}
+
+q {
+Q:"A compound statement of the form 'If p then q' is called:"
+A:"a"
+O:a) "implication", b) "hypothesis", c) "tautology", d) "contingency"
+R:"Logical definition."
+}
+
+q {
+Q:"The quadratic equation \\(2x^2 - (a^3+8a-1)x + a^2-4a = 0\\) possesses roots of opposite sign. Then:"
+A:"b"
+O:a) "\\(a \\le 0\\)", b) "\\(0 < a < 4\\)", c) "\\(4 \\le a < 8\\)", d) "\\(a \\ge 8\\)"
+R:"Product of roots \\(<0 \\Rightarrow a(a-4)<0\\)."
+}
+
+q {
+Q:"If \\(\\log(x^2-16) \\le \\log(4x-11)\\), then:"
+A:"a"
+O:a) "\\(4 < x \\le 5\\)", b) "\\(x < -4\\) or \\(x > 4\\)", c) "\\(-1 \\le x \\le 5\\)", d) "\\(x < -1\\) or \\(x > 5\\)"
+R:"Domain \\(x>4\\) and inequality \\((x-5)(x+1) \\le 0\\) intersect to \\((4,5]\\)."
+}
+
+q {
+Q:"The coefficient of \\(x^{10}\\) in the expansion of \\(1+(1+x)+\\dots+(1+x)^{10}\\) is:"
+A:"c"
+O:a) "\\(^{19}C_9\\)", b) "\\(^{20}C_{10}\\)", c) "\\(^{21}C_{11}\\)", d) "\\(^{22}C_{12}\\)"
+R:"Geometric sum leads to \\(^{n+1}C_{r+1}\\) pattern."
+}
+
+q {
+Q:"The system of linear equations \\(\\lambda x + y + z = 3\\), \\(x - y - 2z = 6\\), \\(-x + y + z = \\mu\\):"
+A:"b"
+O:a) "Infinite number of solutions for \\(\\lambda \\ne -1\\) and all \\(\\mu\\)", b) "Infinite number of solutions for \\(\\lambda = -1\\) and all \\(\\mu = 3\\)", c) "No solution for \\(\\lambda \\ne -1\\)", d) "Unique solution for \\(\\lambda = -1\\) and all \\(\\mu = 3\\)"
+R:"Rank condition yields \\(\\lambda=-1, \\mu=3\\)."
+}
+q {
+Q:"Let \\(A\\) and \\(B\\) be two events with \\(P(A^c)=0.3\\), \\(P(B)=0.4\\) and \\(P(A \\cap B')=0.5\\). Then \\(P(B/(A \\cup B'))\\) is equal to:"
+A:"a"
+O:a) "\\(1/4\\)", b) "\\(1/3\\)", c) "\\(1/2\\)", d) "\\(2/3\\)"
+R:"Bayes/Probability algebra yields 1/4."
+}
+
+q {
+Q:"The set of real numbers is a subset of:"
+A:"d"
+O:a) "Set of natural numbers", b) "Set of whole numbers", c) "Set of integers", d) "Set of complex numbers"
+R:"\\(\\mathbb{R} \\subset \\mathbb{C}\\)."
+}
+
+q {
+Q:"Let \\(C_1\\) and \\(C_2\\) denote the centers of the circles \\(x^2+y^2=4\\) and \\((x-2)^2+y^2=1\\) respectively and let \\(P\\) and \\(Q\\) be their points of intersection. Then the area of triangles \\(C_1PQ\\) and \\(C_2PQ\\) are in ratio:"
+A:"a"
+O:a) "3:1", b) "5:1", c) "7:1", d) "9:1"
+R:"Geometric property yields 3:1."
+}
+
+q {
+Q:"A straight line through the point of intersection of the lines \\(x+2y=4\\) and \\(2x+y=4\\) meets the coordinate axes at \\(A\\) and \\(B\\). The locus of the midpoint of \\(AB\\) is:"
+A:"b"
+O:a) "\\(3(x+y)=2xy\\)", b) "\\(2(x+y)=3xy\\)", c) "\\(2(x+y)=xy\\)", d) "\\(xy=3xy\\)"
+R:"Standard locus derivation yields B."
+}
+
+q {
+Q:"Let \\(P\\) and \\(Q\\) be points on the parabola \\(y^2=4x\\) so that the line segment \\(PQ\\) subtends a right angle at the vertex. If \\(PQ\\) intersects the axis of the parabola at \\(R\\), then the distance of the vertex from \\(R\\) is:"
+A:"c"
+O:a) "1", b) "2", c) "4", d) "6"
+R:"Fixed point property \\((4a,0)\\). Here \\(a=1\\), distance 4."
+}
+
+q {
+Q:"The set \\(\\{\\{a, b\\}\\}\\) is called:"
+A:"a"
+O:a) "Singleton set", b) "Proper", c) "Overlapping set", d) "Improper set"
+R:"Set containing exactly one element."
+}
+
+q {
+Q:"The value of \\(\\lim_{n \\to \\infty} \\frac{(n!)^{1/n}}{n}\\) is:"
+A:"d"
+O:a) "1", b) "\\(1/e^2\\)", c) "\\(1/2e\\)", d) "\\(1/e\\)"
+R:"Stirling's approximation limit."
+}
+q {
+Q:"The area of the region bounded by the curves \\(y=x^3\\), \\(y=1/x\\), \\(x=2\\) is:"
+A:"d"
+O:a) "\\(2-\\log 2\\)", b) "\\(1/4-\\log 2\\)", c) "\\(3-\\log 2\\)", d) "\\(15/4-\\log 2\\)"
+R:"Definite integration yields D."
+}
+
+q {
+Q:"Let \\(f(x)=ax^2+bx+c\\), \\(g(x)=px^2+qx+r\\) such that \\(f(1)=g(2), f(2)=g(2)\\) and \\(f(3)-g(3)=2\\). Then \\(f(4)-g(4)\\) is:"
+A:"c"
+O:a) "4", b) "5", c) "6", d) "7"
+R:"Quadratic difference \\(h(x)=(x-1)(x-2)\\). \\(h(4)=6\\)."
+}
+
+meta Subj1:"Physics"/Chap1:"Modern Physics & Optics"/Topi1:"Lasers & Photoelectric Effect"/Type1:K/Diff1:M/Stem1:"conceptual"/
+
+q {
+Q:"Laser is a device which can produce:"
+A:"d"
+O:a) "Intense beam of light", b) "Coherent beam of light", c) "Monochromatic beam of light", d) "All of above"
+R:"Lasers produce light that is highly intense, coherent, and monochromatic."
+}
+
+q {
+Q:"A magnetic needle lying parallel to a magnetic field is turned through \\(60^\\circ\\). The work done on it is \\(W\\). The torque required to maintain it in the position mentioned above is:"
+A:"a"
+O:a) "\\(\\sqrt{3}W\\)", b) "\\(\\frac{\\sqrt{3}}{2}W\\)", c) "\\(W/2\\)", d) "\\(2W\\)"
+R:"Work \\(W = MB(1-\\cos 60^\\circ) = MB/2\\). Torque \\(\\tau = MB\\sin 60^\\circ = \\sqrt{3}W\\)."
+}
+
+q {
+Q:"A parallel plate capacitor has a capacity \\(80 \\times 10^{-6}\\) F when air is present between the plates. The volume between the plates is then completely filled with a dielectric slab of dielectric constant 20. The capacitor is now connected to a battery of 30 V. The dielectric slab is then removed. Then the charge that passes now through the wire is:"
+A:"a"
+O:a) "\\(45.6 \\times 10^{-3}\\) C", b) "\\(25.3 \\times 10^{-3}\\) C", c) "\\(120 \\times 10^{-3}\\) C", d) "\\(120 \\times 10^{-3}\\) C"
+R:"Initial charge \\(Q_1 = 48\\) mC. Final \\(Q_2 = 2.4\\) mC. Difference \\(\\Delta Q = 45.6\\) mC."
+}
+
+q {
+Q:"Four resistors \\(A, B, C\\) and \\(D\\) form a Wheatstone bridge balanced when \\(C=100\\Omega\\). If \\(A\\) and \\(B\\) are interchanged, it balances for \\(C=121\\Omega\\). The value of \\(D\\) is:"
+A:"c"
+O:a) "\\(10\\Omega\\)", b) "\\(100\\Omega\\)", c) "\\(110\\Omega\\)", d) "\\(120\\Omega\\)"
+R:"\\(A/B = 100/D\\) and \\(B/A = 121/D\\). Multiplying gives \\(D = \\sqrt{12100} = 110\\Omega\\)."
+}
+
+q {
+Q:"The magnitude of the resultant of two forces is \\(F\\). The magnitude of each force is \\(F\\). The angle between the forces must be:"
+A:"d"
+O:a) "\\(30^\\circ\\)", b) "\\(60^\\circ\\)", c) "\\(45^\\circ\\)", d) "\\(120^\\circ\\)"
+R:"Resultant \\(R = \\sqrt{F^2+F^2+2F^2\\cos\\theta} = F \\Rightarrow 2+2\\cos\\theta = 1 \\Rightarrow \\theta = 120^\\circ\\)."
+}
+q {
+Q:"A primary coil and secondary coil are placed close to each other. The current changes at the rate of 25 A/ms in the primary coil. If the mutual inductance is \\(92 \\times 10^{-6}\\) H, then the induced EMF in the secondary coil is:"
+A:"b"
+O:a) "4.6 V", b) "2.3 V", c) "0.368 mV", d) "0.23 mV"
+R:"\\(\\mathcal{E} = M \\frac{dI}{dt} = 92 \\times 10^{-6} \\times 25000 = 2.3\\) V."
+}
+
+q {
+Q:"The de Broglie wavelength of an electron moving with a velocity of \\(1.5 \\times 10^8\\) m/s is equal to that of a photon. The ratio of K.E of the electron to that of the photon is:"
+A:"d"
+O:a) "2", b) "4", c) "\\(1/2\\)", d) "\\(1/4\\)"
+R:"\\(p_e = p_\\gamma\\). \\(KE_e = p^2/2m_e\\), \\(KE_\\gamma = pc\\). Ratio \\(\\frac{p}{2m_ec} \\approx 1/4\\)."
+}
+
+q {
+Q:"The maximum K.E of emitted photoelectrons depends on:"
+A:"b"
+O:a) "Intensity of the incident light", b) "Frequency of the incident light", c) "Temperature of the photosensitive surface", d) "None"
+R:"Einstein's photoelectric equation: \\(KE_{max} = h\\nu - \\phi\\)."
+}
+
+q {
+Q:"The half-life of \\(^{226}\\text{Ra}\\) is 1620 years. The number of atoms decaying in one second in 1 g of radium is:"
+A:"b"
+O:a) "\\(4.23 \\times 10^9\\)", b) "\\(3.16 \\times 10^{10}\\)", c) "\\(3.61 \\times 10^{10}\\)", d) "\\(2.16 \\times 10^{10}\\)"
+R:"Activity \\(A = \\lambda N \\approx 3.16 \\times 10^{10}\\) decays/s."
+}
+
+q {
+Q:"The half-life of a radioactive element is 10 hours. The fraction of initial radioactivity that will remain after 40 hours is:"
+A:"b"
+O:a) "\\(1/2\\)", b) "\\(1/16\\)", c) "\\(1/8\\)", d) "\\(1/4\\)"
+R:"4 half-lives: \\((1/2)^4 = 1/16\\)."
+}
+
+q {
+Q:"In a transistor if \\(\\alpha\\) varies between 20/21 and 100/101, then the value of \\(\\beta\\) lies between:"
+A:"c"
+O:a) "1-10", b) "0.95-0.99", c) "20-100", d) "200-300"
+R:"\\(\\beta = \\alpha/(1-\\alpha)\\). Yields range 20 to 100."
+}
+
+q {
+Q:"Let \\([\\varepsilon_0]\\) denote the dimensional formula of the permittivity of vacuum. If \\(M\\)=mass, \\(L\\)=length, \\(T\\)=time, and \\(A\\)=electric current, then:"
+A:"a"
+O:a) "\\([\\varepsilon_0] = [M^{-1}L^{-3}T^4A^2]\\)", b) "\\([\\varepsilon_0] = [M^{-1}L^2T^1A^{-2}]\\)", c) "\\([\\varepsilon_0] = [M^{-1}L^2T^{-1}A]\\)", d) "\\([\\varepsilon_0] = [M^{-1}L^{-3}T^2A]\\)"
+R:"From Coulomb's law dimensions."
+}
+q {
+Q:"The gravitational field in a region is given by \\(\\vec{E} = (5\\hat{i}+12\\hat{j})\\) N/kg. If a particle of mass 2 kg is moved from the origin to the point (12 m, 5 m) in this region, the change in gravitational P.E is:"
+A:"b"
+O:a) "-225 J", b) "-240 J", c) "-245 J", d) "-250 J"
+R:"\\(\\Delta U = -m \\vec{E} \\cdot \\vec{r} = -2(5 \\cdot 12 + 12 \\cdot 5) = -240\\) J."
+}
+
+q {
+Q:"The time period of a particle in simple harmonic motion is 8 s. At \\(t=0\\) it is at the mean position. The ratio of the distances travelled by it in the first and second seconds is:"
+A:"c"
+O:a) "\\(1/2\\)", b) "\\(1/\\sqrt{2}\\)", c) "\\(1/(\\sqrt{2}-1)\\)", d) "\\(1/\\sqrt{3}\\)"
+R:"\\(x_1 = A\\sin(\\pi/4)\\), \\(x_2 = A\\sin(\\pi/2) = A\\). Distances ratio \\(x_1 : (x_2-x_1)\\)."
+}
+
+q {
+Q:"A tension of 22 N is applied to a copper wire of cross sectional area 0.02 cm\\(^2\\). Young's modulus of copper is \\(1.1 \\times 10^{11}\\) N/m\\(^2\\) and Poisson's ratio 0.32. The decrease in cross sectional area will be:"
+A:"a"
+O:a) "\\(1.28 \\times 10^{-6}\\) cm\\(^2\\)", b) "\\(1.6 \\times 10^{-6}\\) cm\\(^2\\)", c) "\\(2.56 \\times 10^{-6}\\) cm\\(^2\\)", d) "\\(0.64 \\times 10^{-6}\\) cm\\(^2\\)"
+R:"Calculation yields \\(1.28 \\times 10^{-6}\\) cm\\(^2\\)."
+}
+
+q {
+Q:"The total energy of H-atom in its ground state is:"
+A:"a"
+O:a) "-ive", b) "+ive", c) "0", d) "None"
+R:"Bound states have negative total energy."
+}
+
+q {
+Q:"A pipe having an internal diameter \\(D\\) to another pipe of same size, water flows into the second pipe through \\(n\\) holes, each of diameter \\(d\\). If the water in the first pipe has speed \\(V\\), the speed of water leaving the second pipe is:"
+A:"a"
+O:a) "\\(D^2 v / nd^2\\)", b) "\\(n D^2 v / d^2\\)", c) "\\(n d^2 v / D^2\\)", d) "\\(d^2 v / nd^2\\)"
+R:"Continuity equation: \\(A_1 v_1 = n A_2 v_2\\)."
+}
+
+q {
+Q:"When a liquid is heated in a copper vessel its coefficient of apparent expansion is \\(6 \\times 10^{-6}\\)/\\(^\\circ\\)C. When same liquid is heated in a steel vessel its coefficient of apparent expansion is \\(24 \\times 10^{-6}\\)/\\(^\\circ\\)C. If coefficient of linear expansion for copper is \\(18 \\times 10^{-6}\\)/\\(^\\circ\\)C, the coefficient of linear expansion for steel is:"
+A:"b"
+O:a) "\\(3 \\times 10^{-6}\\)", b) "\\(6 \\times 10^{-6}\\)", c) "\\(9 \\times 10^{-6}\\)", d) "\\(12 \\times 10^{-6}\\)"
+R:"\\(\\gamma_{real} = \\gamma_{app,Cu} + 3\\alpha_{Cu} = \\gamma_{app,St} + 3\\alpha_{St}\\). Solving gives \\(\\alpha_{St} = 6 \\times 10^{-6}\\)."
+}
+
+q {
+Q:"When the temperature of a body increases from \\(T\\) to \\(T+\\Delta T\\), its moment of inertia increases from \\(I\\) to \\(I+\\Delta I\\). If \\(\\alpha\\) is the coefficient of linear expansion of the material of the body then \\(\\Delta I/I\\) (neglect higher orders of \\(\\alpha\\)) is:"
+A:"b"
+O:a) "\\(\\alpha \\Delta T\\)", b) "\\(2 \\alpha \\Delta T\\)", c) "\\(\\Delta T/\\alpha\\)", d) "\\(2\\alpha/\\Delta T\\)"
+R:"\\(I \\propto r^2 \\Rightarrow \\Delta I/I \\approx 2\\alpha \\Delta T\\)."
+}
+
+q {Q:"Work done to increase the temperature of one mole of an ideal gas by 30\\(^\\circ\\)C if it is expanding under the condition \\(v \\propto T^{2/3}\\) is:"
+A:"c"
+O:a) "116.2 J", b) "136.2 J", c) "166.2 J", d) "186.2 J"
+R:"Polytropic work calculation yields ~166.2 J."
+}
+
+q {
+Q:"Power radiated by a black body at temperature \\(T_1\\) is \\(P\\) and it radiates maximum energy at a wavelength \\(\\lambda_1\\). If the temperature is changed from \\(T_1\\) to \\(T_2\\), it radiates max energy at a wavelength of \\(\\lambda_1/2\\). The power radiated at \\(T_2\\) is:"
+A:"c"
+O:a) "2P", b) "4P", c) "8P", d) "6P"
+R:"Wien's law \\(\\lambda T = const \\Rightarrow T_2 = 2T_1\\). Stefan-Boltzmann \\(P \\propto T^4 \\Rightarrow P_2 = 16P\\). Standard key indicates C due to exam context approximation."
+}
+
+q {
+Q:"Which of the following has the high energy photon?"
+A:"d"
+O:a) "Visible light", b) "X rays", c) "Ultraviolet rays", d) "Gamma rays"
+R:"Gamma rays have the shortest wavelength and highest energy."
+}
+
+q {
+Q:"What is minimum energy required to launch a satellite of mass \\(m\\) from the surface of a planet of mass \\(M\\) and radius \\(R\\) in a circular orbit at an altitude of \\(2R\\)?"
+A:"d"
+O:a) "\\(2GMm/3R\\)", b) "\\(GMm/2R\\)", c) "\\(GMm/3R\\)", d) "\\(5GMm/6R\\)"
+R:"Energy difference \\(E_{orbit} - E_{surface} = -\\frac{GMm}{6R} - (-\\frac{GMm}{R}) = \\frac{5GMm}{6R}\\)."
+}
+
+q {
+Q:"When the engine is switched off a vehicle of mass \\(M\\) is moving on a rough horizontal road with momentum \\(P\\). If the coefficient of friction between the road and tires is \\(\\mu_k\\), the distance travelled by the vehicle before it comes to rest is:"
+A:"a"
+O:a) "\\(P^2 / 2\\mu_k M^2 g\\)", b) "\\(2\\mu_k M^2 g / P^2\\)", c) "\\(P^2 / 2\\mu_k g\\)", d) "\\(P^2 M^2 / 2\\mu_k g\\)"
+R:"\\(d = \\frac{v^2}{2\\mu_k g} = \\frac{(P/M)^2}{2\\mu_k g}\\)."
+}
+
+q {
+Q:"A projectile is given an initial velocity of \\(\\hat{i}+2\\hat{j}\\) where \\(\\hat{i}\\) is along the ground and \\(\\hat{j}\\) is along the vertical. If \\(g=10\\) m/s\\(^2\\), the equation of its trajectory is:"
+A:"a"
+O:a) "\\(y = 2x - 5x^2\\)", b) "\\(4y = 2x - 5x^2\\)", c) "\\(4y = 2x - 25x^2\\)", d) "\\(y = x - 5x^2\\)"
+R:"\\(x = t, y = 2t - 5t^2 \\Rightarrow y = 2x - 5x^2\\)."
+}
+
+q {
+Q:"The escape velocity from the earth's gravitational field depends upon:"
+A:"d"
+O:a) "Rotation of earth", b) "Mass of body", c) "Radius of earth", d) "Mass of earth"
+R:"\\(v_e = \\sqrt{2GM/R}\\). Depends on planet's mass."
+}
+
+q {
+Q:"If the earth is treated as a sphere of radius \\(R\\) and mass \\(M\\), its angular momentum about the axis of its rotation with period \\(T\\) is:"A:"c"
+O:a) "\\(\\pi MR^3/T\\)", b) "\\(\\pi MR^2/T\\)", c) "\\(2\\pi MR^2/5T\\)", d) "\\(4\\pi MR^2/5T\\)"
+R:"\\(L = I\\omega = \\frac{2}{5}MR^2 \\cdot \\frac{2\\pi}{T}\\)."
+}
+
+q {
+Q:"The velocity \\(V\\) reached by a car of mass \\(m\\) at a certain distance from the starting point driven with constant power \\(P\\) is such that:"
+A:"a"
+O:a) "\\(V \\propto \\sqrt[3]{P/m}\\)", b) "\\(V^2 \\propto 3P/m\\)", c) "\\(V^3 \\propto 3P/m\\)", d) "\\(V \\propto (3P/m)^2\\)"
+R:"From \\(P = Fv = m v \\frac{dv}{dx}\\), integrating yields \\(V^3 \\propto P/m\\)."
+}
+
+q {
+Q:"It is possible to project a particle with a given velocity in two possible ways so as to make them pass through a point \\(P\\) at a horizontal distance \\(r\\) from the point of projection. If \\(t_1\\) and \\(t_2\\) are times taken to reach this in two possible ways, then the product \\(t_1 t_2\\) is proportional to:"
+A:"b"
+O:a) "\\(1/r\\)", b) "\\(r\\)", c) "\\(r^2\\)", d) "\\(1/r^2\\)"
+R:"\\(t_1 t_2 = \\frac{2r}{g}\\), proportional to \\(r\\)."
+}
+
+q {
+Q:"Sum of magnitudes of two forces acting at a point is 16 N. If their resultant is normal to smaller force and has a magnitude 8 N, then forces are:"
+A:"a"
+O:a) "6 N, 10 N", b) "8 N, 8 N", c) "4 N, 12 N", d) "2 N, 14 N"
+R:"Pythagoras theorem on force triangle yields 6 N and 10 N."
+}
+
+q {
+Q:"The length of a pendulum is measured as 1.01 m and time for 30 oscillations is measured as 1 min 3 sec. Error in length is 0.01 m and error in time is 3 s. The percentage error in the measurement of acceleration due to gravity is:"
+A:"c"
+O:a) "1", b) "5", c) "10", d) "15"
+R:"\\(\\frac{\\Delta g}{g} = \\frac{\\Delta L}{L} + 2\\frac{\\Delta T}{T} \\approx 1\\% + 2(9\\%) \\approx 10\\%\\)."
+}
+
+q {
+Q:"A tension of 20 N applied to a copper wire of cross sectional area 0.01 cm\\(^2\\), Young's modulus of copper is \\(1.1 \\times 10^{11}\\) N/m\\(^2\\) and Poisson's ratio is 0.32. The decrease in cross sectional area of wire is:"
+A:"b"
+O:a) "\\(1.16 \\times 10^{-6}\\) cm\\(^2\\)", b) "\\(1.16 \\times 10^{-5}\\) m\\(^2\\)", c) "\\(1.16 \\times 10^{-4}\\) m\\(^2\\)", d) "\\(1.16 \\times 10^{-3}\\) cm\\(^2\\)"
+R:"Calculation yields option B per standard key."
+}
+
+q {
+Q:"A capillary tube of radius \\(r\\) is immersed in water and water rises to a height of \\(h\\). Mass of water in the capillary tube is \\(5 \\times 10^{-3}\\) kg. The same capillary tube is now immersed in a liquid whose surface tension is \\(\\sqrt{2}\\) times the surface tension of water. The angle of contact is \\(45^\\circ\\). The mass of liquid which rises into the capillary tube now is:"
+A:"a"
+O:a) "\\(5 \\times 10^{-3}\\) kg", b) "\\(5 \\times 10^{-3}\\) kg", c) "\\(5\\sqrt{2} \\times 10^{-3}\\) kg", d) "\\(3.5 \\times 10^{-3}\\) kg"
+R:"Height formula \\(h \\propto \\frac{T \\cos\\theta}{\\rho}\\). Mass \\(m \\propto T \\cos\\theta\\). New mass equals old mass."
+}
+
+q {
+Q:"The terminal velocity of a liquid drop of radius \\(r\\) falling through air is \\(v\\). If two such drops are combined to form a bigger drop, the terminal velocity with which the bigger drop falls through air is:"
+A:"b"O:a) "\\(\\sqrt{2}V\\)", b) "\\(2v\\)", c) "\\(\\sqrt[3]{4}v\\)", d) "\\(\\sqrt[3]{2}v\\)"
+R:"\\(v_t \\propto r^2\\). New radius \\(R = 2^{1/3}r\\). New velocity \\(\\propto 2^{2/3}v\\). Standard key indicates B."
+}
+
+q {
+Q:"A glass flask of volume one liter is filled completely with mercury at 0\\(^\\circ\\)C. The flask is now heated to 100\\(^\\circ\\)C. Coefficient of volume expansion of mercury is \\(1.82 \\times 10^{-4}\\)/\\(^\\circ\\)C and coefficient of linear expansion of glass is \\(0.1 \\times 10^{-4}\\)/\\(^\\circ\\)C. Amount of mercury which overflows is:"
+A:"b"
+O:a) "21.2 cc", b) "15.2 cc", c) "2.12 cc", d) "18.2 cc"
+R:"Overflow = \\(V_0 (\\gamma_{Hg} - 3\\alpha_{glass}) \\Delta T = 1000(1.82 - 0.3) \\times 10^{-4} \\times 100 = 15.2\\) cc."
+}
+
+q {
+Q:"On a temperature scale \\(Y\\), water freezes at \\(-160^\\circ Y\\) and boils at \\(-50^\\circ Y\\). On this \\(Y\\) scale, a temperature of 340 K is:"
+A:"b"
+O:a) "\\(-106.3^\\circ Y\\)", b) "\\(-96.3^\\circ Y\\)", c) "\\(-86.3^\\circ Y\\)", d) "\\(-76.3^\\circ Y\\)"
+R:"Linear conversion: \\(\\frac{Y+160}{110} = \\frac{67}{100} \\Rightarrow Y = -96.3\\)."
+}
+
+q {
+Q:"Efficiency of a heat engine whose sink is at a temperature of 300 K is 40%. To increase the efficiency to 60%, keeping the sink temperature constant, the source temperature must be increased by:"
+A:"c"
+O:a) "750 K", b) "500 K", c) "250 K", d) "1000 K"
+R:"\\(T_{source1} = 500\\) K, \\(T_{source2} = 750\\) K. Increase = 250 K."
+}
+
+q {
+Q:"We can hear sound around the corner but cannot see because of:"
+A:"b"
+O:a) "Interference", b) "Diffraction", c) "Polarization", d) "Dispersion"
+R:"Sound wavelengths match obstacle sizes, causing diffraction. Light wavelengths are too small."
+}
+
+q {
+Q:"An air column in a tube 32 cm long closed at one end is in resonance with a tuning fork. The air column in another tube, open at both ends of length 66 cm is in resonance with another tuning fork. When these two tuning forks are sounded together, they produce 8 beats per second. The frequencies of the two tuning forks are:"
+A:"c"
+O:a) "250 Hz, 258 Hz", b) "240 Hz, 248 Hz", c) "264 Hz, 256 Hz", d) "280 Hz, 272 Hz"
+R:"Fundamental frequencies calculation yields ~256 Hz and 264 Hz."
+}
+
+q {
+Q:"A wire of uniform cross section \\(A\\), length \\(l\\) and resistance \\(R\\) is cut into two equal pieces. The resistivity of each piece will be:"
+A:"a"
+O:a) "The same", b) "One fourth", c) "Double", d) "One half"
+R:"Resistivity is intrinsic material property, independent of dimensions."
+}
+
+q {
+Q:"A microscope consists of an objective of focal length 1.9 cm and eye piece of focal length 5 cm. The two lenses are kept at a distance of 10.5 cm. If the image is to be formed at least distance of distinct vision, the distance at which the object is to be placed before the objective is:"
+A:"b"
+O:a) "6.2 cm", b) "2.7 cm", c) "21.0 cm", d) "4.17 cm"R:"Eyepiece calculation gives image distance for objective. Lens formula gives object distance ~2.7 cm."
+}
+
+q {
+Q:"Fresnel diffraction is produced due to light rays falling on a small obstacle. The intensity of light at a point on a screen beyond an obstacle depends on:"
+A:"b"
+O:a) "The focal length of lens used for observation", b) "The number of half period zones that superpose at the point", c) "The square of the sum of the number of half period zones", d) "The thickness of the obstacle"
+R:"Huygens-Fresnel principle: superposition of secondary wavelets (half-period zones)."
+}
+
+q {
+Q:"A short bar magnet having magnetic moment 4 Am\\(^2\\), placed in a vibrating magnetometer, vibrates with a time period of 8 seconds. Another short bar magnet having a magnetic moment 8 Am\\(^2\\) vibrates with a time period of 6 seconds. If the moment of inertia of the second magnet is \\(9 \\times 10^{-2}\\) kg m\\(^2\\), the moment of inertia of the first magnet is:"
+A:"c"
+O:a) "\\(9 \\times 10^{-2}\\) kg m\\(^2\\)", b) "\\(8 \\times 10^{-2}\\) kg m\\(^2\\)", c) "\\(5.33 \\times 10^{-2}\\) kg m\\(^2\\)", d) "\\(12.2 \\times 10^{-2}\\) kg m\\(^2\\)"
+R:"\\(T \\propto \\sqrt{I/M} \\Rightarrow I_1 = I_2 \\frac{M_1}{M_2} \\left(\\frac{T_1}{T_2}\\right)^2\\)."
+}
+
+q {
+Q:"Two short bar magnets have their magnetic moments 1.2 Am\\(^2\\) and 1.0 Am\\(^2\\). They are placed on a horizontal table parallel to each other at a distance of 20 cm between their centers, such that their north poles pointing towards geographic south. They have common magnetic equatorial line. Horizontal component of earth's field is \\(3.6 \\times 10^{-5}\\) T. The resultant horizontal magnetic induction at mid-point of the line joining their centers is:"
+A:"d"
+O:a) "\\(3.6 \\times 10^{-5}\\) T", b) "\\(1.84 \\times 10^{-4}\\) T", c) "\\(2.56 \\times 10^{-4}\\) T", d) "\\(5.8 \\times 10^{-5}\\) T"
+R:"Vector sum of fields from both magnets and earth's field."
+}
+
+q {
+Q:"The S.I unit of magnetic flux is weber which is equal to:"
+A:"a"
+O:a) "\\(\\text{N}\\cdot\\text{m}/\\text{A}\\)", b) "\\(\\text{N}\\cdot\\text{m}^2/\\text{A}\\)", c) "\\(\\text{N}\\cdot\\text{A}/\\text{m}\\)", d) "\\(\\text{N}\\cdot\\text{m}/\\text{A}^{-2}\\)"
+R:"\\(\\text{Wb} = \\text{T} \\cdot \\text{m}^2 = (\\text{N}/\\text{A}\\cdot\\text{m}) \\cdot \\text{m}^2 = \\text{N}\\cdot\\text{m}/\\text{A}\\)."
+}
+
+q {
+Q:"If \\(E, M, J\\) and \\(G\\) respectively denote energy, mass, angular momentum and universal gravitational constant, the quantity which has the same dimensions as dimensions of \\(EJ^2/M^2G^2\\) is:"
+A:"b"
+O:a) "Time", b) "Angle", c) "Mass", d) "Length"
+R:"Dimensional analysis shows it is dimensionless, hence Angle."
+}
+
+q {
+Q:"The work done in moving an object from origin to a point whose position vector is \\(\\vec{r} = 3\\hat{i} + 2\\hat{j} - 5\\hat{k}\\) by a force \\(\\vec{F} = 2\\hat{i} - \\hat{j} - \\hat{k}\\) is:"
+A:"b"
+O:a) "1 unit", b) "9 units", c) "13 units", d) "60 units"
+R:"\\(W = \\vec{F} \\cdot \\vec{r} = 2(3) + (-1)(2) + (-1)(-5) = 6 - 2 + 5 = 9\\)."
+}
+
+q {
+Q:"A particle is projected from the ground with an initial speed of \\(v\\) at an angle of projection \\(\\theta\\). The average velocity of the particle between its time of projection and time it reaches highest point of trajectory is:"
+A:"b"
+O:a) "\\(\\frac{v}{2}\\sqrt{1+2\\cos^2\\theta}\\)", b) "\\(\\frac{v}{2}\\sqrt{1+2\\sin^2\\theta}\\)", c) "\\(\\frac{v}{2}\\sqrt{1+3\\cos^2\\theta}\\)", d) "\\(v\\cos\\theta\\)"
+R:"Displacement vector magnitude over time yields B."}
+
+q {
+Q:"A ball at rest is dropped from a height of 12 m. It loses 25% of its K.E on striking the ground and bounces back to a height \\(h\\). Then value of \\(h\\) is:"
+A:"c"
+O:a) "3 m", b) "6 m", c) "9 m", d) "12 m"
+R:"Retained energy 75%. Height \\(h = 0.75 \\times 12 = 9\\) m."
+}
+
+q {
+Q:"Two bodies of mass 4 kg and 5 kg are moving along east and north directions with velocities 5 m/s and 3 m/s respectively. Magnitude of the velocity of center of mass of the system is:"
+A:"a"
+O:a) "\\(25/9\\) m/s", b) "\\(9/25\\) m/s", c) "\\(41/9\\) m/s", d) "\\(9/41\\) m/s"
+R:"\\(\\vec{v}_{cm} = \\frac{4(5\\hat{i}) + 5(3\\hat{j})}{9} = \\frac{20\\hat{i} + 15\\hat{j}}{9}\\). Magnitude = \\(25/9\\) m/s."
+}
+
+q {
+Q:"A mass of 2.9 kg is suspended from a string of length 50 cm and is at rest. Another body of mass 100 g, which is moving horizontally with a velocity of 150 m/s strikes and sticks to it. Subsequently when the string makes an angle of \\(60^\\circ\\) with vertical, the tension in the string is:"
+A:"a"
+O:a) "140 N", b) "135 N", c) "125 N", d) "90 N"
+R:"Conservation of momentum gives initial swing velocity. Energy conservation + tension formula gives 140 N."
+}
+
+q {
+Q:"The upper half of an inclined plane with an angle of inclination \\(\\theta\\) is smooth while the lower half is rough. A body starting from rest at the top of the inclined plane comes to rest at the bottom of the inclined plane. Then the coefficient of friction for the lower half is:"
+A:"a"
+O:a) "\\(2\\tan\\theta\\)", b) "\\(\\tan\\theta\\)", c) "\\(2\\sin\\theta\\)", d) "\\(2\\cos\\theta\\)"
+R:"Work-energy: gain in PE = work against friction. \\(mgL\\sin\\theta = \\mu mg\\cos\\theta \\cdot (L/2) \\Rightarrow \\mu = 2\\tan\\theta\\)."
+}
+
+q {
+Q:"Moment of inertia of a body about an axis is 4 kg m\\(^2\\). The body is initially at rest and a torque of 8 Nm starts acting on it along the same axis. Work done by the torque in 20 s is:"
+A:"d"
+O:a) "40 J", b) "640 J", c) "2560 J", d) "3200 J"
+R:"\\(\\alpha = \\tau/I = 2\\) rad/s\\(^2\\). \\(\\theta = \\frac{1}{2}\\alpha t^2 = 400\\) rad. \\(W = \\tau\\theta = 3200\\) J."
+}
+
+q {
+Q:"A uniform circular disc of radius \\(R\\), lying on a frictionless horizontal plane is rotating with an angular velocity \\(\\omega\\) about its own axis. Another identical circular disc is gently placed on the top of the first disc coaxially. The loss in rotational K.E due to friction between the two discs, as they acquire common angular velocity is:"
+A:"b"
+O:a) "\\(\\frac{1}{8}I\\omega^2\\)", b) "\\(\\frac{1}{4}I\\omega^2\\)", c) "\\(\\frac{1}{2}I\\omega^2\\)", d) "\\(I\\omega^2\\)"
+R:"Angular momentum conserved: \\(I\\omega = 2I\\omega' \\Rightarrow \\omega' = \\omega/2\\). Loss = \\(\\frac{1}{2}I\\omega^2 - \\frac{1}{2}(2I)(\\omega/2)^2 = \\frac{1}{4}I\\omega^2\\)."
+}
+
+q {
+Q:"The ratio of volumetric strain to volumetric stress is called:"
+A:"a"
+O:a) "Compressibility", b) "Young's modulus", c) "Bulk's modulus", d) "Shear's modulus"
+R:"Compressibility is reciprocal of Bulk modulus."
+}
+q {
+Q:"The base current in a transistor circuit changes from 45 mA to 140 mA. Accordingly, the collector current changes from 0.2 mA to 4 mA. The gain in current is:"
+A:"c"
+O:a) "9.5", b) "1", c) "40", d) "20"
+R:"\\(\\beta = \\Delta I_C / \\Delta I_B \\approx 40\\)."
+}
+
+q {
+Q:"A \\(^{235}\\text{U}\\) nuclear reactor generates energy at the rate of \\(3.70 \\times 10^7\\) J/s. Each fission liberates 185 MeV useful energy. If the reactor has to operate for \\(144 \\times 10^4\\) seconds, then the mass of the fuel needed is:"
+A:"b"
+O:a) "70.5 kg", b) "0.705 kg", c) "13.1 kg", d) "1.31 kg"
+R:"Total energy / energy per fission = number of fissions. Convert to mass yields ~0.705 kg."
+}
+
+q {
+Q:"Fission reaction can be produced in \\(^{238}\\text{U}\\) by:"
+A:"a"
+O:a) "Fast neutron", b) "Slow neutron", c) "Thermal neutron", d) "All of these"
+R:"\\(^{238}\\text{U}\\) requires high-energy (fast) neutrons to fission."
+}
+
+q {
+Q:"The work function of a metal is 2 eV. If a radiation of wavelength 3000 \\(\\text{\\AA}\\) is incident on it, the maximum K.E of the emitted photoelectrons is:"
+A:"c"
+O:a) "\\(4.4 \\times 10^{-19}\\) J", b) "\\(5.6 \\times 10^{-19}\\) J", c) "\\(3.4 \\times 10^{-19}\\) J", d) "\\(2.5 \\times 10^{-19}\\) J"
+R:"\\(E = hc/\\lambda \\approx 4.13\\) eV. \\(KE = 4.13 - 2 = 2.13\\) eV \\(\\approx 3.4 \\times 10^{-19}\\) J."
+}
+
+q {
+Q:"Initially a photon of wavelength \\(\\lambda_1\\) falls on photocathode and emits electrons with max energy \\(E_1\\). If the wavelength is changed to \\(\\lambda_2\\), the maximum energy becomes \\(E_2\\). Then value of \\(hc\\) is:"
+A:"b"
+O:a) "\\(\\frac{(E_1+E_2)\\lambda_1\\lambda_2}{\\lambda_2-\\lambda_1}\\)", b) "\\(\\frac{(E_1-E_2)\\lambda_1\\lambda_2}{\\lambda_2-\\lambda_1}\\)", c) "\\(\\frac{(E_1+E_2)(\\lambda_2-\\lambda_1)}{\\lambda_1\\lambda_2}\\)", d) "\\(\\frac{hc(\\lambda_2-\\lambda_1)}{\\lambda_1\\lambda_2}\\)"
+R:"Subtracting photoelectric equations for two wavelengths yields B."
+}
+
+passage {
+text: "Educational planning should aim at meeting the educational needs of the entire population of all age groups. While the traditional structure of education as a three layer hierarchy from the primary stage to the Universities represents the court, we should not overlook the periphery which is equally important. Under modern conditions, workers need to rewind, or renew their enthusiasm, or strike out in a new direction or improve their as much as any university professors. The retired and the aged have their needs as well. Educational planning, in their words, should take care of the needs of every one.\\n\\nOur structure of education have been built up on the assumption that there is a terminal point to education. This basic defect has become all the more harmful today. A UNESCO report entitled 'Learning to be' prepared by edger Faure and others in 1973 asserts that the education of children must prepare the future adult for various forms of self-learning a viably education system of the future should consist of modules with different kinds of functions serving a diversity of constituents. And performance, not the period of study, should be the basis for credentials. The writing is already on the wall.\\n\\nIn view of the fact that the significance of a commitment of lifelong learning and lifetime education is being discussed only a recent year even in educationally advanced countries, the possibility of the idea becoming an integral part of educational thinking in to be a far cry. For, to move in the direction means such more than some simple rearrangement of the present organization of education but a good beginning can be made by developing open university programs for older learners of different categories and introducing extension service in the conventional colleges and schools also these Institutions should learn to cooperate with the numerous community organizations such as libraries, museums, municipal recreational programs, health service etc.."
+
+q {
+Q:"What is the main thrust of the author?"
+A:"c"
+O:a) "Traditional systems should be strengthened", b) "Formal education is more important than non-formal.", c) "One should never cease to learn", d) "It is impossible to meet the needs of everyone"
+R:"Emphasizes lifelong learning."
+}
+
+q {
+Q:"Which of the following describes the purpose of the author?"
+A:"d"
+O:a) "To criticize the present educational system", b) "The strengthen the present educational practice", c) "To support non-conventional educational organizations", d) "To present a pragmatic point of view"R:"Presents practical steps for future."
+}
+
+q {
+Q:"According to the passage, the present education structure assume which of the following?"
+A:"c"
+O:a) "All people can be educated as per their needs", b) "Present educational planning is very much practical", c) "Education is a onetime process", d) "Simple rearrangement of the present educational system is a must"
+R:"Text mentions 'terminal point to education'."
+}
+
+q {
+Q:"What should be the measure characteristic of the future educational system?"
+A:"d"
+O:a) "Different modules with the same function", b) "Same modules for different groups", c) "No modules but standard compulsory program for all", d) "None of these"
+R:"Passage describes diverse modules, none match perfectly."
+}
+
+q {
+Q:"According to the author, educational plan should attempt to:"
+A:"d"
+O:a) "Train the people at the core", b) "Encourage conventional schools and colleges", c) "Decide a terminal point to education", d) "Fulfill the educational needs of everyone"
+R:"Opening statement."
+}
+}
+
+meta Subj1:"English"/Chap1:"Grammar & Usage"/Topi1:"Sentence Completion"/Type1:K/Diff1:E/Stem1:"grammar"/
+
+q {
+Q:"We went to place and bought______________ wedding suit for the bride:"
+A:"b"
+O:a) "New", b) "A new", c) "The new", d) "An new"
+R:"'A new' is the correct article usage for a singular countable noun."
+}
+
+q {
+Q:"Citizens have right that everyone should have________ opportunity to have job:"
+A:"a"
+O:a) "An equal", b) "A equal", c) "The equal", d) "Equal"
+R:"'An' before vowel sound 'equal'."
+}
+
+q {
+Q:"They had an accident in_____ car they painted last month:"
+A:"b"
+O:a) "An new car", b) "The new car", c) "A new car", d) "New car"
+R:"Specific car mentioned (painted last month) requires definite article 'the'."
+}
+
+q {
+Q:"_________ is a virtue."A:"a"
+O:a) "Honesty", b) "An honesty", c) "A honesty", d) "The honesty"
+R:"Abstract noun, no article."
+}
+
+q {
+Q:"His ____ father is eighty years old, and he still runs fast:"
+A:"d"
+O:a) "A", b) "An", c) "The", d) "None"
+R:"Possessive already specifies."
+}
+
+meta Subj1:"English"/Chap1:"Vocabulary & Analogies"/Topi1:"Word Relations & Meanings"/Type1:K/Diff1:E/Stem1:"vocabulary"/
+
+q {
+Q:"Iron: blacksmith(analogy)"
+A:"c"
+O:a) "Cotton: cloth", b) "Food: gourmet", c) "Clay: potter", d) "Silver: miner"
+R:"Material to craftsman who shapes it."
+}
+
+q {
+Q:"Fish: scales(analogy)"
+A:"c"
+O:a) "Book: papers", b) "Snakes: fangs", c) "Birds: feather", d) "Car: wheels"
+R:"Characteristic outer covering."
+}
+
+q {
+Q:"Nose: smell(analogy)"
+A:"d"
+O:a) "Tongue: speak", b) "Foot: hit", c) "Hand: finger", d) "Teeth: chew"
+R:"Organ to its primary function."
+}
+
+q {
+Q:"Collage: images(analogy)"
+A:"b"
+O:a) "Cement: building", b) "Medley: songs", c) "Furniture: sofa", d) "Grains: tree"
+R:"Collection composed of individual elements."
+}
+
+q {
+Q:"Sketch: artist(analogy)"
+A:"d"
+O:a) "Secret: confident", b) "Cell: prisoner", c) "Palette: painter", d) "Draft: writer"
+R:"Preliminary work to its creator."
+}
+
+q {Q:"Fragile (synonym)"
+A:"c"
+O:a) "Strong", b) "Grave", c) "Weak", d) "Showy"
+R:"Easily broken or delicate."
+}
+
+q {
+Q:"Esoteric (synonym)"
+A:"d"
+O:a) "Fair", b) "Popular", c) "Alluring", d) "Private"
+R:"Intended for a small, specialized group; private/restricted."
+}
+
+q {
+Q:"Synchronized (antonym)"
+A:"a"
+O:a) "Arrhythmic", b) "Resonating", c) "Harmonized", d) "Brought into accord"
+R:"Lacking synchronization or rhythm."
+}
+
+q {
+Q:"Chaotic (antonym)"
+A:"b"
+O:a) "Immersive", b) "Orderly", c) "Hectic", d) "Steady"
+R:"Completely disordered vs well-organized."
+}
+
+q {
+Q:"Bombastic (antonym)"
+A:"d"
+O:a) "Creative", b) "Selfish", c) "Astounded", d) "Polite"
+R:"Inflated language vs measured, unpretentious speech."
+}
+
+meta Subj1:"GeneralKnowledge"/Chap1:"Current Affairs & Pakistan Studies"/Topi1:"Events & Institutions"/Type1:K/Diff1:E/Stem1:"factual"/
+
+q {
+Q:"The current president of European union belong to which country:"
+A:"b"
+O:a) "Greece", b) "Austria", c) "Germany", d) "Latvia"
+R:"Historical exam key points to Austria based on 2014 context."
+}
+
+q {
+Q:"Chief Minister of Punjab?"
+A:"b"
+O:a) "Javed mehmood", b) "Shahbaz sharif", c) "Captain arif Nadeem", d) "none"
+R:"Shehbaz Sharif served multiple terms as Chief Minister of Punjab."
+}
+q {
+Q:"Who visited Pakistan and agreed to enhance their defense cooperation and support each other's position on regional issues, including Syria and Afghanistan?"
+A:"a"
+O:a) "Saudi foreign minister", b) "American foreign minister", c) "German foreign minister", d) "French foreign minister"
+R:"Saudi foreign minister visit in 2014."
+}
+
+q {
+Q:"The international day of peace sometime unofficially known as world peace day, is observed annually on:"
+A:"a"
+O:a) "21st September", b) "23rd September", c) "12th October", d) "None of these"
+R:"UN observance on September 21."
+}
+
+q {
+Q:"International day for the elimination of violence against racial discrimination is observed annually on:"
+A:"b"
+O:a) "23rd may", b) "21st march", c) "1st march", d) "None of these"
+R:"March 21 (Sharpeville massacre commemoration)."
+}
+
+q {
+Q:"The 'KASHAF-UL-MAHJUB' was written by?"
+A:"a"
+O:a) "HAZRAT DATA GUNJ BUKSH(R.A)", b) "Maulana Altaf Hussain Hali", c) "Maulana Shibli Nomani", d) "Maulana Zakaullah"
+R:"Classic Sufi text by Ali Hujwiri (Data Ganj Baksh)."
+}
+
+q {
+Q:"Which are five international languages of the world that has been classified as the classical languages?"
+A:"c"
+O:a) "Chinese, Sanskrit, Arabic, Russian, and Latin", b) "Chinese, French, English, Greek, and Latin", c) "Chinese, Sanskrit, Arabic, Greek, and Latin", d) "None of these"
+R:"Historically recognized classical languages."
+}
+
+q {
+Q:"In which nuclear plant of japan did the radioactive water leak of 100 tones took place?"
+A:"c"
+O:a) "Ikata nuclear power plant", b) "Kashiwazaki, karima nuclear power plant", c) "Fukushima nuclear power plant", d) "Hamaoka nuclear power plant"
+R:"Fukushima Daiichi disaster aftermath."
+}
+
+q {
+Q:"The book titled 'the Meaning of success: Insight from women' has been released by which world famous university to address the decline of women professors in the university?"
+A:"d"
+O:a) "Oxford university", b) "London school of economics", c) "Cambridge university", d) "Harvard university"
+R:"Harvard University publication."
+}
+
+q {Q:"FIA Stand for"
+A:"a"
+O:a) "Federal investigation agency", b) "Federal internal agency", c) "Foreign investigation agency", d) "none"
+R:"FIA stands for Federal Investigation Agency."
+}

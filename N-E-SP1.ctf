@@ -1,0 +1,1172 @@
+@seed 42;
+
+meta Subj1:"Physics"/Chap1:"Vectors & Equilibrium"/Topi1:"Basic Concepts"/Type1:K/Diff1:E/Stem1:"definition"/
+
+q {
+Q:"Which of the following lists of physical quantities consists only of vectors:"
+A:"d"
+O:a) "Time, temperature, velocity", b) "Force, volume, momentum", c) "Velocity, acceleration, mass", d) "Force, acceleration, velocity"
+R:"Force, acceleration, and velocity all have both magnitude and direction, making them vectors. Time, temperature, mass, and volume are scalars."
+}
+
+q {
+Q:"If \\(\\vec{a} \\times \\vec{b}\\) points along negative z-axis, then the vectors \\(\\vec{a}\\) and \\(\\vec{b}\\) must lie in:"
+A:"c"
+O:a) "zx-plane", b) "yx-plane", c) "xy-plane", d) "None of the above"
+R:"The cross product of two vectors in the xy-plane is perpendicular to that plane, i.e., along the z-axis. By the right-hand rule, appropriate orientations yield the negative z-direction."
+}
+
+q {
+Q:"\\(\\hat{k} \\times \\hat{i} = \\)"
+A:"a"
+O:a) "\\(\\hat{j}\\)", b) "\\(-\\hat{j}\\)", c) "\\(\\hat{k}\\)", d) "\\(-\\hat{k}\\)"
+R:"Using the cyclic rule for unit vectors: \\(\\hat{i} \\times \\hat{j} = \\hat{k}\\), \\(\\hat{j} \\times \\hat{k} = \\hat{i}\\), and \\(\\hat{k} \\times \\hat{i} = \\hat{j}\\)."
+}
+
+q {
+Q:"What must be changing when a body is accelerating uniformly along a straight path?"
+A:"b"
+O:a) "The force acting on the body", b) "The velocity of the body", c) "The mass of the body", d) "The speed of the body"
+R:"Acceleration is the rate of change of velocity. Uniform acceleration means velocity changes at a constant rate. Speed may change, but velocity (a vector) definitely changes."
+}
+
+q {
+Q:"The horizontal range of a projectile is maximum when it is thrown at what angle with a certain velocity?"
+A:"b"
+O:a) "\\(30^\\circ\\)", b) "\\(45^\\circ\\)", c) "\\(60^\\circ\\)", d) "\\(90^\\circ\\)"
+R:"Range \\(R = \\frac{v^2 \\sin 2\\theta}{g}\\). This is maximized when \\(\\sin 2\\theta = 1\\), which occurs at \\(2\\theta = 90^\\circ \\Rightarrow \\theta = 45^\\circ\\)."
+}
+
+q {
+Q:"A paratrooper jumping out of an airplane is an example of:"
+A:"c"
+O:a) "Equilibrium", b) "Static Equilibrium", c) "Dynamic Equilibrium", d) "None"
+R:"Initially, the paratrooper accelerates due to gravity. Once terminal velocity is reached (drag equals weight), net force is zero but motion continues, representing dynamic equilibrium. MCQ banks typically classify sustained motion under dynamic equilibrium."
+}
+
+q {
+Q:"The torque on a body will be zero if the angle between \\(\\vec{r}\\) and \\(\\vec{F}\\) is zero or:"
+A:"b"
+O:a) "\\(90^\\circ\\)", b) "\\(180^\\circ\\)", c) "\\(270^\\circ\\)", d) "None"R:"Torque \\(\\tau = rF \\sin\\theta\\). It is zero when \\(\\sin\\theta = 0\\), i.e., \\(\\theta = 0^\\circ\\) or \\(180^\\circ\\) (force parallel or anti-parallel to position vector)."
+}
+
+q {
+Q:"If we go away from the surface of the earth, a distance equal to one third of the radius of the earth, the value of \\(g\\) will be multiplied by:"
+A:"b"
+O:a) "1/2", b) "9/16", c) "1/9", d) "16/9"
+R:"Gravity at height \\(h\\): \\(g' = g \\left(\\frac{R}{R+h}\\right)^2\\). Here \\(h = R/3\\), so \\(g' = g \\left(\\frac{R}{4R/3}\\right)^2 = g \\left(\\frac{3}{4}\\right)^2 = \\frac{9}{16}g\\)."
+}
+
+q {
+Q:"For certain values \\(F\\) and \\(d\\), work done is zero when the angle between the force and displacement is:"
+A:"c"
+O:a) "\\(0^\\circ\\)", b) "\\(30^\\circ\\)", c) "\\(90^\\circ\\)", d) "\\(180^\\circ\\)"
+R:"Work \\(W = Fd \\cos\\theta\\). When \\(\\theta = 90^\\circ\\), \\(\\cos 90^\\circ = 0\\), making work zero regardless of force or displacement magnitude."
+}
+
+q {
+Q:"The force acting on a body in the gravitational field at any point is equal to its:"
+A:"b"
+O:a) "Gravitational mass", b) "Weight", c) "Acceleration", d) "Inertia"
+R:"By definition, weight is the gravitational force acting on a mass: \\(W = mg\\)."
+}
+
+q {
+Q:"What is kinetic energy of a body of mass 10 kg moving with velocity 1 m/s?"
+A:"c"
+O:a) "10 Joules", b) "20 Joules", c) "5 Joules", d) "2.5 Joules"
+R:"\\(KE = \\frac{1}{2}mv^2 = \\frac{1}{2}(10)(1)^2 = 5\\) J. (Note: The paper says \\(1 \\, \\text{m/s}^2\\) which is acceleration; assuming typo for velocity)."
+}
+
+q {
+Q:"Simple harmonic motion is mathematically represented as:"
+A:"a"
+O:a) "\\(a \\propto -x\\)", b) "\\(a \\propto x\\)", c) "\\(v \\propto -x\\)", d) "\\(F \\propto -x\\)"
+R:"SHM requires a restoring force proportional to displacement and directed towards equilibrium, leading to acceleration \\(a = -\\omega^2 x\\), hence \\(a \\propto -x\\)."
+}
+
+q {
+Q:"The frequency of second pendulum is:"
+A:"c"
+O:a) "1 hertz", b) "2 hertz", c) "0.5 hertz", d) "None of the above"
+R:"A second pendulum has a time period \\(T = 2\\) s. Frequency \\(f = 1/T = 0.5\\) Hz."
+}
+
+q {
+Q:"A body with frequency \\(f\\) would complete one vibration in:"
+A:"b"
+O:a) "\\(f\\) seconds", b) "\\(1/f\\) seconds", c) "1 second", d) "\\(1/T\\) seconds"
+R:"Time period \\(T\\) is the time for one vibration, and \\(T = 1/f\\)."}
+
+q {
+Q:"The rate of evaporation depends upon:"
+A:"d"
+O:a) "Nature of liquid", b) "The temperature of liquid and air", c) "The area of the exposed surface of the liquid", d) "All of the above"
+R:"Evaporation rate is influenced by liquid properties (intermolecular forces), temperature (kinetic energy), and surface area (exposed molecules)."
+}
+
+q {
+Q:"The saturated vapour pressure of a given liquid:"
+A:"a"
+O:a) "Increases with rise in temperature", b) "Decreases with rise in temperature", c) "May increase or decrease with rise in temperature", d) "Remains unchanged with rise in temperature"
+R:"Higher temperature gives more molecules enough kinetic energy to escape into vapour phase, increasing saturated vapour pressure."
+}
+
+q {
+Q:"Suppose the coefficient of linear expansion of copper is 0.000156 per degree C. What will be the coefficient of volume expansion of copper sphere per degree C?"
+A:"c"
+O:a) "Same as that of linear expansion", b) "Two times as that of linear expansion", c) "Three times as that of linear expansion", d) "One half as that of linear expansion"
+R:"For isotropic solids, volume expansion coefficient \\(\\gamma \\approx 3\\alpha\\). Thus, \\(3 \\times 0.000156\\)."
+}
+
+q {
+Q:"Length of metal rod is 100 cm and coefficient of linear expansion of metal is \\(0.00002 \\, \\text{K}^{-1}\\). By how many centimeters will it contract when cooled through \\(50^\\circ \\text{C}\\)?"
+A:"b"
+O:a) "1.001", b) "0.150", c) "0.001", d) "0.01"
+R:"\\(\\Delta L = L \\alpha \\Delta T = 100 \\times 0.00002 \\times 50 = 0.1\\) cm. Closest option is B, likely a typo in the source options."
+}
+
+q {
+Q:"The Coulomb force in a medium of relative permittivity \\(\\epsilon_r\\) is given by:"
+A:"a"
+O:a) "\\(F' = F/\\epsilon_r\\)", b) "\\(F' = F\\epsilon_r\\)", c) "\\(F' = \\epsilon_r F\\)", d) "\\(F' = F_0/\\epsilon_r\\epsilon_0\\)"
+R:"The dielectric medium reduces the electric field and force by a factor of \\(\\epsilon_r\\). Thus \\(F' = F_{\\text{vacuum}} / \\epsilon_r\\)."
+}
+
+q {
+Q:"Capacity of a capacitor depends upon:"
+A:"d"
+O:a) "The distance between the plates", b) "The nature of the dielectric between the plates", c) "The size of the plates", d) "All of the above"
+R:"Capacitance \\(C = \\frac{\\epsilon A}{d}\\). It depends on plate area (size), separation distance, and permittivity (dielectric nature)."
+}
+
+q {
+Q:"The magnetic force \\(F_m\\) acting on charge \\(q\\) when it moves with a velocity \\(\\vec{v}\\) through a magnetic field \\(\\vec{B}\\) is given by:"
+A:"a"
+O:a) "\\(F_m = q \\vec{v} \\times \\vec{B}\\)", b) "\\(F_m = q v^2 \\times B\\)", c) "\\(F_m = q v^3 \\times B\\)", d) "\\(F_m = q v^4 \\times B\\)"
+R:"The Lorentz magnetic force law states \\(\\vec{F} = q(\\vec{v} \\times \\vec{B})\\)."
+}
+q {
+Q:"A substance which behaves like a magnet in the presence of a strong magnetic field is called:"
+A:"b"
+O:a) "Magnets", b) "Ferro magnets", c) "Electromagnets", d) "None of the above"
+R:"Ferromagnetic materials exhibit strong magnetization only when placed in an external magnetic field due to domain alignment."
+}
+
+q {
+Q:"In a circuit, if a resistance of the conductor is increased then current in the circuit will:"
+A:"b"
+O:a) "Increase", b) "Decrease", c) "Remain the same", d) "First increase and then decrease"
+R:"Ohm's law: \\(I = V/R\\). Current is inversely proportional to resistance for a constant voltage."
+}
+
+q {
+Q:"The phenomenon that the resistance of a metal falls exactly to zero at a few degrees above absolute zero is called:"
+A:"c"
+O:a) "Conductivity", b) "Low conductivity", c) "Super-conductivity", d) "Low resistivity"
+R:"Superconductivity is the complete disappearance of electrical resistance below a critical temperature."
+}
+
+q {
+Q:"Why should a resistance be introduced in a circuit in series deliberately?"
+A:"b"
+O:a) "To increase current and decrease Voltage", b) "To decrease current and voltage", c) "To make current zero", d) "To make voltage zero"
+R:"Series resistance increases total resistance, thereby reducing circuit current. It also causes a voltage drop across itself, reducing voltage for downstream components."
+}
+
+q {
+Q:"In a house circuit, all electrical appliances are connected in parallel to each other between the line and neutral wires to get:"
+A:"c"
+O:a) "Same current and different voltage", b) "Same current and same potential difference", c) "Different current but same potential difference", d) "Different current and different potential difference"
+R:"Parallel connection ensures each appliance receives the same mains voltage while drawing current according to its own resistance/power rating."
+}
+
+q {
+Q:"Power dissipated in a circuit in the form of \\(V\\) and \\(R\\) can be determined as:"
+A:"b"
+O:a) "\\(P= VI\\)", b) "\\(P= V^2/R\\)", c) "\\(P= R/V^2\\)", d) "\\(P= V/I^2\\)"
+R:"Using \\(P = VI\\) and \\(I = V/R\\), substitution gives \\(P = V(V/R) = V^2/R\\)."
+}
+
+q {
+Q:"Lyman series lies in:"
+A:"b"
+O:a) "Visible region", b) "Ultra violet region", c) "Infra red region", d) "Far-infra red region"
+R:"The Lyman series corresponds to transitions to the ground state (n=1) in hydrogen, which involve high energy photons in the ultraviolet range."
+}
+q {
+Q:"According to Bohr’s theory of hydrogen atom, an electron can revolve around a proton indefinitely if its path is:"
+A:"c"
+O:a) "A spiral of increasing radius", b) "A circle of constantly decreasing radius", c) "A circle of an allowed radius", d) "An ellipse"
+R:"Bohr postulated that electrons only orbit in specific quantized (allowed) radii where angular momentum is an integral multiple of \\(h/2\\pi\\), preventing energy radiation."
+}
+
+q {
+Q:"According to Bohr’s theory of hydrogen atom, the radii \\(R_n\\) of stationary electron orbits is given by the equation:"
+A:"b"
+O:a) "\\(R_n = \\frac{3 n^2 k e}{m v}\\)", b) "\\(R_n = \\frac{n^2 h^2}{4 \\pi^2 m k e^2}\\)", c) "\\(R_n = \\frac{n^2 e}{m v^2}\\)", d) "\\(R_n = \\frac{n^2 h e}{m v}\\)"
+R:"Bohr radius formula derived from quantized angular momentum and Coulomb force balance is \\(R_n = \\frac{n^2 h^2}{4 \\pi^2 m k Z e^2}\\). Option B matches the structure."
+}
+
+q {
+Q:"An interesting application of laser is the production of three dimensional images called:"
+A:"b"
+O:a) "Polygons", b) "Holograms", c) "Ovals", d) "None of the above"
+R:"Holography uses laser coherence to record and reconstruct light fields, producing true 3D images."
+}
+
+q {
+Q:"The laser device used to fragment gallstones and kidney stones is called:"
+A:"c"
+O:a) "Laser beam", b) "Laser scanner", c) "Laser lithotripter", d) "Ruby laser"
+R:"Lithotripsy uses focused shockwaves or laser energy to break calculi into passable fragments."
+}
+
+q {
+Q:"Production of x-rays is a reverse phenomenon of:"
+A:"a"
+O:a) "Photoelectric Effect", b) "Compton Effect", c) "Pair Production", d) "Annihilation of matter"
+R:"Photoelectric effect converts photons to electron kinetic energy. X-ray production (Bremsstrahlung) converts electron kinetic energy into photons."
+}
+
+q {
+Q:"The nucleus of hydrogen with symbol \\({}_1^3\\text{H}\\) is called:"
+A:"c"
+O:a) "Proton", b) "Deuteron", c) "Triton", d) "All of the above"
+R:"\\({}_1^1\\text{H}\\) is protium, \\({}_1^2\\text{H}\\) is deuterium, and \\({}_1^3\\text{H}\\) (tritium nucleus) is triton."
+}
+
+q {
+Q:"Elements with atomic number Z > 82 are:"
+A:"b"
+O:a) "Stable", b) "Unstable", c) "Small", d) "None"
+R:"All elements heavier than lead (Z=82) are radioactive and undergo spontaneous decay."
+}
+
+q {Q:"Which of the following particles has very low penetration power?"
+A:"a"
+O:a) "\\(\\alpha\\)-particle", b) "\\(\\beta\\)-particle", c) "\\(\\gamma\\)-particle", d) "All of the above"
+R:"Alpha particles are heavy and doubly charged, causing rapid ionization and losing energy quickly, thus having very low penetration (stopped by paper)."
+}
+
+q {
+Q:"Which of the following particles move with velocity of light?"
+A:"c"
+O:a) "\\(\\alpha\\)-particle", b) "\\(\\beta\\)-particle", c) "\\(\\gamma\\)-particle", d) "All of the above"
+R:"Gamma rays are high-energy photons and travel at the speed of light \\(c\\) in vacuum."
+}
+
+q {
+Q:"A carbon nucleus emits a particle x and changes into nitrogen according to the equation \\({}_6^{14}\\text{C} \\to {}_7^{14}\\text{N} + x\\). What is x?"
+A:"a"
+O:a) "An electron", b) "A proton", c) "An \\(\\alpha\\)-particle", d) "A neutron"
+R:"Beta decay increases atomic number by 1 while mass remains same. The emitted particle is an electron (\\(\\beta^-\\))."
+}
+
+q {
+Q:"During Pair-Production which particles are produced?"
+A:"c"
+O:a) "Proton & Electron", b) "Electron & Neutron", c) "Electron & Positron", d) "Proton & Neutron"
+R:"Pair production converts a high-energy photon into an electron and its antiparticle, the positron, near a nucleus."
+}
+
+q {
+Q:"The Solid-State Detector is basically:"
+A:"b"
+O:a) "A forward biased PN-junction", b) "A reversed biased PN-junction", c) "A forward biased transistor", d) "A Photocell"
+R:"Solid-state radiation detectors operate in reverse bias to widen the depletion region, allowing ionizing radiation to generate measurable current pulses."
+}
+
+meta Subj1:"Mathematics"/Chap1:"Number Systems & Sets"/Topi1:"Definitions & Properties"/Type1:K/Diff1:E/Stem1:"conceptual"/
+
+q {
+Q:"35 is:"
+A:"b"
+O:a) "A prime number", b) "An integer", c) "A whole number", d) "An irrational number"
+R:"35 is a positive whole number and belongs to the set of integers. It is not prime (divisible by 5 and 7) and is rational."
+}
+
+q {
+Q:"\\(\\forall a, b \\in \\mathbb{R}\\), \\(a \\cdot b = b \\cdot a\\) is called:"
+A:"c"
+O:a) "Closure law of addition", b) "Associative law of addition", c) "Commutative law of multiplication", d) "Associative law of multiplication"
+R:"The commutative law states that the order of operands does not affect the result of the operation."
+}
+q {
+Q:"In \\(\\mathbb{R}\\), the multiplicative identity is:"
+A:"b"
+O:a) "0", b) "1", c) "-1", d) "None"
+R:"Multiplying any real number by 1 leaves it unchanged, satisfying the identity property."
+}
+
+q {
+Q:"The additive inverse of \\(\\frac{2}{3}\\) is:"
+A:"b"
+O:a) "\\(\\frac{3}{2}\\)", b) "\\(-\\frac{2}{3}\\)", c) "\\(-\\frac{3}{2}\\)", d) "0"
+R:"The additive inverse of \\(x\\) is \\(-x\\), because \\(x + (-x) = 0\\)."
+}
+
+q {
+Q:"The multiplicative inverse of 0 is:"
+A:"d"
+O:a) "1", b) "-1", c) "0", d) "Does not exist"
+R:"No number multiplied by 0 yields 1. Division by zero is undefined."
+}
+
+q {
+Q:"The value of \\(i^7\\) is:"
+A:"d"
+O:a) "1", b) "-1", c) "\\(i\\)", d) "\\(-i\\)"
+R:"\\(i^7 = i^{4+3} = i^4 \\cdot i^3 = 1 \\cdot (-i) = -i\\)."
+}
+
+q {
+Q:"If \\(z = 2 + 3i\\), then \\(z^{-1}\\) is:"
+A:"d"
+O:a) "\\(\\frac{2}{13} + \\frac{3}{13}i\\)", b) "\\(\\frac{2}{13} - \\frac{3}{13}i\\)", c) "\\(-\\frac{2}{13} + \\frac{3}{13}i\\)", d) "\\(\\frac{2}{13} - \\frac{3}{13}i\\)"
+R:"\\(z^{-1} = \\frac{\\bar{z}}{|z|^2} = \\frac{2-3i}{2^2+3^2} = \\frac{2-3i}{13} = \\frac{2}{13} - \\frac{3}{13}i\\)."
+}
+
+q {
+Q:"The modulus of 3 is:"
+A:"d"
+O:a) "0", b) "9", c) "-3", d) "3"
+R:"The modulus (absolute value) of a real number is its non-negative value. \\(|3| = 3\\)."
+}
+
+q {
+Q:"The multiplicative inverse of \\(1 - 2i\\) is:"
+A:"a"
+O:a) "\\(\\frac{1}{5} + \\frac{2}{5}i\\)", b) "\\(-\\frac{1}{5} + \\frac{2}{5}i\\)", c) "\\(\\frac{1}{5} - \\frac{2}{5}i\\)", d) "\\(-\\frac{1}{5} - \\frac{2}{5}i\\)"
+R:"\\(\\frac{1}{1-2i} \\times \\frac{1+2i}{1+2i} = \\frac{1+2i}{1+4} = \\frac{1}{5} + \\frac{2}{5}i\\)."
+}
+
+q {Q:"The set of integers is a subset of:"
+A:"d"
+O:a) "The set of natural numbers", b) "The set of whole numbers", c) "The set of prime numbers", d) "The set of rational numbers"
+R:"Every integer can be written as a fraction with denominator 1, so \\(\\mathbb{Z} \\subset \\mathbb{Q}\\)."
+}
+
+q {
+Q:"\\(\\{1, 2, 3\\}\\) is:"
+A:"b"
+O:a) "An infinite set", b) "A finite set", c) "A singleton set", d) "Universal set"
+R:"It contains a countable, specific number of elements (3), making it finite."
+}
+
+q {
+Q:"The sets \\(\\{1, 2, 4\\}\\) and \\(\\{4, 6, 8, 10\\}\\) are:"
+A:"d"
+O:a) "Equal sets", b) "Equivalent sets", c) "Disjoint sets", d) "Overlapping sets"
+R:"They share at least one common element (4), so they overlap."
+}
+
+q {
+Q:"Write down the power set of \\(\\{9, 11\\}\\):"
+A:"d"
+O:a) "\\(\\{\\{9\\}, \\{11\\}\\}\\)", b) "\\(\\{\\emptyset, \\{9\\}, \\{11\\}\\}\\)", c) "\\(\\{\\{9\\}, \\{11\\}, \\{9,11\\}\\}\\)", d) "\\(\\{\\emptyset, \\{9\\}, \\{11\\}, \\{9,11\\}\\}\\)"
+R:"A set with \\(n\\) elements has \\(2^n\\) subsets. For \\(n=2\\), subsets are: \\(\\emptyset, \\{9\\}, \\{11\\}, \\{9,11\\}\\)."
+}
+
+q {
+Q:"\\(\\Phi' =\\)"
+A:"d"
+O:a) "A", b) "\\(\\Phi\\)", c) "A'", d) "U"
+R:"The complement of the empty set (containing no elements) is the universal set (containing all elements under consideration)."
+}
+
+q {
+Q:"If p and q are two statements then their biconditional ‘p iff q’ is denoted by:"
+A:"d"
+O:a) "\\(p \\land q\\)", b) "\\(p \\lor q\\)", c) "\\(p \\to q\\)", d) "\\(p \\leftrightarrow q\\)"
+R:"The biconditional operator \\(\\leftrightarrow\\) means both statements imply each other."
+}
+
+q {
+Q:"The number of subsets of a set having three elements is:"
+A:"c"
+O:a) "4", b) "6", c) "8", d) "None of these"
+R:"Number of subsets = \\(2^n = 2^3 = 8\\)."
+}
+
+q {
+Q:"If \\(A=\\{1,2,3\\}\\) and \\(B=\\{a,b\\}\\) then a function from A to B is:"A:"a"
+O:a) "\\(\\{(1, a), (2, b), (3, a)\\}\\)", b) "\\(\\{(1, a), (2, B)\\}\\)", c) "\\(\\{(a, 1), (b, 2)\\}\\)", d) "\\(\\{(1, 1), (2, 2)\\}\\)"
+R:"A function from A to B must map every element of A to exactly one element of B. Option a satisfies this."
+}
+
+q {
+Q:"A matrix with a single row is called a:"
+A:"b"
+O:a) "Column matrix", b) "Row matrix", c) "Null matrix", d) "Identity matrix"
+R:"By definition, a matrix with dimensions \\(1 \\times n\\) is a row matrix."
+}
+
+q {
+Q:"A square matrix all of whose elements except the main diagonal are zeros is called a:"
+A:"d"
+O:a) "Null matrix", b) "Singular matrix", c) "Symmetric matrix", d) "Diagonal matrix"
+R:"This is the definition of a diagonal matrix."
+}
+
+q {
+Q:"A square matrix A for which \\(A^t = A\\) is called a:"
+A:"b"
+O:a) "Column matrix", b) "Symmetric matrix", c) "Skew-symmetric matrix", d) "Row matrix"
+R:"Transpose equality \\(A^t = A\\) defines symmetry across the main diagonal."
+}
+
+q {
+Q:"Two matrices A and B are conformable for the product AB if:"
+A:"d"
+O:a) "Both A and B are square", b) "Both A and B are symmetric", c) "Number of rows of A = number of columns of B", d) "Number of columns of A = number of rows of B"
+R:"Matrix multiplication requires the inner dimensions to match: \\((m \\times n) \\times (n \\times p)\\)."
+}
+
+q {
+Q:"The transpose of a square matrix is a:"
+A:"c"
+O:a) "Row matrix", b) "Column matrix", c) "Square matrix", d) "Null matrix"
+R:"Transposing swaps rows and columns. If original is \\(n \\times n\\), transpose remains \\(n \\times n\\)."
+}
+
+q {
+Q:"If A is any matrix then its additive inverse is:"
+A:"d"
+O:a) "A", b) "\\(A^{-1}\\)", c) "\\(A^t\\)", d) "-A"
+R:"\\(A + (-A) = 0\\) (zero matrix), satisfying the additive inverse property."
+}
+
+q {
+Q:"\\(\\begin{bmatrix} 3 & 0 & 0 \\\\ 0 & 3 & 0 \\\\ 0 & 0 & 3 \\end{bmatrix}\\) is a:"
+A:"b"O:a) "Diagonal matrix", b) "Scalar matrix", c) "Triangular matrix", d) "Identity matrix"
+R:"A diagonal matrix where all diagonal entries are equal to the same scalar is a scalar matrix."
+}
+
+q {
+Q:"If A is singular then \\(|A| =\\)"
+A:"c"
+O:a) "1", b) "2", c) "0", d) "None of these"
+R:"A singular matrix has no inverse, which occurs if and only if its determinant is zero."
+}
+
+q {
+Q:"If A and B are non singular matrices then \\((AB)^{-1} =\\)"
+A:"d"
+O:a) "\\(A^{-1}\\)", b) "\\(B^{-1}\\)", c) "\\(A^{-1}B^{-1}\\)", d) "\\(B^{-1}A^{-1}\\)"
+R:"The reversal law for matrix inverses: \\((AB)^{-1} = B^{-1}A^{-1}\\)."
+}
+
+q {
+Q:"The transpose of a column matrix is a:"
+A:"d"
+O:a) "Zero matrix", b) "Diagonal matrix", c) "Column matrix", d) "Row matrix"
+R:"Transposing swaps dimensions: \\(n \\times 1\\) becomes \\(1 \\times n\\), which is a row matrix."
+}
+
+q {
+Q:"The transpose of a zero matrix is a:"
+A:"b"
+O:a) "Column matrix", b) "Zero matrix", c) "Row matrix", d) "Scalar matrix"
+R:"Swapping rows and columns of a zero matrix leaves it unchanged."
+}
+
+q {
+Q:"Roots of the equation \\(x^2 - 7x + 10 = 0\\) are:"
+A:"c"
+O:a) "\\(\\{2, -5\\}\\)", b) "\\(\\{-2, 5\\}\\)", c) "\\(\\{2, 5\\}\\)", d) "\\(\\{-2, -5\\}\\)"
+R:"Factorizing: \\((x-2)(x-5) = 0 \\Rightarrow x = 2, 5\\)."
+}
+
+q {
+Q:"\\(4^{1+x} + 4^{1-x} = 10\\) is called:"
+A:"b"
+O:a) "Reciprocal equation", b) "Exponential equation", c) "Radical equation", d) "None of these"
+R:"The variable appears in the exponent, classifying it as an exponential equation."
+}
+
+q {
+Q:"\\(\\omega^{15} =\\)"
+A:"b"
+O:a) "0", b) "1", c) "\\(\\omega\\)", d) "\\(\\omega^2\\)"R:"\\(\\omega\\) is a cube root of unity, so \\(\\omega^3 = 1\\). \\(\\omega^{15} = (\\omega^3)^5 = 1^5 = 1\\)."
+}
+
+q {
+Q:"The quadratic formula is:"
+A:"d"
+O:a) "\\(x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{a}\\)", b) "\\(x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\\)", c) "\\(x = \\frac{b \\pm \\sqrt{b^2+4ac}}{2a}\\)", d) "\\(x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\\)"
+R:"Standard solution for \\(ax^2+bx+c=0\\) is \\(x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\\)."
+}
+
+q {
+Q:"The roots of the equation \\(ax^2 + bx + c = 0\\) are real and equal if:"
+A:"b"
+O:a) "\\(b^2 - 4ac < 0\\)", b) "\\(b^2 - 4ac = 0\\)", c) "\\(b^2 - 4ac \\geq 0\\)", d) "None of these"
+R:"Discriminant \\(\\Delta = 0\\) implies exactly one repeated real root."
+}
+
+q {
+Q:"Roots of the equation \\(x^2 + 5x - 1 = 0\\) are:"
+A:"b"
+O:a) "Rational", b) "Irrational", c) "Complex", d) "None of these"
+R:"Discriminant \\(\\Delta = 25 - 4(1)(-1) = 29\\), which is positive but not a perfect square, yielding irrational roots."
+}
+
+q {
+Q:"The sum of the four fourth roots of unity is:"
+A:"d"
+O:a) "4", b) "3", c) "1", d) "0"
+R:"Roots are \\(1, -1, i, -i\\). Sum = \\(1 - 1 + i - i = 0\\)."
+}
+
+q {
+Q:"The polynomial \\(x - a\\) is a factor of the polynomial \\(f(x)\\) if and only if:"
+A:"c"
+O:a) "\\(f(a)\\) is positive", b) "\\(f(a)\\) is negative", c) "\\(f(a) = 0\\)", d) "None of these"
+R:"Factor Theorem: \\((x-a)\\) divides \\(f(x)\\) iff \\(f(a) = 0\\)."
+}
+
+q {
+Q:"If \\(\\omega\\) is complex cube root of unity then \\(\\omega^2 =\\)"
+A:"d"
+O:a) "0", b) "1", c) "\\(\\omega^3\\)", d) "\\(\\frac{1}{\\omega}\\)"
+R:"Since \\(\\omega^3 = 1\\), multiplying both sides by \\(\\omega^{-1}\\) gives \\(\\omega^2 = \\omega^{-1} = \\frac{1}{\\omega}\\)."
+}
+
+q {
+Q:"If \\(\\alpha, \\beta\\) are roots of \\(2x^2 - 4x + 5 = 0\\) then \\(\\alpha^2\\beta + \\alpha\\beta^2 =\\)"
+A:"c"
+O:a) "1", b) "-1", c) "5", d) "2"
+R:"\\(\\alpha^2\\beta + \\alpha\\beta^2 = \\alpha\\beta(\\alpha+\\beta)\\). From equation: \\(\\alpha+\\beta = -(-4)/2 = 2\\), \\(\\alpha\\beta = 5/2\\). Product = \\((5/2)(2) = 5\\)."}
+
+q {
+Q:"\\(x^3 + 2x^2 - 3x + 5\\) is:"
+A:"b"
+O:a) "A Quadratic equation", b) "A polynomial", c) "Proper rational fractions", d) "Improper rational fraction"
+R:"It is an algebraic expression with non-negative integer exponents, making it a polynomial of degree 3."
+}
+
+q {
+Q:"A fraction in which the degree of the numerator is less than the degree of the denominator is called:"
+A:"c"
+O:a) "Polynomial", b) "Equation", c) "Proper fraction", d) "Improper fraction"
+R:"In rational functions, deg(num) < deg(den) defines a proper rational fraction."
+}
+
+meta Subj1:"Physics"/Chap1:"Measurements & Optics"/Topi1:"Instruments & Waves"/Type1:K/Diff1:E/Stem1:"definition"/
+
+q {
+Q:"Einstein explained the photo-electric effect making the following assumption as a basis that:"
+A:"b"
+O:a) "The mass of the electrons increases", b) "Light consists the photons or quanta", c) "The energy of light increases with speed", d) "The photo-electrons are identical with atomic electrons"
+R:"Einstein proposed light is quantized into discrete packets (photons) with energy \\(E = hf\\), successfully explaining the photoelectric effect."
+}
+
+q {
+Q:"An elevator initially accelerates upward from rest and ascends with uniform speed. Time period of a simple pendulum in the elevator will:"
+A:"b"
+O:a) "Increase and then decrease", b) "Decrease and then increase", c) "Increase", d) "Decrease"
+R:"During upward acceleration, effective \\(g\\) increases \\(\\Rightarrow T = 2\\pi\\sqrt{l/g_{\\text{eff}}}\\) decreases. During uniform speed, acceleration is zero \\(\\Rightarrow g_{\\text{eff}} = g \\Rightarrow T\\) returns to normal (increases relative to accelerated phase)."
+}
+
+q {
+Q:"A simple arrangement by means of which e.m.f.s are compared is known as:"
+A:"b"
+O:a) "Voltmeter", b) "Potentiometer", c) "Ammeter", d) "None of the above"
+R:"A potentiometer measures potential difference without drawing current, allowing precise comparison of EMFs."
+}
+
+q {
+Q:"The physics underlying the operation of a refrigerator most closely resembles the physics underlying:"
+A:"d"
+O:a) "The freezing of water", b) "The melting of ice", c) "The evaporation of water", d) "A heat engine"
+R:"A refrigerator is a heat engine operating in reverse, using work to transfer heat from a cold to a hot reservoir."
+}
+
+q {
+Q:"Let a certain body of mass ‘m’ placed on a horizontal surface move down the inclined plane then downward component of weight is:"
+A:"b"
+O:a) "\\(mg\\cos\\theta\\)", b) "\\(mg\\sin\\theta\\)", c) "\\(mg\\tan\\theta\\)", d) "None"R:"Resolving weight vector along the incline gives \\(mg\\sin\\theta\\) parallel to the surface and \\(mg\\cos\\theta\\) perpendicular."
+}
+
+q {
+Q:"The plane faces of two identical plano convex lenses, each having focal length 40 cm are pressed against each other to form a usual convex lens. The distance from this lens at which an object must be placed to obtain a real, inverted image with magnification one is:"
+A:"a"
+O:a) "40 cm", b) "80 cm", c) "20 cm", d) "60 cm"
+R:"Equivalent focal length \\(1/F = 1/f + 1/f \\Rightarrow F = f/2 = 20\\) cm. For magnification -1, object distance \\(u = 2F = 40\\) cm."
+}
+
+q {
+Q:"The law which gives definition of force is:"
+A:"c"
+O:a) "Newton’s law of gravitation", b) "Third law of motion", c) "Second law of motion", d) "First law of motion"
+R:"Newton's second law \\(\\vec{F} = m\\vec{a}\\) quantitatively defines force as the product of mass and acceleration."
+}
+
+q {
+Q:"Hygrometer is an instrument used for measuring:"
+A:"b"
+O:a) "The compression of water vapour with temperature", b) "The amount of water vapour in the atmosphere", c) "Specific gravity of air", d) "The density of air"
+R:"Hygrometers measure relative humidity or absolute moisture content in air."
+}
+
+q {
+Q:"An inertial frame of reference is one whose:"
+A:"a"
+O:a) "Acceleration is zero", b) "Velocity is changing with time", c) "Acceleration is uniform", d) "Inertia is not zero"
+R:"Inertial frames obey Newton's first law, requiring zero acceleration (constant velocity or rest)."
+}
+
+q {
+Q:"A moving car whose engine is switched off comes to rest after some time due to:"
+A:"c"
+O:a) "Inertia", b) "Its mass", c) "Friction", d) "Earth’s gravitation"
+R:"Frictional forces (air resistance, rolling resistance) oppose motion and dissipate kinetic energy as heat."
+}
+
+q {
+Q:"When two bodies separate instantaneously after collision, the collision is said to be perfectly elastic."
+A:"a"
+O:a) "True", b) "False", c) "Partially true", d) "None"
+R:"In a perfectly elastic collision, kinetic energy and momentum are conserved, and bodies separate without deformation or heat loss. The statement in the prompt matches option (a)."
+}
+
+q {
+Q:"According to the second law of motion, acceleration is proportional to:"
+A:"a"
+O:a) "Force", b) "Time", c) "Mass", d) "Distance"
+R:"\\(a = F/m\\), so for constant mass, acceleration is directly proportional to net force."}
+
+q {
+Q:"When the object is placed at 2f of convex lens then the image formed behind the lens will be:"
+A:"b"
+O:a) "At the focus", b) "At 2f", c) "Beyond 2f", d) "Between f and 2f"
+R:"Object at \\(2f\\) produces a real, inverted image of same size at \\(2f\\) on the other side."
+}
+
+q {
+Q:"When the object is placed at principal focus of a convex lens then the image is formed at:"
+A:"b"
+O:a) "Same distance", b) "Infinity", c) "Same side of lens", d) "Centre of curvature"
+R:"Rays from the focus emerge parallel after refraction, meeting at infinity."
+}
+
+q {
+Q:"Which one of the following cannot measure wavelength of X-rays in any way?"
+A:"d"
+O:a) "Bragg’s law", b) "Diffraction grating", c) "Compton effect", d) "Photo electric effect"
+R:"Photoelectric effect measures photon energy/work function, not wavelength directly via diffraction/interference patterns like the others."
+}
+
+q {
+Q:"Which one of the following properties is not found in both sound and light?"
+A:"c"
+O:a) "Interference", b) "Diffraction", c) "Polarization", d) "Reflection"
+R:"Sound waves in air are longitudinal and cannot be polarized. Light is transverse and can be polarized."
+}
+
+q {
+Q:"The relation between time period T and angular velocity \\(\\omega\\) is given by:"
+A:"c"
+O:a) "\\(T = 2\\pi\\omega\\)", b) "\\(T = \\omega/2\\pi\\)", c) "\\(T = 2\\pi/\\omega\\)", d) "\\(T = v\\omega\\)"
+R:"\\(\\omega = 2\\pi/T \\Rightarrow T = 2\\pi/\\omega\\)."
+}
+
+q {
+Q:"When a body moves in a circle, the angle between its linear velocity v and angular velocity \\(\\omega\\) is:"
+A:"c"
+O:a) "\\(0^\\circ\\)", b) "\\(45^\\circ\\)", c) "\\(90^\\circ\\)", d) "\\(180^\\circ\\)"
+R:"Linear velocity is tangential to the circle, while angular velocity is perpendicular to the plane of rotation (axial). Thus, they are orthogonal."
+}
+
+q {
+Q:"\\(\\pi\\) radians = "
+A:"b"
+O:a) "\\(90^\\circ\\)", b) "\\(180^\\circ\\)", c) "\\(60^\\circ\\)", d) "\\(30^\\circ\\)"
+R:"Standard conversion: \\(\\pi \\text{ rad} = 180^\\circ\\)."
+}
+q {
+Q:"In racing car moving along a circular path the friction at the wheels and banking of roads provides the:"
+A:"a"
+O:a) "Centripetal Force", b) "Centripetal Acceleration", c) "Centre of Mass", d) "Centrifugal Force"
+R:"Centripetal force is the net inward force required for circular motion, provided by friction and banking components."
+}
+
+q {
+Q:"The time period is defined as the time required to traverse......... by a revolving body."
+A:"c"
+O:a) "One radian", b) "180 degrees", c) "One revolution", d) "90 degrees"
+R:"Time period is the duration for one complete cycle or revolution (\\(2\\pi\\) radians)."
+}
+
+q {
+Q:"Which of the following particles can induce artificial radio-activity in certain nuclei?"
+A:"a"
+O:a) "\\(\\alpha\\)-particle", b) "\\(\\beta\\)-particle", c) "\\(\\gamma\\)-particle", d) "All of the above"
+R:"Alpha particles (and neutrons) are commonly used to bombard stable nuclei to induce artificial transmutation."
+}
+
+q {
+Q:"Identify the alpha-particle?"
+A:"d"
+O:a) "\\({}_1^1\\text{H}\\)", b) "\\({}_1^2\\text{H}\\)", c) "\\({}_1^3\\text{H}\\)", d) "\\({}_2^4\\text{He}\\)"
+R:"An alpha particle is a helium nucleus with 2 protons and 2 neutrons: \\({}_2^4\\text{He}\\)."
+}
+
+q {
+Q:"Which of the following particles move with velocity of light?"
+A:"c"
+O:a) "\\(\\alpha\\)-particle", b) "\\(\\beta\\)-particle", c) "\\(\\gamma\\)-particle", d) "All of the above"
+R:"Gamma rays are electromagnetic radiation (photons) and travel at speed \\(c\\) in vacuum."
+}
+
+q {
+Q:"What is kinetic energy of a body of mass 10 kg moving with velocity 1 m/s?"
+A:"c"
+O:a) "10 Joules", b) "20 Joules", c) "5 Joules", d) "2.5 Joules"
+R:"\\(KE = \\frac{1}{2}mv^2 = \\frac{1}{2}(10)(1)^2 = 5\\) J. (Note: Source typo '1m/s²' interpreted as velocity)."
+}
+
+q {
+Q:"Which of the following lists of physical quantities consists only of vectors?"
+A:"d"
+O:a) "Time, temperature, velocity", b) "Force, volume, momentum", c) "Velocity, acceleration, mass", d) "Force, acceleration, velocity"
+R:"Force, acceleration, and velocity possess both magnitude and direction."
+}
+q {
+Q:"If two forces each of magnitude 5N act along the same line on a body, then the magnitude of their resultant will be:"
+A:"b"
+O:a) "5N", b) "10N", c) "20N", d) "30N"
+R:"Forces in same direction add algebraically: \\(5 + 5 = 10\\) N."
+}
+
+q {
+Q:"Applied force F on a body of mass m, moving with acceleration a is:"
+A:"c"
+O:a) "\\(m/a\\)", b) "\\(a/m\\)", c) "\\(ma\\)", d) "\\(m:a\\)"
+R:"Newton's Second Law: \\(F = ma\\)."
+}
+
+q {
+Q:"The first frontier in fundamental sciences is:"
+A:"B"
+O:a) "World of extremely small bodies", b) "World of extremely large bodies", c) "World of middle-sized things", d) "All of them"
+R:"Historically, macroscopic/classical physics (large bodies) was the first frontier, followed by quantum and relativistic scales."
+}
+
+q {
+Q:"The third frontier in fundamental sciences is:"
+A:"A"
+O:a) "World of extremely small bodies", b) "World of extremely large bodies", c) "World of middle-sized things", d) "All of them"
+R:"Quantum mechanics and particle physics represent the frontier of the extremely small."
+}
+
+q {
+Q:"The branch of physics which deals with the atomic nuclei is called:"
+A:"A"
+O:a) "Nuclear physics", b) "Atomic physics", c) "Particle physics", d) "Modern physics"
+R:"Nuclear physics specifically studies constituents and interactions of atomic nuclei."
+}
+
+q {
+Q:"The branch of physics in which we study the structure and properties of solids is called:"
+A:"D"
+O:a) "Nuclear physics", b) "Modern physics", c) "Particle physics", d) "Solid state physics"
+R:"Solid state physics focuses on crystalline structures, band theory, and material properties."
+}
+
+q {
+Q:"The quantities which cannot be defined in terms of other physical quantities are called:"
+A:"C"
+O:a) "Scalar quantities", b) "Vector quantities", c) "Base quantities", d) "Derived quantities"
+R:"Base quantities (like length, mass, time) are fundamental and independent; derived quantities are defined using them."
+}
+
+q {Q:"Graphically a vector is represented by an arrow head with a directed line according to a chosen scale which represents:"
+A:"D"
+O:a) "The direction", b) "Orientation", c) "Magnitude", d) "All of them"
+R:"The arrow's direction indicates orientation, and its length (scale) indicates magnitude."
+}
+
+q {
+Q:"In Cartesian co-ordinate system, usually the x-axis is taken as the:"
+A:"B"
+O:a) "vertical axis", b) "horizontal axis", c) "A & B only", d) "All of them"
+R:"By convention, the x-axis is horizontal and the y-axis is vertical."
+}
+
+q {
+Q:"Sum of the magnitudes of y-components of two vectors which are to be added is equal to the:"
+A:"B"
+O:a) "x-component of the resultant", b) "y-component of the resultant", c) "Both of them", d) "None of them"
+R:"Vector addition is component-wise: \\(R_y = A_y + B_y\\)."
+}
+
+q {
+Q:"The cross product between two vectors will be maximum if the two vectors are:"
+A:"A"
+O:a) "Perpendicular to each other", b) "Parallel to each other", c) "Both of them", d) "None of them"
+R:"Magnitude \\(|\\vec{A} \\times \\vec{B}| = AB\\sin\\theta\\) is maximum when \\(\\sin\\theta = 1 \\Rightarrow \\theta = 90^\\circ\\)."
+}
+
+q {
+Q:"The perpendicular distance from the line of action of force to the pivot point is called:"
+A:"C"
+O:a) "Couple arm", b) "Angular distance", c) "Moment arm", d) "None of them"
+R:"Moment arm (or lever arm) is the perpendicular distance used to calculate torque: \\(\\tau = F \\times d_\\perp\\)."
+}
+
+q {
+Q:"A body is said to be in a state of complete equilibrium if:"
+A:"C"
+O:a) "Its translational acceleration is zero", b) "Its rotational acceleration is zero", c) "Its rotational as well as translational acceleration is zero", d) "Its angular momentum is zero"
+R:"Complete equilibrium requires both net force (translational) and net torque (rotational) to be zero."
+}
+
+q {
+Q:"A change in position of a body from its initial position to its final position is known as:"
+A:"B"
+O:a) "Relative motion", b) "Displacement", c) "distance", d) "Acceleration"
+R:"Displacement is the vector difference between final and initial positions."
+}
+
+q {
+Q:"Velocity is a:"A:"B"
+O:a) "Scalar quantity", b) "Vector quantity", c) "Constant quantity", d) "None of them"
+R:"Velocity has both speed (magnitude) and direction."
+}
+
+q {
+Q:"The velocity of a body at any instant of its motion is known as:"
+A:"B"
+O:a) "Average velocity", b) "Instantaneous velocity", c) "Uniform velocity", d) "None of them"
+R:"Instantaneous velocity is the limit of average velocity as time interval approaches zero."
+}
+
+q {
+Q:"The velocity-time graph of a car is a straight line which rises the same height for equal intervals of time, if it moves with:"
+A:"D"
+O:a) "Zero velocity", b) "Constant velocity", c) "Zero acceleration", d) "Constant acceleration"
+R:"A straight sloped line on a v-t graph indicates constant rate of change of velocity, i.e., constant acceleration."
+}
+
+q {
+Q:"A frame of reference stationed on Earth is approximately an example of:"
+A:"B"
+O:a) "Non-inertial frame", b) "Inertial frame", c) "Accelerating frame", d) "None of them"
+R:"Though Earth rotates, for most local experiments it is treated as an inertial frame."
+}
+
+q {
+Q:"The time of flight of a projectile motion equal to:"
+A:"B"
+O:a) "Half of the time to reach maximum height", b) "Twice the time to reach maximum height", c) "One fourth of time to reach maximum height", d) "Time to reach maximum height"
+R:"Ascent time equals descent time (ignoring air resistance), so total flight time is \\(2 \\times t_{\\text{max height}}\\)."
+}
+
+q {
+Q:"The work done on a pail of water when a person holding the pail by the force F is moving forward, will be:"
+A:"C"
+O:a) "Positive", b) "Negative", c) "Zero", d) "None of them"
+R:"Force is vertical (upward), displacement is horizontal. Angle = \\(90^\\circ\\), so \\(W = Fd\\cos 90^\\circ = 0\\)."
+}
+
+q {
+Q:"If the angle \\(\\theta\\) between the force and displacement is greater than 90, then the work done will be:"
+A:"B"
+O:a) "Positive", b) "Negative", c) "zero", d) "Maximum"
+R:"\\(\\cos\\theta\\) is negative for \\(90^\\circ < \\theta < 270^\\circ\\), making work negative."
+}
+
+q {
+Q:"If work is done at the rate of 1000 joules per second, then the power of machine is:"
+A:"B"O:a) "One watt", b) "One kilowatt", c) "Half-watt", d) "One megawatt"
+R:"Power = Work/Time. \\(1000 \\, \\text{J/s} = 1000 \\, \\text{W} = 1 \\, \\text{kW}\\)."
+}
+
+q {
+Q:"According to the work-energy principle, work done on a body is always:"
+A:"C"
+O:a) "Less than the change in its K.E", b) "Greater than the change in its K.E", c) "Equals to the change in its K.E", d) "None of them"
+R:"Work-Energy Theorem: Net work = Change in kinetic energy (\\(W = \\Delta KE\\))."
+}
+
+q {
+Q:"We can obtain bio-gas by rotting of bio-mass in a closed tank called:"
+A:"D"
+O:a) "Tanker", b) "Boiler", c) "Container", d) "Digester"
+R:"Anaerobic digestion occurs in a digester tank to produce methane-rich biogas."
+}
+
+q {
+Q:"A layer of a rock holding water that allows water to percolate through it with pressure is:"
+A:"A"
+O:a) "Aquifer", b) "Deaquifer", c) "Both of these", d) "None of these"
+R:"An aquifer is an underground permeable rock layer that stores and transmits groundwater."
+}
+
+q {
+Q:"The direction associated with the angular displacement is:"
+A:"C"
+O:a) "Along the radius", b) "Perpendicular to radius", c) "Along the axis of rotation", d) "All of them"
+R:"Angular displacement is an axial vector directed along the axis of rotation (right-hand rule)."
+}
+
+q {
+Q:"Which of the following quantity has direction along the axis of rotation?"
+A:"D"
+O:a) "Angular displacement", b) "Angular velocity", c) "Angular acceleration", d) "All of them"
+R:"All rotational vectors (displacement, velocity, acceleration) are axial and point along the axis."
+}
+
+q {
+Q:"The three angular equations hold true in the case when:"
+A:"B"
+O:a) "There is no fixed axis of rotation", b) "There is a axis of rotation", c) "There is no axis of rotation", d) "All of them"
+R:"Kinematic equations for rotation assume rotation about a fixed axis with constant angular acceleration."
+}
+
+q {
+Q:"The force which is needed to move the body in circular path is known as:"
+A:"B"
+O:a) "Centrifugal force", b) "Centripetal force", c) "Gravitational force", d) "None of them"R:"Centripetal force is the real inward force required to maintain circular motion."
+}
+
+q {
+Q:"The moment of inertia depends upon:"
+A:"C"
+O:a) "Mass of the object", b) "Square of the radius", c) "Both of them", d) "None of them"
+R:"\\(I = \\sum mr^2\\). It depends on mass distribution relative to the axis (mass and distance squared)."
+}
+
+q {
+Q:"Who says that gravity follow an inverse square law (except in strong gravitational fields)?"
+A:"B"
+O:a) "Einstein", b) "Newton", c) "Plank", d) "Maxwell"
+R:"Newton's Law of Universal Gravitation states \\(F \\propto 1/r^2\\)."
+}
+
+q {
+Q:"Einstein’s theory was hailed as:"
+A:"B"
+O:a) "Natural triumph", b) "Scientific triumph", c) "Both of them", d) "None of them"
+R:"Relativity revolutionized physics, widely recognized as a monumental scientific achievement."
+}
+
+meta Subj1:"English"/Chap1:"Grammar & Usage"/Topi1:"Sentence Completion"/Type1:K/Diff1:M/Stem1:"grammar"/
+
+q {
+Q:"Miss Watson termed Hock’s behavior _____ because in her opinion nothing could excuse his deliberate disregard of her commands."
+A:"d"
+O:a) "devious", b) "intolerant", c) "Irrevocable", d) "indefensible"
+R:"'Indefensible' means incapable of being justified or excused, fitting the context of 'nothing could excuse'."
+}
+
+q {
+Q:"Either the surfing at Maui is _____, or I went there on an off day."
+A:"d"
+O:a) "Consistent", b) "Thrilling", c) "Invigorating", d) "Overrated"
+R:"The speaker implies disappointment, suggesting the reputation exceeds reality ('overrated') or timing was poor."
+}
+
+q {
+Q:"Your _____ remarks spoil the effect of your speech; try not to stray from your subject."
+A:"b"
+O:a) "innocuous", b) "Digressive", c) "Derogatory", d) "Persistent"
+R:"'Digressive' means departing from the main subject, matching 'stray from your subject'."
+}
+
+q {
+Q:"We need both ornament and implement in our society; we need the artist and the _____."
+A:"d"O:a) "beautician", b) "Writer", c) "politician", d) "Artisan"
+R:"An 'artisan' is a skilled craft worker who makes things by hand, contrasting/complementing the creative artist."
+}
+
+q {
+Q:"When such _____ remarks are circulated, we can only blame and despise those who produce them."
+A:"c"
+O:a) "adulatory", b) "Chance", c) "reprehensible", d) "redundant"
+R:"'Reprehensible' means deserving blame or censure, fitting 'blame and despise'."
+}
+
+q {
+Q:"The stereotypical image of masculinity assumes that weeping is _____ 'unmanly' behaviour, and not simply a human reaction which may be _____ by either sex."
+A:"d"
+O:a) "Inexplicably... repented", b) "Excessively... discerned", c) "Essentially... defined", d) "Inherently... adopted"
+R:"'Inherently' suggests an intrinsic quality, and 'adopted' means taken on or exhibited by either sex."
+}
+
+meta Subj1:"English"/Chap1:"Vocabulary & Analogies"/Topi1:"Word Relations & Meanings"/Type1:K/Diff1:E/Stem1:"vocabulary"/
+
+q {
+Q:"FRAGILE : BREAK ::"
+A:"d"
+O:a) "vital: destroy", b) "hostile: invite", c) "vivid: grow", d) "flexible: bend"
+R:"Something fragile is prone to break. Something flexible is prone to bend. Property-to-action relationship."
+}
+
+q {
+Q:"TELLER : BANK ::"
+A:"c"
+O:a) "Artist: museum", b) "Cashier: check", c) "Waiter: restaurant", d) "Borrower: loan"
+R:"A teller works in a bank. A waiter works in a restaurant. Professional-to-workplace relationship."
+}
+
+q {
+Q:"INNING : BASEBALL ::"
+A:"a"
+O:a) "round: boxing", b) "puck: hockey", c) "touchdown: football", d) "serve: tennis"
+R:"An inning is a division of a baseball game. A round is a division of a boxing match. Part-to-whole/structural relationship."
+}
+
+q {
+Q:"DEGREE : TEMPERATURE ::"
+A:"a"
+O:a) "ounce: weight", b) "fathom: volume", c) "mass: energy", d) "time: length"
+R:"A degree is a unit of temperature. An ounce is a unit of weight. Unit-to-quantity relationship."
+}
+
+q {
+Q:"PICK : GUITAR ::"A:"d"
+O:a) "peg: ukelele", b) "string: banjo", c) "pipe: organ", d) "bow: violin"
+R:"A pick is used to play a guitar. A bow is used to play a violin. Tool-to-instrument relationship."
+}
+
+q {
+Q:"OMNIPOTENT:"
+A:"A"
+O:a) "Weak", b) "Strong", c) "Sour", d) "Safe"
+R:"Omnipotent means having unlimited power. Weak is the direct antonym."
+}
+
+q {
+Q:"NERVOUS:"
+A:"C"
+O:a) "Courageous", b) "Puzzle", c) "Bold", d) "Trainee"
+R:"Nervous implies anxiety or lack of confidence. Bold implies fearlessness and confidence."
+}
+
+q {
+Q:"NOTORIOUS:"
+A:"A"
+O:a) "Renowned", b) "Invincible", c) "Inactive", d) "Fashionable"
+R:"Notorious means famous for a bad reason. Renowned means famous for a good reason (contextual opposite in fame quality)."
+}
+
+q {
+Q:"NOCTURNAL:"
+A:"B"
+O:a) "Patrolling", b) "Daily", c) "Harsh", d) "Marauding"
+R:"Nocturnal means active at night. Daily (diurnal) implies daytime or regular daily occurrence."
+}
+
+q {
+Q:"OBDURATE:"
+A:"C"
+O:a) "Fleeting", b) "Finite", c) "Yielding", d) "Permanent"
+R:"Obdurate means stubbornly refusing to change. Yielding means compliant or flexible."
+}
+
+meta Subj1:"English"/Chap1:"Reading Comprehension"/Topi1:"Hobbies & Life"/Type1:U/Diff1:M/Stem1:"passage"/
+
+passage {
+text: "To be happy and really safe, one ought to have at least two or three hobbies and they must all be real. It is no use starting late in life to say “I will take an interest in this or that”. A man may acquire great knowledge of topics unconnected with his daily work and yet hardly get any benefit or relief."
+
+q {
+Q:"The writer argues that for real happiness:"
+A:"b"
+O:a) "More than one hobbies are preferable", b) "Two or three hobbies are essential", c) "Hobbies are quite important", d) "Hobbies should be interesting"
+R:"The passage explicitly states: 'one ought to have at least two or three hobbies'."}
+
+q {
+Q:"The phrase ‘ought to’ in the first sentence suggests:"
+A:"c"
+O:a) "Liking", b) "Likelihood", c) "Compulsion", d) "Preference"
+R:"'Ought to' implies a moral obligation or strong necessity, closer to compulsion than mere preference."
+}
+
+q {
+Q:"The words ‘this or that’ in the second sentence refer to:"
+A:"a"
+O:a) "Hobbies", b) "Topics", c) "Daily work", d) "None of the above"
+R:"The sentence discusses taking up interests late in life, referring to potential hobbies."
+}
+
+q {
+Q:"Select the choice closest in meaning to the word ‘hardly’ in the last sentence:"
+A:"d"
+O:a) "Rarely", b) "Never", c) "Infrequently", d) "Scarcely"
+R:"'Hardly' means barely or scarcely, indicating very little benefit or relief."
+}
+}
+
+meta Subj1:"GeneralKnowledge"/Chap1:"Intelligence & Reasoning"/Topi1:"Series & Direction"/Type1:A/Diff1:M/Stem1:"calculation"/
+
+q {
+Q:"Look at this series: 2, 1, (1/2), (1/4),... What number should come next?"
+A:"b"
+O:a) "(1/3)", b) "(1/8)", c) "(2/8)", d) "(1/16)"
+R:"Each term is half the previous term: \\(1/4 \\div 2 = 1/8\\)."
+}
+
+q {
+Q:"Look at this series: 7, 10, 8, 11, 9, 12,... What number should come next?"
+A:"b"
+O:a) "7", b) "10", c) "12", d) "13"
+R:"Alternating pattern: +3, -2, +3, -2... Next: \\(12 - 2 = 10\\)."
+}
+
+q {
+Q:"Look at this series: 36, 34, 30, 28, 24,... What number should come next?"
+A:"b"
+O:a) "20", b) "22", c) "23", d) "26"
+R:"Pattern: -2, -4, -2, -4... Next: \\(24 - 2 = 22\\)."
+}
+
+q {
+Q:"Look at this series: 31, 29, 24, 22, 17, What number should come next?"
+A:"a"O:a) "15", b) "14", c) "13", d) "12"
+R:"Pattern: -2, -5, -2, -5... Next: \\(17 - 2 = 15\\)."
+}
+
+q {
+Q:"A man is facing west. He turns 45 degree in the clockwise direction and then another 180 degree in the same direction and then 270 degree in the anticlockwise direction. Find which direction he is facing now?"
+A:"a"
+O:a) "South-West", b) "West", c) "South", d) "East-South"
+R:"West (270°). +45° CW = 315° (NW). +180° CW = 135° (SE). -270° ACW = 135° - 270° = -135° = 225° (SW)."
+}
+
+q {
+Q:"A man is facing north. He turns 45 degree in the clockwise direction and then another 180 degree in the same direction and then 45 degree in the anticlockwise direction. Find which direction he is facing now?"
+A:"d"
+O:a) "North", b) "East", c) "West", d) "South"
+R:"North (0°). +45° CW = 45° (NE). +180° CW = 225° (SW). -45° ACW = 180° (South)."
+}
+
+q {
+Q:"The earth consists of three main zones; hydrosphere; lithosphere and:"
+A:"a"
+O:a) "Atmosphere", b) "Ionosphere", c) "Photosphere", d) "None of these"
+R:"The three major physical spheres of Earth are hydrosphere (water), lithosphere (land), and atmosphere (air)."
+}
+
+q {
+Q:"What is called flow of a body of water, air, of heat, moving in a definite direction?"
+A:"b"
+O:a) "Mantel", b) "Current", c) "Core", d) "Crater"
+R:"A current is a continuous, directed movement of fluid or energy."
+}
+
+q {
+Q:"By which name Lahore is famous?"
+A:"c"
+O:a) "City of Market", b) "City of people", c) "City of Colleges", d) "None of these"
+R:"Lahore is historically known as the 'City of Gardens' and 'City of Colleges' due to its rich educational heritage."
+}
+
+q {
+Q:"In a certain case GIGANTIC is written as GIGTANCI. How is MIRACLES written in that code?"
+A:"b"
+O:a) "MIRLCAES", b) "MIRLACSE", c) "RIMCALSE", d) "RIMLCAES"
+R:"The first three letters remain same (GIG -> GIG, MIR -> MIR). The remaining letters are reversed (ANTIC -> TANCI, ACLES -> LACSE). Thus MIRLACSE."
+}

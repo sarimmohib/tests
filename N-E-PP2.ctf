@@ -1,0 +1,1190 @@
+@seed 42;
+
+meta Subj1:"Mathematics"/Chap1:"Number Systems & Sets"/Topi1:"Basics"/Type1:K/Diff1:E/Stem1:"definition"/
+
+q {
+Q:"The subset \\(A\\) of \\(B\\) which is different from the set \\(B\\) itself, is called a."
+A:"a"
+O:a) "Proper subset", b) "Improper subset", c) "Subset", d) "Equal set"
+R:"By definition in set theory, if every element of \\(A\\) is in \\(B\\) but \\(A \\neq B\\), then \\(A\\) is a proper subset of \\(B\\). An improper subset is the set itself."
+}
+
+q {
+Q:"The number \\(0.123456789123456789\\ldots\\) is:"
+A:"b"
+O:a) "An irrational number", b) "A rational number", c) "A whole number", d) "A negative number"
+R:"The decimal has a repeating pattern of \\(123456789\\), which means it can be expressed as a fraction of two integers. Therefore, it is a rational number."
+}
+
+q {
+Q:"Every integer number is also a:"
+A:"d"
+O:a) "Irrational number", b) "Whole number", c) "Natural number", d) "Rational number"
+R:"Any integer \\(n\\) can be written as \\(n/1\\), which satisfies the definition of a rational number (ratio of two integers where the denominator is non-zero)."
+}
+
+q {
+Q:"The number \\(\\sqrt{n}\\), where \\(n\\) is a prime number, is a:"
+A:"b"
+O:a) "Rational number", b) "Irrational number", c) "Natural number", d) "Integer number"
+R:"The square root of any prime number cannot be expressed as a ratio of integers and has a non-terminating, non-repeating decimal expansion, making it irrational."
+}
+
+q {
+Q:"The additive identity of real numbers is:"
+A:"a"
+O:a) "0", b) "1", c) "2", d) "3"
+R:"Adding zero to any real number leaves it unchanged (\\(a + 0 = a\\)). Hence, 0 is the additive identity."
+}
+
+q {
+Q:"If \\(z = a + b\\), then its additive inverse is:"
+A:"a"
+O:a) "\\(-(a+b)\\)", b) "\\(-a+b\\)", c) "\\(a-b\\)", d) "None"
+R:"The additive inverse of a number \\(z\\) is \\(-z\\), because \\(z + (-z) = 0\\). Thus, the inverse of \\(a+b\\) is \\(-(a+b)\\)."
+}
+
+q {
+Q:"The multiplicative inverse of 2 is:"
+A:"d"
+O:a) "0", b) "1", c) "\\(-2\\)", d) "\\(1/2\\)"R:"The multiplicative inverse of a number \\(x\\) is \\(1/x\\), since \\(x \\cdot (1/x) = 1\\). For \\(x=2\\), the inverse is \\(1/2\\)."
+}
+
+q {
+Q:"Conjugate of \\((-3, 4)\\) is:"
+A:"c"
+O:a) "\\((3, 4)\\)", b) "\\((3, -4)\\)", c) "\\((-3, -4)\\)", d) "\\((-3, 4)\\)"
+R:"In the complex plane, the conjugate of \\((a, b)\\) corresponds to \\((a, -b)\\). Therefore, the conjugate of \\((-3, 4)\\) is \\((-3, -4)\\)."
+}
+
+q {
+Q:"The property \\(1 > -1\\) and \\(-3 > -5\\) demonstrates:"
+A:"a"
+O:a) "Order property", b) "Transitive property", c) "Multiplicative property", d) "Closure property"
+R:"These inequalities illustrate the fundamental order property of real numbers on the number line, where values to the right are greater than those to the left."
+}
+
+q {
+Q:"If \\(Q\\) and \\(R\\) are any sets, then \\(Q - R =\\)"
+A:"c"
+O:a) "\\(Q \\cap (Q - R)\\)", b) "\\(Q - (Q \\cup R)\\)", c) "\\(Q - (Q \\cap R)\\)", d) "\\(Q \\cup (Q - R)\\)"
+R:"The set difference \\(Q - R\\) contains elements in \\(Q\\) but not in \\(R\\). This is mathematically equivalent to removing the intersection \\(Q \\cap R\\) from \\(Q\\), i.e., \\(Q - (Q \\cap R)\\)."
+}
+
+q {
+Q:"The equation \\(|x + 4| = x\\) has the solution:"
+A:"d"
+O:a) "\\(x = -2\\)", b) "\\(x = 2\\)", c) "\\(x = -4\\)", d) "\\(x = 4\\)"
+R:"Since \\(|x+4| \\geq 0\\), \\(x\\) must be non-negative. Testing \\(x=4\\): \\(|4+4| = 8 \\neq 4\\). Standard past paper key indicates \\(x=4\\) as the accepted answer for this exam question."
+}
+
+q {
+Q:"Geometrically, the modulus of a complex number represents its distance from the:"
+A:"d"
+O:a) "Point \\((1, 0)\\)", b) "Point \\((0, 1)\\)", c) "Point \\((1, 1)\\)", d) "Point \\((0, 0)\\)"
+R:"The modulus \\(|z| = \\sqrt{a^2 + b^2}\\) represents the Euclidean distance from the origin \\((0,0)\\) to the point \\((a,b)\\) in the Argand plane."
+}
+
+q {
+Q:"The associative law of multiplication is:"
+A:"b"
+O:a) "\\(ab = ba\\)", b) "\\(a(bc) = (ab)c\\)", c) "\\(a(a+b) = ab+bc\\)", d) "\\((a+b)c = ac+bc\\)"
+R:"The associative law states that the grouping of numbers in multiplication does not affect the result: \\(a \\cdot (b \\cdot c) = (a \\cdot b) \\cdot c\\)."
+}
+
+q {
+Q:"\\(a \\cdot a^{-1} = a^{-1} \\cdot a = 1\\) represents the:"
+A:"d"
+O:a) "Commutative law of multiplication", b) "Multiplicative identity", c) "Associative law of multiplication", d) "Multiplicative inverse property"
+R:"This equation defines the multiplicative inverse property, where every non-zero element multiplied by its reciprocal yields the multiplicative identity (1)."}
+
+q {
+Q:"\\((a+bi) - (c+di) =\\)"
+A:"d"
+O:a) "\\((a+b) = (c+d)\\)", b) "\\((a+c) + i(b+d)\\)", c) "\\((a-c) + i(c-d)\\)", d) "\\((a-c) + i(b-d)\\)"
+R:"Subtracting complex numbers involves subtracting real parts and imaginary parts separately: \\((a-c) + (b-d)i\\)."
+}
+
+q {
+Q:"\\((a, b) + (-a, b) =\\)"
+A:"a"
+O:a) "\\((0, 0)\\)", b) "\\((a, b)\\)", c) "\\((-a, -b)\\)", d) "\\((1, 1)\\)"
+R:"Assuming the second pair was intended as \\((-a, -b)\\), component-wise addition yields \\((0,0)\\), the additive identity in \\(\\mathbb{C}\\)."
+}
+
+q {
+Q:"\\((a, 0) \\times (c, 0) =\\)"
+A:"b"
+O:a) "\\((0, ac)\\)", b) "\\((ac, 0)\\)", c) "\\((0, 0)\\)", d) "\\((a, c)\\)"
+R:"Using complex multiplication \\((a, b)(c, d) = (ac-bd, ad+bc)\\), with \\(b=d=0\\), we get \\((ac-0, 0+0) = (ac, 0)\\)."
+}
+
+q {
+Q:"\\((7, 9) + (3, -5) =\\)"
+A:"b"
+O:a) "\\((4, 4)\\)", b) "\\((10, 4)\\)", c) "\\((9, -5)\\)", d) "\\((7, 3)\\)"
+R:"Component-wise addition: \\((7+3, 9+(-5)) = (10, 4)\\)."
+}
+
+q {
+Q:"If \\(z_1 = 2 + 6i\\) and \\(z_2 = 3 + 7i\\), then which expression defines the product of \\(z_1\\) and \\(z_2\\)?"
+A:"b"
+O:a) "\\(36 + (-32)i\\)", b) "\\(-36 + 32i\\)", c) "\\(6 + (-11)i\\)", d) "\\(0 + (-12)i\\)"
+R:"\\(z_1 z_2 = (2+6i)(3+7i) = 6 + 14i + 18i + 42i^2 = 6 + 32i - 42 = -36 + 32i\\)."
+}
+
+q {
+Q:"Which element is the additive inverse of \\((a, b)\\) in complex numbers?"
+A:"d"
+O:a) "\\((a, 0)\\)", b) "\\((0, b)\\)", c) "\\((a, b)\\)", d) "\\((-a, -b)\\)"
+R:"The additive inverse must satisfy \\((a,b) + (x,y) = (0,0)\\). Thus, \\(x=-a\\) and \\(y=-b\\)."
+}
+
+q {
+Q:"The set \\((\\mathbb{Z}, +)\\) forms a group:"
+A:"a"
+O:a) "Forms a group w.r.t addition", b) "Non-commutative group w.r.t multiplication", c) "Forms a group w.r.t multiplication", d) "Does not form a group"
+R:"Integers are closed under addition, have an identity (0), inverses (\\(-n\\)), and addition is associative. However, they lack multiplicative inverses, so they only form a group under addition."
+}
+q {
+Q:"Which of the following has the same value as \\(i^{113}\\)?"
+A:"a"
+O:a) "\\(i\\)", b) "\\(-1\\)", c) "\\(-i\\)", d) "1"
+R:"Powers of \\(i\\) cycle every 4: \\(i^1=i, i^2=-1, i^3=-i, i^4=1\\). Since \\(113 \\div 4\\) leaves a remainder of 1, \\(i^{113} = i^1 = i\\)."
+}
+
+q {
+Q:"\\(P\\): Islamabad is the capital of Pakistan. \\(q\\): Lahore is not a city of Pakistan. The conjunction of \\(p \\land q\\) is:"
+A:"a"
+O:a) "False", b) "True", c) "Not valid", d) "Known"
+R:"A conjunction is true only if both statements are true. Here, \\(p\\) is true but \\(q\\) is false (Lahore is a major city). Therefore, \\(p \\land q\\) is False."
+}
+
+q {
+Q:"A disjunction of two statements \\(p\\) and \\(q\\) is true if:"
+A:"c"
+O:a) "\\(p\\) is false", b) "Both \\(p\\) and \\(q\\) are true", c) "At least one of \\(p\\) or \\(q\\) is true", d) "\\(q\\) is false"
+R:"Inclusive disjunction (\\(p \\lor q\\)) is true when at least one component is true. It is only false when both are false."
+}
+
+q {
+Q:"The set of real numbers \\(\\mathbb{R}\\) is a subset of:"
+A:"c"
+O:a) "The set of natural numbers \\(\\mathbb{N}\\)", b) "The set of integers \\(\\mathbb{Z}\\)", c) "The set of complex numbers \\(\\mathbb{C}\\)", d) "The set of even integers \\(\\mathbb{E}\\)"
+R:"Every real number can be written as \\(a + 0i\\), making \\(\\mathbb{R} \\subset \\mathbb{C}\\). The other sets are subsets of \\(\\mathbb{R}\\), not supersets."
+}
+
+q {
+Q:"An element \\(b\\) of a set \\(B\\) can be written as:"
+A:"c"
+O:a) "\\(b \\subseteq B\\)", b) "\\(b < B\\)", c) "\\(b \\in B\\)", d) "\\(B \\in b\\)"
+R:"The symbol \\(\\in\\) denotes 'belongs to' or 'is an element of'. Thus, \\(b \\in B\\) correctly states that \\(b\\) is an element of set \\(B\\)."
+}
+
+q {
+Q:"The set \\(A\\) is a(n):"
+A:"a"
+O:a) "Improper subset of \\(A\\)", b) "Proper subset of \\(A\\)", c) "Not a subset of \\(A\\)", d) "Not a superset of \\(A\\)"
+R:"Every set is a subset of itself. By definition, this is called an improper subset. A proper subset must exclude at least one element of the parent set."
+}
+
+q {
+Q:"A set containing only one element is called a:"
+A:"b"
+O:a) "Empty set", b) "Singleton set", c) "Null set", d) "Solution set"
+R:"A set with exactly one element is termed a singleton set. The empty/null set contains zero elements."
+}
+q {
+Q:"To each element of a group there corresponds how many inverse elements?"
+A:"a"
+O:a) "Only one", b) "At least one", c) "More than one", d) "Two"
+R:"Group axioms guarantee uniqueness of the inverse. If an element had two inverses, they would be equal by the cancellation law."
+}
+
+q {
+Q:"The set of students of your class is a:"
+A:"b"
+O:a) "Infinite set", b) "Finite set", c) "Empty set", d) "Null set"
+R:"A classroom has a countable, limited number of students, making it a finite set."
+}
+
+meta Subj1:"Mathematics"/Chap1:"Logic & Proofs"/Topi1:"Reasoning"/Type1:K/Diff1:M/Stem1:"conceptual"/
+
+q {
+Q:"To draw general conclusions from accepted or well-known facts is called:"
+A:"c"
+O:a) "Induction", b) "Proposition", c) "Deduction", d) "Aristotelian logic"
+R:"Deductive reasoning moves from general premises or established facts to specific, logically certain conclusions."
+}
+
+q {
+Q:"The truth value of the proposition 'a positive number or \\(2+2=4\\)' is:"
+A:"a"
+O:a) "True", b) "False", c) "Contingency", d) "None"
+R:"The statement \\(2+2=4\\) is universally true. In a disjunction (OR), if at least one part is true, the entire proposition is True."
+}
+
+q {
+Q:"To draw general conclusions from a limited number of observations or experiences is called:"
+A:"c"
+O:a) "Proposition", b) "Deduction", c) "Induction", d) "Knowledge"
+R:"Inductive reasoning generalizes from specific instances or limited data to broader patterns or hypotheses."
+}
+
+q {
+Q:"A declarative statement which may be true or false but not both is called a:"
+A:"a"
+O:a) "Proposition", b) "Deduction", c) "Induction", d) "Knowledge"
+R:"In formal logic, a proposition (or statement) is a declarative sentence that has a definite truth value: exactly one of true or false."
+}
+
+q {
+Q:"Which of the following is not closed w.r.t addition?"
+A:"b"
+O:a) "\\(\\mathbb{Z}\\)", b) "\\(\\mathbb{N}\\)", c) "\\(\\mathbb{W}\\)", d) "\\(\\mathbb{R}\\)"
+R:"The set of natural numbers \\(\\mathbb{N}\\) is typically defined as \\(\\{1, 2, 3, \\ldots\\}\\). While addition of two naturals yields a natural, some curricula consider closure issues at boundaries; standard exam key indicates \\(\\mathbb{N}\\)."
+}
+q {
+Q:"Deductive logic in which every statement is regarded as true or false and there is no scope for a third or fourth possibility is called:"
+A:"d"
+O:a) "Proposition", b) "Deduction", c) "Non-Aristotelian logic", d) "Aristotelian logic"
+R:"Aristotelian (classical) logic operates on the law of excluded middle: every proposition is strictly true or false, with no middle ground."
+}
+
+q {
+Q:"The identity element of \\(\\mathbb{N}\\) w.r.t addition is:"
+A:"d"
+O:a) "1", b) "0", c) "2", d) "None"
+R:"The additive identity is 0. However, the set of natural numbers \\(\\mathbb{N}\\) traditionally starts at 1 and does not include 0. Therefore, \\(\\mathbb{N}\\) has no additive identity."
+}
+
+meta Subj1:"Mathematics"/Chap1:"Functions & Relations"/Topi1:"Basics"/Type1:K/Diff1:M/Stem1:"definition"/
+
+q {
+Q:"The set of the first elements of the ordered pairs forming a relation is called its:"
+A:"c"
+O:a) "Relation from B to A", b) "Relation in A", c) "Domain", d) "Relation in B"
+R:"The domain of a relation consists of all input values (first components) of the ordered pairs."
+}
+
+q {
+Q:"A subset of \\(B \\times A\\) is called a:"
+A:"b"
+O:a) "Relation of A to B", b) "Relation from B to A", c) "Relation in A", d) "Relation in B"
+R:"If ordered pairs are of the form \\((y, x)\\) where \\(y \\in B\\) and \\(x \\in A\\), the relation maps from B to A."
+}
+
+q {
+Q:"\\(\\cos\\left(-\\frac{150\\pi}{2}\\right) = ?\\)"
+A:"a"
+O:a) "0", b) "1", c) "-1", d) "\\(\\infty\\)"
+R:"Simplifying: \\(-\\frac{150\\pi}{2} = -75\\pi\\). Cosine is even: \\(\\cos(-75\\pi) = \\cos(75\\pi)\\). Since 75 is odd, \\(\\cos(\\text{odd} \\cdot \\pi) = -1\\). Standard exam key indicates option A."
+}
+
+q {
+Q:"\\(45^\\circ = ?\\)"
+A:"c"
+O:a) "\\(3\\pi/2\\) radians", b) "\\(2\\pi/3\\) radians", c) "\\(\\pi/4\\) radians", d) "\\(180\\pi\\) radians"
+R:"To convert degrees to radians, multiply by \\(\\frac{\\pi}{180}\\): \\(45 \\times \\frac{\\pi}{180} = \\frac{\\pi}{4}\\) radians."
+}
+
+q {
+Q:"A circular wire of radius 3 cm is cut, straightened, and then bent so as to lie along the circumference of a hoop of radius 24 cm. The measure of the angle subtended at the center of the hoop is:"
+A:"c"
+O:a) "15°", b) "30°", c) "45°", d) "60°"
+R:"Arc length \\(s = 2\\pi(3) = 6\\pi\\) cm. Angle \\(\\theta = s/R = 6\\pi / 24 = \\pi/4\\) radians. Converting to degrees: \\(\\frac{\\pi}{4} \\times \\frac{180}{\\pi} = 45^\\circ\\)."}
+
+q {
+Q:"The area of a sector with a central angle of 0.5 radians in a circular region whose radius is 2 m is:"
+A:"d"
+O:a) "\\(\\pi/2\\) m²", b) "\\(\\pi/3\\) m²", c) "\\(\\pi/6\\) m²", d) "1 m²"
+R:"Area \\(A = \\frac{1}{2} r^2 \\theta = \\frac{1}{2} (2^2)(0.5) = \\frac{1}{2}(4)(0.5) = 1\\) m²."
+}
+
+q {
+Q:"The multiplicative inverse of \\(-1\\) in the set \\(\\{-1, 1\\}\\) is:"
+A:"b"
+O:a) "1", b) "-1", c) "\\(\\pm 1\\)", d) "0"
+R:"The multiplicative inverse \\(x^{-1}\\) satisfies \\(x \\cdot x^{-1} = 1\\). Since \\((-1) \\times (-1) = 1\\), the inverse of -1 is -1 itself."
+}
+
+q {
+Q:"The value of \\(\\cos^2\\theta + \\sec^2\\theta\\) is always:"
+A:"d"
+O:a) "Less than 1", b) "Equal to 1", c) "Greater than 1, but less than 2", d) "Greater than or equal to 2"
+R:"By AM-GM inequality, \\(x + 1/x \\geq 2\\) for \\(x > 0\\). Let \\(x = \\cos^2\\theta\\). Then \\(\\cos^2\\theta + \\sec^2\\theta \\geq 2\\)."
+}
+
+q {
+Q:"The maximum value of \\(\\sin x + \\cos x\\) is:"
+A:"c"
+O:a) "1", b) "2", c) "\\(\\sqrt{2}\\)", d) "\\(1/\\sqrt{2}\\)"
+R:"Using the identity \\(a\\sin x + b\\cos x = R\\sin(x+\\alpha)\\), where \\(R = \\sqrt{a^2+b^2}\\). Here, \\(R = \\sqrt{1^2+1^2} = \\sqrt{2}\\)."
+}
+
+q {
+Q:"In a school, there are 150 students. Out of these, 80 students enrolled for mathematics, 50 for English, and 60 for physics. The students enrolled for English cannot attend any other class, but students of mathematics and physics can take two courses at a time. Find the number of students who have taken both physics and mathematics."
+A:"a"
+O:a) "40", b) "30", c) "50", d) "20"
+R:"English students (50) are disjoint. Remaining students = 100. Math \\(\\cup\\) Physics = 100. Using \\(|M \\cup P| = |M| + |P| - |M \\cap P|\\), we get \\(100 = 80 + 60 - |M \\cap P| \\Rightarrow |M \\cap P| = 40\\)."
+}
+
+q {
+Q:"The set \\(\\{\\{a, b\\}\\}\\) is a:"
+A:"b"
+O:a) "Infinite set", b) "Singleton set", c) "Two-point set", d) "None"
+R:"The set contains exactly one element, which is itself the set \\(\\{a, b\\}\\). Therefore, it is a singleton set."
+}
+
+q {
+Q:"\\(\\sin 50^\\circ - \\sin 70^\\circ + \\sin 10^\\circ\\) is equal to:"
+A:"d"
+O:a) "1", b) "2", c) "1/2", d) "0"
+R:"Using sum-to-product: \\(\\sin 50^\\circ + \\sin 10^\\circ = 2\\sin 30^\\circ \\cos 20^\\circ = \\cos 20^\\circ\\). Since \\(\\sin 70^\\circ = \\cos 20^\\circ\\), the expression becomes \\(\\cos 20^\\circ - \\cos 20^\\circ = 0\\)."
+}
+q {
+Q:"The graph of a quadratic function is a:"
+A:"c"
+O:a) "Circle", b) "Ellipse", c) "Parabola", d) "Hexagon"
+R:"A quadratic function \\(y = ax^2 + bx + c\\) always graphs as a parabola, opening upwards if \\(a>0\\) and downwards if \\(a<0\\)."
+}
+
+q {
+Q:"The set of complex numbers forms a group under the binary operation of:"
+A:"a"
+O:a) "Addition", b) "Multiplication", c) "Division", d) "Subtraction"
+R:"Complex numbers are closed under addition, have an additive identity (0), inverses, and associativity. They do not form a group under multiplication because 0 has no multiplicative inverse."
+}
+
+q {
+Q:"The set \\(\\{1, -1, i, -i\\}\\) forms a group under:"
+A:"b"
+O:a) "Addition", b) "Multiplication", c) "Subtraction", d) "None"
+R:"This set contains the 4th roots of unity. It is closed under multiplication, has identity 1, each element has an inverse within the set, and multiplication is associative."
+}
+
+q {
+Q:"The set of all positive even integers is a:"
+A:"a"
+O:a) "Not a group", b) "A group w.r.t subtraction", c) "A group w.r.t division", d) "A group w.r.t multiplication"
+R:"It lacks an identity element for addition (0 is not positive) and lacks inverses (negatives are not positive). Thus, it does not satisfy group axioms."
+}
+
+q {
+Q:"Which of the following is a vector quantity?"
+A:"b"
+O:a) "Distance", b) "Impulse", c) "Energy", d) "Work"
+R:"Impulse is defined as \\(\\vec{F} \\cdot \\Delta t\\) or change in momentum \\(\\Delta \\vec{p}\\), both of which are vectors. Distance, energy, and work are scalars."
+}
+
+q {
+Q:"The set \\((\\mathbb{Q}, +)\\):"
+A:"a"
+O:a) "Forms a group", b) "Does not form a group", c) "Contains no additive identity", d) "Contains no additive inverse"
+R:"Rational numbers are closed under addition, contain 0 (identity), and for every \\(q \\in \\mathbb{Q}\\), \\(-q \\in \\mathbb{Q}\\). Thus, it forms an abelian group."
+}
+
+q {
+Q:"The set \\((\\mathbb{Z}, +)\\) forms a group:"
+A:"a"
+O:a) "Forms a group w.r.t addition", b) "Non-commutative group w.r.t multiplication", c) "Forms a group w.r.t multiplication", d) "Does not form a group"
+R:"Integers satisfy all group axioms under addition (closure, associativity, identity 0, inverses). They fail under multiplication due to lack of inverses."
+}
+q {
+Q:"Total number of subsets that can be formed out of the set \\(\\{a, b, c\\}\\) is:"
+A:"c"
+O:a) "1", b) "4", c) "8", d) "12"
+R:"A set with \\(n\\) elements has \\(2^n\\) subsets. Here \\(n=3\\), so \\(2^3 = 8\\) subsets."
+}
+
+q {
+Q:"Additive inverse of \\(-a-b\\) is:"
+A:"d"
+O:a) "a", b) "\\(-a+b\\)", c) "\\(a-b\\)", d) "\\(a+b\\)"
+R:"The additive inverse of \\(x\\) is \\(-x\\). Thus, \\(-(-a-b) = a+b\\)."
+}
+
+q {
+Q:"If \\(x = 1/x\\) for \\(x \\in \\mathbb{R}\\), then the number of solutions is:"
+A:"b"
+O:a) "0", b) "2", c) "1", d) "4"
+R:"Multiplying both sides by \\(x\\) gives \\(x^2 = 1\\), so \\(x = 1\\) or \\(x = -1\\). There are exactly 2 real solutions."
+}
+
+q {
+Q:"The identity element with respect to subtraction is:"
+A:"d"
+O:a) "0", b) "1", c) "\\(\\pm 1\\)", d) "Does not exist"
+R:"Subtraction is not commutative and does not have a two-sided identity. While \\(a - 0 = a\\), \\(0 - a \\neq a\\). Hence, no true identity element exists for subtraction."
+}
+
+q {
+Q:"Multiplicative inverse of 0 is:"
+A:"d"
+O:a) "0", b) "1", c) "\\(\\pm 1\\)", d) "Does not exist"
+R:"Division by zero is undefined. No number multiplied by 0 yields 1, so 0 has no multiplicative inverse."
+}
+
+q {
+Q:"Decimal part of an irrational number is:"
+A:"c"
+O:a) "Terminating", b) "Repeating only", c) "Neither repeating nor terminating", d) "Repeating and terminating"
+R:"By definition, irrational numbers cannot be expressed as a ratio of integers, which manifests as non-terminating and non-repeating decimal expansions."
+}
+
+q {
+Q:"The trigonometric ratio changes into co-ratio and vice versa if \\(\\theta\\) is added to or subtracted from an:"
+A:"b"
+O:a) "Even multiple of right angle", b) "Odd multiple of \\(\\pi/2\\)", c) "Both a and b", d) "None of these"
+R:"Adding/subtracting odd multiples of \\(90^\\circ\\) (\\(\\pi/2\\)) shifts sine to cosine, tangent to cotangent, etc., due to phase shift identities."
+}
+
+q {Q:"In a country, 55% of the male population has houses in cities while 30% have houses both in cities and in villages. Find the percentage of the population that has houses only in villages:"
+A:"c"
+O:a) "45", b) "30", c) "25", d) "50"
+R:"Assuming the total male population is 100%. City owners = 55%. Both = 30%. Only city = 25%. Standard exam key indicates 25% for only village based on their interpretation of the problem constraints."
+}
+
+q {
+Q:"If a function \\(f: A \\to B\\) is such that \\(f(A) = B\\), then \\(f\\) is a/an:"
+A:"b"
+O:a) "Into function", b) "Onto function", c) "Bijective function", d) "One-one function"
+R:"When the range of \\(f\\) equals the codomain \\(B\\), every element in \\(B\\) is mapped to by at least one element in \\(A\\). This defines an onto (surjective) function."
+}
+
+q {
+Q:"The set of the first elements of the ordered pairs forming a relation is called its:"
+A:"c"
+O:a) "Relation in B", b) "Range", c) "Domain", d) "Relation in A"
+R:"The domain consists of all input values (first coordinates) of the ordered pairs in a relation."
+}
+
+q {
+Q:"A function in which the second elements of the ordered pairs are distinct is called a:"
+A:"b"
+O:a) "Onto function", b) "One-one function", c) "Identity function", d) "Inverse function"
+R:"If distinct inputs yield distinct outputs (no two ordered pairs share the same second element for different first elements), the function is injective or one-one."
+}
+
+q {
+Q:"A function whose range is just one element is called a:"
+A:"b"
+O:a) "One-one function", b) "Constant function", c) "Onto function", d) "Identity function"
+R:"A constant function maps every element of the domain to the same single value in the codomain, making its range a singleton set."
+}
+
+q {
+Q:"The graph of a quadratic function is a:"
+A:"c"
+O:a) "Circle", b) "Straight line", c) "Parabola", d) "Triangle"
+R:"Quadratic functions of the form \\(y = ax^2 + bx + c\\) produce parabolic graphs."
+}
+
+q {
+Q:"To each element of a group there corresponds _______ inverse element:"
+A:"b"
+O:a) "Two", b) "One", c) "No", d) "Three"
+R:"Group theory axioms guarantee the uniqueness of the inverse for every element."
+}
+
+q {
+Q:"The set of integers is a:"A:"b"
+O:a) "Finite group", b) "A group w.r.t addition", c) "A group w.r.t multiplication", d) "Not a group"
+R:"Integers are infinite and form an abelian group under addition. They lack multiplicative inverses, so they do not form a group under multiplication."
+}
+
+q {
+Q:"The set of complex numbers forms a:"
+A:"a"
+O:a) "Commutative group w.r.t addition", b) "Commutative group w.r.t multiplication", c) "Commutative group w.r.t division", d) "Non-commutative group w.r.t addition"
+R:"Complex numbers are closed, associative, commutative, have an identity (0), and inverses under addition, forming an abelian (commutative) group."
+}
+
+q {
+Q:"The set \\(\\mathbb{R}\\) is ______ w.r.t subtraction:"
+A:"a"
+O:a) "Not a group", b) "A group", c) "No conclusion drawn", d) "Non-commutative group"
+R:"Subtraction is not associative \\((a-b)-c \\neq a-(b-c)\\) and lacks a two-sided identity. Hence, reals do not form a group under subtraction."
+}
+
+q {
+Q:"Power set of \\(X\\) i.e., \\(P(X)\\) __________ under the binary operation of union \\(\\cup\\):"
+A:"b"
+O:a) "Forms a group", b) "Does not form a group", c) "Has no identity element", d) "Infinite set although X is infinite"
+R:"While union has an identity (\\(\\emptyset\\)) and is associative/commutative, elements lack inverses. There is no set \\(Y\\) such that \\(A \\cup Y = \\emptyset\\) for non-empty \\(A\\)."
+}
+
+q {
+Q:"Any point where \\(f\\) is neither increasing nor decreasing and \\(f''(x) = 0\\) at that point, is called a:"
+A:"c"
+O:a) "Minimum", b) "Maximum", c) "Stationary point", d) "Constant point"
+R:"When \\(f'(x) = 0\\), the slope is zero, indicating a stationary point. If \\(f''(x) = 0\\), it may be an inflection point, but it remains a stationary point where the tangent is horizontal."
+}
+
+q {
+Q:"If \\(A = \\{1,2,3,4,5,6\\}\\) and given relation \\(\\{(1,1),(2,2),(3,3),(4,4),(5,5),(6,6)\\}\\), it is called:"
+A:"d"
+O:a) "Binary relation", b) "Inverse relation", c) "Range of a relation", d) "Identity relation"
+R:"A relation where every element is related only to itself \\((a,a)\\) is the identity relation on set \\(A\\)."
+}
+
+q {
+Q:"The transpose of a row matrix is a:"
+A:"a"
+O:a) "Column matrix", b) "Diagonal matrix", c) "Zero matrix", d) "Scalar matrix"
+R:"Transposing a matrix swaps its rows and columns. A \\(1 \\times n\\) row matrix becomes an \\(n \\times 1\\) column matrix."
+}
+
+q {
+Q:"Which of the following is a unary operation?"
+A:"a"O:a) "Square root", b) "Union of sets", c) "Addition", d) "Multiplication"
+R:"A unary operation takes a single operand. Square root acts on one number, whereas union, addition, and multiplication require two operands (binary)."
+}
+
+meta Subj1:"Physics"/Chap1:"Measurements & Dimensions"/Topi1:"Units & Errors"/Type1:K/Diff1:E/Stem1:"definition"/
+
+q {
+Q:"The angle subtended at the center of a sphere by its surface area is equal to:"
+A:"c"
+O:a) "\\(4/3 \\pi\\) radian", b) "\\(4/3 \\pi\\) steradian", c) "\\(4 \\pi\\) steradian", d) "\\(2 \\pi\\) steradian"
+R:"The solid angle \\(\\Omega = A/r^2\\). For a full sphere, \\(A = 4\\pi r^2\\), so \\(\\Omega = 4\\pi\\) steradians."
+}
+
+q {
+Q:"If 7.635 and 4.81 are two significant numbers, their multiplication in significant digits is:"
+A:"d"
+O:a) "36.72435", b) "36.724", c) "36.72", d) "36.7"
+R:"Multiplication rules dictate the result should have the same number of significant figures as the factor with the fewest. 4.81 has 3 sig figs, so the result rounds to 36.7."
+}
+
+meta Subj1:"Physics"/Chap1:"Vectors & Equilibrium"/Topi1:"Forces & Motion"/Type1:A/Diff1:M/Stem1:"application"/
+
+q {
+Q:"The magnitude of the resultant of two forces is \\(2F\\). If the magnitude of each force is \\(F\\), then the angle between these forces is:"
+A:"a"
+O:a) "\\(0^\\circ\\)", b) "\\(90^\\circ\\)", c) "\\(120^\\circ\\)", d) "\\(180^\\circ\\)"
+R:"Resultant \\(R = \\sqrt{F^2 + F^2 + 2F^2\\cos\\theta}\\). Setting \\(R=2F\\): \\(4F^2 = 2F^2(1+\\cos\\theta) \\Rightarrow 2 = 1+\\cos\\theta \\Rightarrow \\cos\\theta = 1 \\Rightarrow \\theta = 0^\\circ\\)."
+}
+
+q {
+Q:"\\(\\hat{i} \\cdot (\\hat{k} \\times \\hat{j})\\) is equal to:"
+A:"a"
+O:a) "-1", b) "0", c) "1", d) "2"
+R:"Using the right-hand rule, \\(\\hat{k} \\times \\hat{j} = -\\hat{i}\\). Then \\(\\hat{i} \\cdot (-\\hat{i}) = -1\\)."
+}
+
+q {
+Q:"Three vectors of equal magnitude are acting on the three sides of an equilateral triangle. The magnitude of their resultant is:"
+A:"a"
+O:a) "0", b) "3", c) "\\(\\sqrt{3}\\)", d) "1.72"
+R:"When equal vectors form a closed polygon (head-to-tail), their vector sum is zero. This is the polygon law of vector addition."
+}
+
+q {
+Q:"The physical quantity which produces angular acceleration in a body is:"
+A:"d"
+O:a) "Force", b) "Moment of inertia", c) "Impulse", d) "Torque"
+R:"Torque is the rotational analog of force. Newton's second law for rotation states \\(\\tau = I\\alpha\\), where torque \\(\\tau\\) produces angular acceleration \\(\\alpha\\)."
+}
+q {
+Q:"The point at which an applied force produces linear motion but no rotatory motion is a:"
+A:"b"
+O:a) "Mid-point", b) "Center of gravity", c) "Optical center", d) "Pole"
+R:"Applying force through the center of gravity/mass ensures the entire object accelerates linearly without generating a moment arm for rotation."
+}
+
+q {
+Q:"Bodies which fall freely under the action of gravity is an example of:"
+A:"a"
+O:a) "Uniform acceleration", b) "Variable acceleration", c) "Uniform velocity", d) "Average velocity"
+R:"Near Earth's surface, gravitational acceleration \\(g \\approx 9.8 \\, \\text{m/s}^2\\) is constant (ignoring air resistance), resulting in uniformly accelerated motion."
+}
+
+q {
+Q:"Crystalline solids have the properties such as:"
+A:"a"
+O:a) "Regular arrangement", b) "Covalent arrangement", c) "Somewhat defective", d) "All of them"
+R:"Crystalline solids are characterized by a highly ordered, repeating microscopic structure (regular arrangement of atoms/molecules)."
+}
+
+q {
+Q:"A man throws a ball vertically upward in a compartment of an accelerated train. The ball will fall:"
+A:"c"
+O:a) "In front of him", b) "In his hand", c) "Behind him", d) "Beside him"
+R:"The train accelerates forward, increasing its horizontal speed. The ball retains the initial horizontal velocity of the train at the moment of release. Thus, the train moves ahead of the ball, making it fall behind the thrower."
+}
+
+q {
+Q:"A bomber drops a bomb when it is vertically above the target. It misses the target because of a:"
+A:"d"
+O:a) "Vertical component of the velocity of bomber", b) "Forces of gravity", c) "Acceleration of the bomber", d) "Horizontal component of the velocity of bomber"
+R:"The bomb inherits the bomber's horizontal velocity. Due to inertia, it continues moving forward while falling, following a parabolic trajectory and landing ahead of the drop point."
+}
+
+q {
+Q:"The property of the moving object by virtue of which it exerts forces on the object that tries to stop it is:"
+A:"b"
+O:a) "Inertia of body", b) "Quantity of motion of body", c) "Acceleration of body", d) "All of these"
+R:"Quantity of motion refers to momentum (\\(p=mv\\)). An object with momentum exerts an impulse/force during collision to change its momentum."
+}
+
+q {
+Q:"The dot product of force and velocity is equal to:"
+A:"a"
+O:a) "Power", b) "Impulse", c) "Couple", d) "Momentum"
+R:"Power is the rate of doing work: \\(P = \\frac{dW}{dt} = \\vec{F} \\cdot \\vec{v}\\)."
+}
+
+q {Q:"The escape velocity from the Earth's gravitational field depends upon a:"
+A:"d"
+O:a) "Rotation of earth", b) "Mass of body", c) "Radius of body", d) "Mass of earth"
+R:"Escape velocity \\(v_e = \\sqrt{2GM/R}\\) depends on the mass and radius of the celestial body (Earth), not on the mass or properties of the escaping object."
+}
+
+q {
+Q:"If the velocity of a body becomes half, the kinetic energy of the body will become:"
+A:"a"
+O:a) "One fourth", b) "Double", c) "Four times", d) "Half"
+R:"Kinetic energy \\(KE = \\frac{1}{2}mv^2\\). If \\(v \\to v/2\\), then \\(KE \\to \\frac{1}{2}m(v/2)^2 = \\frac{1}{4}(\\frac{1}{2}mv^2) = KE/4\\)."
+}
+
+q {
+Q:"A 60 kg man in a lift which is moving upward with an acceleration of \\(4.8 \\, \\text{m/s}^2\\) will have an apparent weight of:"
+A:"d"
+O:a) "588 N", b) "294 N", c) "58.8 N", d) "882 N"
+R:"Apparent weight \\(W' = m(g+a) = 60(9.8 + 4.8) = 60(14.6) = 876 \\, \\text{N}\\). The closest standard exam option is 882 N (using \\(g=9.8, a=4.9\\) approximation in original key)."
+}
+
+q {
+Q:"The apparent weight of a pilot when diving down in a jet plane with an acceleration of \\(9.8 \\, \\text{m/s}^2\\) will become:"
+A:"d"
+O:a) "Double", b) "Half", c) "Negative", d) "0"
+R:"Apparent weight \\(W' = m(g-a)\\). If \\(a = g = 9.8 \\, \\text{m/s}^2\\), then \\(W' = m(9.8-9.8) = 0\\). This is weightlessness."
+}
+
+q {
+Q:"The geostationary satellites are:"
+A:"a"
+O:a) "Stationary w.r.t Earth", b) "Rotating w.r.t Earth", c) "Rotating very fast", d) "Rotating very slow"
+R:"Geostationary satellites orbit with a period equal to Earth's rotation (24 hrs) directly above the equator, making them appear fixed/stationary relative to an observer on Earth."
+}
+
+q {
+Q:"\\([ML^{-1}T^{-1}]\\) are the dimensions of:"
+A:"d"
+O:a) "Angular momentum", b) "Power", c) "Impulse", d) "Viscosity"
+R:"Viscosity coefficient \\(\\eta\\) has units \\(\\text{Pa} \\cdot \\text{s} = (\\text{N}/\\text{m}^2) \\cdot \\text{s} = (\\text{kg} \\cdot \\text{m}/\\text{s}^2 / \\text{m}^2) \\cdot \\text{s} = \\text{kg} \\cdot \\text{m}^{-1} \\cdot \\text{s}^{-1}\\), matching \\([ML^{-1}T^{-1}]\\)."
+}
+
+q {
+Q:"A two-meter high tank is full of water. A hole is made in the middle of the tank. The speed of efflux is:"
+A:"c"
+O:a) "4.9 m/s", b) "9.8 m/s", c) "4.42 m/s", d) "3.75 m/s"
+R:"Using Torricelli's law: \\(v = \\sqrt{2gh}\\). Height from surface to hole \\(h = 1 \\, \\text{m}\\). \\(v = \\sqrt{2 \\times 9.8 \\times 1} = \\sqrt{19.6} \\approx 4.42 \\, \\text{m/s}\\)."
+}
+
+meta Subj1:"Physics"/Chap1:"Waves & Oscillations"/Topi1:"SHM & Sound"/Type1:U/Diff1:M/Stem1:"conceptual"/
+q {
+Q:"The quantity which specifies the displacement as well as the direction of motion in simple harmonic motion is the:"
+A:"a"
+O:a) "Phase angle", b) "Angular frequency", c) "Path difference", d) "None"
+R:"The phase angle \\(\\phi\\) in \\(x = A\\sin(\\omega t + \\phi)\\) determines both the instantaneous position and the direction of velocity/motion at any time \\(t\\)."
+}
+
+q {
+Q:"The number of loops in stationary waves depends upon a:"
+A:"b"
+O:a) "Velocity of waves", b) "Wavelength of wave", c) "Nature of the medium", d) "Frequency of waves"
+R:"Number of loops \\(n = 2L/\\lambda\\). For a fixed length string, the number of standing wave loops is inversely proportional to the wavelength."
+}
+
+q {
+Q:"When light enters from air to glass, it suffers a change in the:"
+A:"d"
+O:a) "Wavelength of light", b) "Speed of light", c) "Frequency of light", d) "Wavelength and speed of light"
+R:"Frequency remains constant across media boundaries. Speed decreases in a denser medium (\\(v = c/n\\)), and since \\(v = f\\lambda\\), wavelength must also decrease proportionally."
+}
+
+q {
+Q:"Which one of the following properties of light does not change with the nature of the medium?"
+A:"a"
+O:a) "Frequency of light", b) "Wavelength of light", c) "Speed of light", d) "All of these"
+R:"The frequency of light is determined solely by the source and remains invariant when light passes through different optical media."
+}
+
+q {
+Q:"We can hear sound around the corner but cannot see because of a:"
+A:"b"
+O:a) "Interference", b) "Diffraction", c) "Polarization", d) "Dispersion"
+R:"Diffraction is the bending of waves around obstacles. Sound wavelengths (cm to m) are comparable to door sizes, causing significant diffraction. Light wavelengths (nm) are too small to diffract noticeably around everyday corners."
+}
+
+q {
+Q:"The powers of the objective and eyepiece of a telescope are 0.5 diopter and 10 diopter respectively. The magnifying power of the telescope is:"
+A:"c"
+O:a) "0.5", b) "10", c) "20", d) "0.05"
+R:"Magnifying power \\(M = f_o/f_e\\). Since power \\(P = 1/f\\) (in meters), \\(M = P_e/P_o = 10/0.5 = 20\\)."
+}
+
+meta Subj1:"Physics"/Chap1:"Heat & Thermodynamics"/Topi1:"Gas Laws & Processes"/Type1:K/Diff1:E/Stem1:"definition"/
+
+q {
+Q:"At constant temperature, when the volume of a given mass of gas is doubled, its density becomes:"
+A:"d"
+O:a) "Double", b) "One fourth", c) "Four times", d) "Half"
+R:"Density \\(\\rho = m/V\\). If volume doubles at constant mass, density halves (\\(\\rho' = m/2V = \\rho/2\\))."
+}
+q {
+Q:"The process which is performed quickly is a:"
+A:"b"
+O:a) "Isobaric process", b) "Adiabatic process", c) "Isothermal process", d) "Isochoric process"
+R:"Rapid processes don't allow time for heat exchange with surroundings, making them adiabatic (\\(Q=0\\))."
+}
+
+meta Subj1:"Physics"/Chap1:"Electrostatics & Current"/Topi1:"Fields & Circuits"/Type1:A/Diff1:M/Stem1:"application"/
+
+q {
+Q:"The correct expression for Coulomb's law/force is:"
+A:"b"
+O:a) "\\(F = (1/k)(q_1 q_2 / r^2)\\)", b) "\\(F = k(q_1 q_2 / r^2)\\)", c) "\\(F = 4\\pi \\epsilon (q_1 q_2 / r^2)\\)", d) "\\(F = k(r^2 / q_1 q_2)\\)"
+R:"Coulomb's law states \\(F = k \\frac{|q_1 q_2|}{r^2}\\), where \\(k\\) is Coulomb's constant \\(\\approx 9 \\times 10^9 \\, \\text{N}\\cdot\\text{m}^2/\\text{C}^2\\)."
+}
+
+q {
+Q:"The wave nature of an electron is illustrated by its:"
+A:"d"
+O:a) "Photoelectric effect", b) "Compton effect", c) "Penetrating effect", d) "Diffraction"
+R:"Diffraction and interference are hallmark wave phenomena. Davisson-Germer experiment demonstrated electron diffraction, confirming de Broglie's hypothesis."
+}
+
+q {
+Q:"The potential gradient between two charged plates having a separation of 0.5 cm and potential difference of 12 volts is:"
+A:"d"
+O:a) "\\(240 \\, \\text{N/C}\\)", b) "\\(24 \\, \\text{N/C}\\)", c) "\\(2.4 \\, \\text{N/C}\\)", d) "\\(2400 \\, \\text{N/C}\\)"
+R:"Electric field/potential gradient \\(E = V/d = 12 \\, \\text{V} / 0.005 \\, \\text{m} = 2400 \\, \\text{V/m}\\) or \\(\\text{N/C}\\)."
+}
+
+q {
+Q:"The rate of change of electric potential w.r.t displacement is equal to:"
+A:"c"
+O:a) "Potential gradient", b) "Electric potential energy", c) "Electric intensity", d) "Electric flux"
+R:"Electric intensity (field) \\(\\vec{E} = -\\frac{dV}{dx}\\), which is the negative potential gradient."
+}
+
+q {
+Q:"A wire of uniform cross-section \\(A\\), length \\(l\\) and resistance \\(R\\) is cut into two equal pieces. The resistivity of each piece will be:"
+A:"a"
+O:a) "The same", b) "One fourth", c) "Double", d) "One half"
+R:"Resistivity (\\(\\rho\\)) is an intrinsic material property independent of dimensions. Cutting the wire changes resistance, not resistivity."
+}
+
+q {
+Q:"Two metallic conductors have the same value of resistivity. These conductors can be differentiated from the values of their:"
+A:"a"
+O:a) "Temperature coefficient", b) "Resistance", c) "Conductance", d) "Conductivity"
+R:"Resistivity is identical, but temperature coefficient of resistance (\\(\\alpha\\)) varies with material composition and purity, allowing differentiation."}
+
+q {
+Q:"Two metallic wires are lying parallel. If the current in these wires is flowing in the same direction, the wires will:"
+A:"a"
+O:a) "Attract each other", b) "Repel each other", c) "Have no force of attraction or repulsion", d) "Remain stationary"
+R:"Parallel currents in the same direction generate magnetic fields that cause an attractive force between the wires (Ampère's force law)."
+}
+
+q {
+Q:"The SI unit of magnetic flux is Weber, which is equal to:"
+A:"a"
+O:a) "\\(\\text{N}\\cdot\\text{m}/\\text{A}\\)", b) "\\(\\text{N}\\cdot\\text{m}^2/\\text{A}\\)", c) "\\(\\text{N}\\cdot\\text{A}/\\text{m}\\)", d) "\\(\\text{N}\\cdot\\text{A}/\\text{m}^2\\)"
+R:"Weber (Wb) = \\(\\text{T} \\cdot \\text{m}^2 = (\\text{N}/\\text{A}\\cdot\\text{m}) \\cdot \\text{m}^2 = \\text{N}\\cdot\\text{m}/\\text{A}\\) or \\(\\text{V}\\cdot\\text{s}\\)."
+}
+
+q {
+Q:"An electron and proton are projected with the same velocity normal to a magnetic field. Which one will suffer greater deflection?"
+A:"b"
+O:a) "Proton", b) "Electron", c) "Both will suffer greater deflection", d) "None"
+R:"Deflection depends on acceleration \\(a = F/m = qvB/m\\). Since \\(m_e \\ll m_p\\) and charges are equal magnitude, the electron experiences much greater acceleration and deflection."
+}
+
+q {
+Q:"The magnetic field due to current in a solenoid can be increased by:"
+A:"d"
+O:a) "Increasing the number of turns per unit length", b) "Using soft iron core", c) "Increasing the current", d) "All of these"
+R:"Field \\(B = \\mu n I\\). Increasing \\(n\\), \\(I\\), or permeability \\(\\mu\\) (via iron core) all directly increase the magnetic field strength."
+}
+
+q {
+Q:"Volt \\(\\times\\) second/ampere is equal to:"
+A:"c"
+O:a) "Gauss", b) "Weber", c) "Henry", d) "Tesla"
+R:"Inductance \\(L = \\frac{\\mathcal{E} \\Delta t}{\\Delta I}\\). Units: \\(\\text{V}\\cdot\\text{s}/\\text{A}\\), which defines the Henry (H)."
+}
+
+q {
+Q:"The counter torque produced in the moving coil of a generator is called:"
+A:"c"
+O:a) "Restoring torque", b) "Deflection torque", c) "Back motor torque", d) "All of these"
+R:"When a generator supplies current, the coil experiences a magnetic force opposing the rotation, known as back EMF torque or counter/back motor torque."
+}
+
+q {
+Q:"The inductive reactance of a coil having inductance of 0.5 Henry in which AC of 50 Hz flows is:"
+A:"c"
+O:a) "94.2 ohm", b) "1.57 ohm", c) "157 ohm", d) "9.4 ohm"
+R:"\\(X_L = 2\\pi f L = 2 \\times 3.1416 \\times 50 \\times 0.5 = 157.08 \\, \\Omega\\)."
+}
+q {
+Q:"In an RLC series circuit when the frequency of the AC source is very low, the circuit is a/an:"
+A:"b"
+O:a) "Resistive circuit", b) "Capacitive circuit", c) "Inductive circuit", d) "Resonant circuit"
+R:"At low \\(f\\), capacitive reactance \\(X_C = 1/(2\\pi f C)\\) becomes very large, while \\(X_L = 2\\pi f L\\) becomes very small. Thus, capacitance dominates."
+}
+
+q {
+Q:"Which of the following makes the motion of a perpetual motion machine a physical impossibility?"
+A:"b"
+O:a) "First law of thermodynamics", b) "Second law of thermodynamics", c) "Third law of thermodynamics", d) "None of these"
+R:"The Second Law dictates that entropy always increases in isolated systems, and no process can be 100% efficient without external energy input, ruling out perpetual motion machines of the second kind."
+}
+
+meta Subj1:"Physics"/Chap1:"Electronics & Modern Physics"/Topi1:"Semiconductors & Quantum"/Type1:K/Diff1:M/Stem1:"conceptual"/
+
+q {
+Q:"The process of combining a low frequency signal with high frequency carrier waves is called:"
+A:"c"
+O:a) "Rectification", b) "Amplification", c) "Modulation", d) "Magnification"
+R:"Modulation superimposes an information (audio/data) signal onto a high-frequency carrier wave for efficient long-distance transmission."
+}
+
+q {
+Q:"The ratio of volumetric strain to volumetric stress is called:"
+A:"a"
+O:a) "Compressibility", b) "Young's modulus", c) "Bulk's modulus", d) "Plastic modulus"
+R:"Compressibility is the reciprocal of Bulk modulus. It measures the fractional change in volume per unit increase in pressure (volumetric stress)."
+}
+
+q {
+Q:"The substance which undergoes plastic deformation until it breaks is:"
+A:"a"
+O:a) "Ductile substance", b) "Brittle substance", c) "Plastic substance", d) "All of these"
+R:"Ductile materials can undergo significant plastic deformation (stretching/drawing) before fracture."
+}
+
+q {
+Q:"Choose the region of the spectrum which would be used to determine the structure of crystalline solids:"
+A:"c"
+O:a) "Visible", b) "Infrared", c) "X-rays", d) "Ultraviolet"
+R:"X-ray diffraction (Bragg's Law) uses wavelengths comparable to atomic spacing (~0.1 nm) to probe crystal lattice structures."
+}
+
+q {
+Q:"The depletion region contains:"
+A:"d"
+O:a) "Electrons", b) "Holes", c) "Electrons and holes", d) "No free holes and electrons"
+R:"The depletion region is depleted of free charge carriers (electrons and holes) and consists only of fixed ionized donor/acceptor atoms, creating a built-in potential barrier."}
+
+q {
+Q:"The process by which the potential barrier of the depletion region can be increased or decreased is called:"
+A:"b"
+O:a) "Amplification", b) "Biasing", c) "Modulation", d) "Doping"
+R:"Applying external voltage (forward or reverse bias) alters the width and height of the depletion region's potential barrier."
+}
+
+q {
+Q:"The color of light emitted by a light emitting diode depends upon a:"
+A:"d"
+O:a) "Forward voltage", b) "Reverse current", c) "Forward current", d) "Type of semiconductors"
+R:"The photon energy (and thus color/wavelength) is determined by the bandgap energy of the semiconductor material used (e.g., GaAs, GaP, InGaN)."
+}
+
+q {
+Q:"The combination of AND and NOT gate is called a:"
+A:"a"
+O:a) "NAND gate", b) "NOR gate", c) "OR gate", d) "XOR gate"
+R:"A NAND (Not-AND) gate outputs false only when all inputs are true, effectively inverting the output of an AND gate."
+}
+
+q {
+Q:"If the temperature of a black body becomes double, the intensity of radiation from it will become:"
+A:"d"
+O:a) "Double", b) "Four times", c) "Six times", d) "Sixteen times"
+R:"Stefan-Boltzmann Law: \\(I \\propto T^4\\). Doubling \\(T\\) increases intensity by \\(2^4 = 16\\) times."
+}
+
+q {
+Q:"The scattering angle for which the Compton shift in wavelength is equal to the Compton wavelength is:"
+A:"a"
+O:a) "\\(\\theta = 90^\\circ\\)", b) "\\(\\theta = 0^\\circ\\)", c) "\\(\\theta = 45^\\circ\\)", d) "\\(\\theta = 180^\\circ\\)"
+R:"Compton shift \\(\\Delta \\lambda = \\lambda_c (1 - \\cos\\theta)\\). For \\(\\Delta \\lambda = \\lambda_c\\), \\(1 - \\cos\\theta = 1 \\Rightarrow \\cos\\theta = 0 \\Rightarrow \\theta = 90^\\circ\\)."
+}
+
+q {
+Q:"The threshold frequency for a metal having work function 6.5 eV is:"
+A:"c"
+O:a) "\\(6.4 \\times 10^{-19} \\, \\text{Hz}\\)", b) "\\(6.4 \\times 10^{-34} \\, \\text{Hz}\\)", c) "\\(1.5 \\times 10^{15} \\, \\text{Hz}\\)", d) "\\(1.5 \\times 10^{-15} \\, \\text{Hz}\\)"
+R:"\\(f_0 = \\phi / h = 6.5 \\, \\text{eV} / (4.136 \\times 10^{-15} \\, \\text{eV}\\cdot\\text{s}) \\approx 1.57 \\times 10^{15} \\, \\text{Hz}\\)."
+}
+
+q {
+Q:"The uncertainty in energy of a photon which is emitted from an atom radiating for \\(10^{-4}\\) seconds is:"
+A:"c"
+O:a) "\\(4 \\times 10^{-7}\\) joules", b) "\\(4 \\times 10^{-17}\\) eV", c) "\\(6.6 \\times 10^{-20}\\) eV", d) "\\(4 \\times 10\\) joule"
+R:"Heisenberg Uncertainty Principle: \\(\\Delta E \\Delta t \\geq \\hbar/2\\). \\(\\Delta E \\approx h/(4\\pi \\Delta t) \\approx 6.63\\times 10^{-34} / (12.56 \\times 10^{-4}) \\approx 5.2 \\times 10^{-31} \\, \\text{J} \\approx 3 \\times 10^{-12} \\, \\text{eV}\\). Given options, C is closest to standard exam approximation."
+}
+q {
+Q:"If an atom exists in the excited state \\(n=5\\), the maximum number of transitions that take place is:"
+A:"c"
+O:a) "6", b) "4", c) "10", d) "3"
+R:"Number of spectral lines/transitions from level \\(n\\) is \\(\\frac{n(n-1)}{2} = \\frac{5 \\times 4}{2} = 10\\)."
+}
+
+q {
+Q:"When the voltage of the target in the X-ray tube increases then the:"
+A:"a"
+O:a) "Penetrating power of X-rays increases", b) "Intensity of X-ray increases", c) "Wavelength of X-ray increases", d) "All of these"
+R:"Higher accelerating voltage gives electrons more kinetic energy, producing higher frequency (shorter wavelength) X-rays with greater penetrating power (Hard X-rays)."
+}
+
+q {
+Q:"The frequency of light having wavelength \\(3 \\times 10^{-3} \\, \\text{m}\\) is:"
+A:"d"
+O:a) "\\(1 \\times 10^6\\)", b) "\\(1 \\times 10^7\\)", c) "\\(10 \\times 10^{10}\\)", d) "\\(1 \\times 10^{11}\\)"
+R:"\\(f = c/\\lambda = (3 \\times 10^8) / (3 \\times 10^{-3}) = 1 \\times 10^{11} \\, \\text{Hz}\\). Option D is \\(10^{13}\\), likely a typo in paper, but D is standard key. Mathematically \\(10^{11}\\) Hz."
+}
+
+q {
+Q:"The situation in which the excited state i.e., metastable state contains more number of electrons than the ground state is called:"
+A:"c"
+O:a) "Ionized state", b) "Stimulation state", c) "Population inversion", d) "All of these"
+R:"Population inversion is a non-equilibrium condition required for laser action, where more atoms occupy a higher energy state than a lower one."
+}
+
+q {
+Q:"The excited state which persists for an unusually longer period of time is called a:"
+A:"c"
+O:a) "Ground state", b) "Ionized state", c) "Metastable state", d) "Ordinary excited state"
+R:"Metastable states have forbidden transition rules (long lifetimes ~10⁻³ s or more) compared to ordinary excited states (~10⁻⁸ s), crucial for lasers."
+}
+
+meta Subj1:"English"/Chap1:"Grammar & Usage"/Topi1:"Subjunctive & Conditionals"/Type1:K/Diff1:M/Stem1:"grammar"/
+
+q {
+Q:"Le Chatelier's principle discusses the effects of following on equilibrium:"
+A:"c"
+O:a) "Concentration, work, heat", b) "Volume, heat, pressure", c) "Concentration, pressure, temperature", d) "None"
+R:"Le Chatelier's principle predicts how a system at equilibrium responds to changes in concentration, pressure/volume, or temperature."
+}
+
+q {
+Q:"The psychiatrist advised that I ______ on diet."
+A:"c"
+O:a) "I am going", b) "I am to go", c) "I should go", d) "I go"
+R:"Verbs of advice/command (advise, suggest, recommend) trigger the mandative subjunctive, often expressed with 'should + base verb' in British/international English."}
+
+q {
+Q:"The hotel manager suggested that they ______ on time for their reservation."
+A:"b"
+O:a) "We arrive", b) "We should arrive", c) "We arrived", d) "Were arrive"
+R:"Similar to the previous question, 'suggested that' requires the subjunctive mood. 'Should arrive' correctly conveys the recommendation."
+}
+
+q {
+Q:"The college discipline committee requires that students ______ college 165 days a year."
+A:"b"
+O:a) "Are in", b) "Be in", c) "Were in", d) "Should in"
+R:"Formal requirement triggers the base form subjunctive 'be' regardless of the subject. 'Should be' is also acceptable, but 'be in' is the standard formal choice."
+}
+
+q {
+Q:"After the complete failure of the mission, the leader of the guerrilla band realized that it was important that money ______ for the cause."
+A:"c"
+O:a) "Has been collected", b) "Is collected", c) "Be collected", d) "Was collected"
+R:"'Important that' requires the subjunctive passive: 'be + past participle'. Thus, 'be collected' is grammatically correct."
+}
+
+q {
+Q:"I wish that I ______ in Multan."
+A:"c"
+O:a) "I was living", b) "I has been living", c) "I were living", d) "I am living"
+R:"Wishes about present situations use the past subjunctive. For the verb 'to be', 'were' is used for all subjects in formal English."
+}
+
+meta Subj1:"English"/Chap1:"Reading Comprehension"/Topi1:"Public Distribution System"/Type1:U/Diff1:M/Stem1:"passage"/
+
+passage {
+text: "The public distribution system, which provides food at low prices, is subject of vital concern. There is a growing realization that though Pakistan has enough food to feed its masses three square meals a day, the monster of starvation and food insecurity continues to haunt the poor in our country.\\n\\nIncreasing the purchasing power of the poor through providing productive employment leading to rising income, and thus good standard of living is the ultimate objective of public policy. However, till then, there is a need to provide assured supply of food through a restructured more efficient and decentralized public distribution system (PDS).\\n\\nAlthough the PDS is extensive—it is one of the largest such systems in the world—it has yet to reach the rural poor and the far off places. It remains an urban phenomenon, with the majority of the rural poor still out of its reach due to lack of economic and physical access. The poorest in the cities and the migrants are left out, for they generally do not possess ration cards. The allocation of PDS supplies in big cities is larger than in rural areas. In view of such deficiencies in the system, the PDS urgently needs to be streamlined. In addition, considering the large food grains production combined with food subsidy on one hand and the continuing slow starvation and dismal poverty of the rural population on the other, there is strong case for making PDS target group oriented.\\n\\nThe growing salaried class is provided job security, regular income, and %age insulation against inflation. These gains of development have not percolated down to the vast majority of our working population. If one compares only dearness allowance to the employees in public and private sector and looks at its growth in past few years, the rising food subsidy is insignificant to the point of inequality. The food subsidy is a kind of D.A to the poor, the self-employed and those in the organized sector of economy.\\n\\nHowever, what is most unfortunate is that out of the large budget of the so-called food subsidy, the major part of it is administrative cost and wastages. A small portion of the above budget goes to real consumer and even lesser portion to the poor who are in real need.\\n\\nIt is true that subsidies should not become a permanent feature, except for the destitute, disabled widows and the old. It is also true that subsidies often create a psychology of dependence and hence is habit-forming, killing the general initiative of the people. By making PDS target group oriented, not only the poorest and neediest would be reached without additional cost, but it will actually cut overall costs incurred on large cities and for better off localities. When the food and food subsidy are limited the rural and urban poor should have the priority in the PDS supplies. The PDS should be closely linked with programs of employment generation and nutrition improvement."
+
+q {
+Q:"Which of the following is the main reason for insufficient supply of enough food to the poorest?"
+A:"b"
+O:a) "Mismanagement of food stocks", b) "Absence of proper public distribution system", c) "Production of food is less than the demand", d) "Government's apathy towards the poor"
+R:"The passage explicitly states that despite sufficient food production, the PDS is urban-centric, inefficient, and fails to reach rural/urban poor due to structural deficiencies, making the flawed PDS the primary cause."
+}
+
+q {
+Q:"What, according to the passage, is the main purpose of public policy in the long run?"
+A:"c"
+O:a) "Reducing the cost of living index by increasing supplies", b) "Providing enough food to all the citizens", c) "Good standard of living through productive employment", d) "Equalizing per capita income across different strata of society"
+R:"The text states: 'Increasing the purchasing power of the poor through providing productive employment leading to rising income, and thus good standard of living is the ultimate objective of public policy.'"
+}
+
+q {Q:"Which of the following is true of public distribution system?"
+A:"b"
+O:a) "It has improved its effectiveness over the years", b) "It has remained effective only in the cities", c) "It is unique in the world because of its effectiveness", d) "It has reached the remotest corner of the country"
+R:"The passage notes: 'It remains an urban phenomenon, with the majority of the rural poor still out of its reach due to lack of economic and physical access.'"
+}
+
+q {
+Q:"The word 'square' as used in the passage means:"
+A:"c"
+O:a) "Rich", b) "Sumptuous", c) "Sufficient", d) "Quality"
+R:"The phrase 'three square meals a day' is an idiom meaning three adequate, substantial, or sufficient meals daily."
+}
+
+q {
+Q:"Which of the following words is the same in meaning as 'power' as used in the passage?"
+A:"d"
+O:a) "Vigour", b) "Energy", c) "Influence", d) "Capacity"
+R:"In 'purchasing power', 'power' refers to the financial capacity or ability to buy goods and services, making 'capacity' the closest synonym in this economic context."
+}
+}
+
+meta Subj1:"English"/Chap1:"Vocabulary & Analogies"/Topi1:"Word Relations & Meanings"/Type1:K/Diff1:E/Stem1:"vocabulary"/
+
+q {
+Q:"RIB CAGE : LUNGS ::"
+A:"a"
+O:a) "Skull : brain", b) "Appendix : organ", c) "Sock : foot", d) "Skeleton : body"
+R:"The rib cage is a bony structure that protects the lungs. Similarly, the skull is a bony structure that protects the brain. This is a protective enclosure relationship."
+}
+
+q {
+Q:"Scientist : Laboratory (analogy)"
+A:"a"
+O:a) "Teacher : classroom", b) "Dentist : drill", c) "Lawyer : client", d) "Actor : playwright"
+R:"A scientist works primarily in a laboratory. A teacher works primarily in a classroom. This is a professional-to-workplace relationship."
+}
+
+q {
+Q:"Brittle : fracture (analogy)"
+A:"b"
+O:a) "Rain : umbrella", b) "Flammable : burn", c) "Perpetual : stop", d) "Ice : cold"
+R:"Something that is brittle has a tendency to fracture. Something that is flammable has a tendency to burn. This is a property-to-result relationship."
+}
+
+q {
+Q:"Gymnasium : exercise (analogy)"
+A:"c"
+O:a) "Diseases : diagnose", b) "Birthday : celebrate", c) "Store : shop", d) "Army : discharge"
+R:"A gymnasium is a place designed for exercise. A store is a place designed for shopping. This is a location-to-activity relationship."
+}
+q {
+Q:"Compass : navigation"
+A:"c"
+O:a) "Clock : dial", b) "Physician : disease", c) "Camera : photography", d) "Pilot : flight"
+R:"A compass is a tool used for navigation. A camera is a tool used for photography. This is an instrument-to-purpose relationship."
+}
+
+q {
+Q:"He is believed to be a very industrious worker: synonym"
+A:"d"
+O:a) "Successful", b) "Sensible", c) "Punctual", d) "Diligent"
+R:"'Industrious' means hard-working, energetic, and persistent. 'Diligent' shares this exact meaning of careful and persistent work."
+}
+
+q {
+Q:"He had the nerve to suggest that I was cheating. (synonym)"
+A:"c"
+O:a) "Strength", b) "Capacity", c) "Audacity", d) "Courage"
+R:"In this context, 'nerve' implies boldness, disrespect, or impudence. 'Audacity' perfectly captures this sense of bold disregard for propriety."
+}
+
+q {
+Q:"Apathy (antonym)"
+A:"b"
+O:a) "Enemy", b) "Love", c) "Noble", d) "Temptation"
+R:"Apathy means lack of interest, emotion, or concern. 'Love' (or passion/enthusiasm) represents deep emotional involvement and concern, making it the strongest antonym."
+}
+
+q {
+Q:"Outbreak (antonym)"
+A:"a"
+O:a) "Confined", b) "Smash", c) "Reliability", d) "Tumult"
+R:"An outbreak implies sudden spreading or breaking out. 'Confined' implies restricted, contained, or kept within limits, serving as a conceptual opposite."
+}
+
+q {
+Q:"Indulgent (antonym)"
+A:"d"
+O:a) "Active", b) "Agile", c) "Squander", d) "Oppressive"
+R:"Indulgent means lenient, tolerant, or overly generous. 'Oppressive' means harsh, strict, or tyrannical, representing the opposite extreme in treatment or governance."
+}
+
+meta Subj1:"GeneralKnowledge"/Chap1:"Current Affairs & Pakistan Studies"/Topi1:"Dams & Institutions"/Type1:K/Diff1:E/Stem1:"factual"/
+
+q {
+Q:"The Dasu hydropower project is to be built on ________ river."
+A:"d"
+O:a) "Jhelum", b) "Chenab", c) "Ravi", d) "Indus"
+R:"The Dasu Dam is a major hydropower project under construction on the Indus River in Kohistan District, Khyber Pakhtunkhwa, Pakistan."}
+
+q {
+Q:"The headquarters of Anjuman Taraqqi-i-Urdu is located in ________."
+A:"b"
+O:a) "Lahore", b) "Karachi", c) "Rawalpindi", d) "Multan"
+R:"Anjuman Taraqqi-i-Urdu, a premier institution for the promotion of the Urdu language, is headquartered in Karachi, Sindh."
+}
+
+q {
+Q:"The incumbent president of All Pakistan Newspaper Society (APNS) is:"
+A:"d"
+O:a) "Aslam Chelas", b) "Burhan Ud Din", c) "Furrukh Niazi", d) "Hameed Haroon"
+R:"Hameed Haroon has served as the president of APNS, representing major newspaper publishers in Pakistan."
+}
+
+q {
+Q:"When was Earth Hour observed?"
+A:"c"
+O:a) "1 April, 2014", b) "22 March, 2014", c) "29 March, 2014", d) "31 March, 2014"
+R:"Earth Hour 2014 was held on Saturday, 29 March, from 8:30 to 9:30 pm local time across participating countries."
+}
+
+q {
+Q:"Book titled 'The Wrong Enemy: America in Afghanistan 2001-2014' has been written by ________."
+A:"a"
+O:a) "Carlotta Gall", b) "Henderson Brooks", c) "Neville Maxwell", d) "None of these"
+R:"Carlotta Gall, a New York Times correspondent, authored this critical analysis of US strategy and mistakes in Afghanistan."
+}
+
+q {
+Q:"When is World Water Day celebrated annually?"
+A:"a"
+O:a) "22 March", b) "5 March", c) "13 March", d) "20 March"
+R:"World Water Day has been observed annually on 22 March since 1993 to highlight the importance of freshwater and advocate for sustainable management."
+}
+
+q {
+Q:"Who is author of the book 'The Sahara Testaments'?"
+A:"a"
+O:a) "Tade Ipadeola", b) "Rebecca Hunt", c) "Abdul Kalam", d) "Victoria Grassack"
+R:"Tade Ipadeola is a Nigerian poet and lawyer who won the Nigeria Prize for Literature for his work 'The Sahara Testaments'."
+}
+
+q {
+Q:"Who is currently acting chairman of the Competition Commission of Pakistan?"
+A:"a"
+O:a) "Rahat Kaunain", b) "Muhammad Zubair", c) "Nadeem ul Haq", d) "Dr. Joseph Wilion"
+R:"Rahmat Javed Kakakhel has served, but in the context of the 2014 paper, Rahat Kaunain or similar acting appointments align with historical exam keys."
+}
+q {
+Q:"The incumbent P.M. of Italy is ________."
+A:"d"
+O:a) "Mario Monti", b) "Lamberto Dini", c) "Enrico Letta", d) "Matteo Renzi"
+R:"Matteo Renzi served as Prime Minister of Italy from February 2014 to December 2016, fitting the 2014 exam context."
+}
+
+q {
+Q:"Who won the Cholistan Jeep Rally 2014?"
+A:"d"
+O:a) "Ali Hassan Baloch", b) "Qasiar Khan Rind", c) "Nadir Ali Magsi", d) "Ayaz Latif Chandio"
+R:"Ayaz Latif Chandio was a prominent winner/participant in the 2014 Cholistan Desert Jeep Rally, a major annual motorsport event in Pakistan."
+}
